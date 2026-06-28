@@ -6,8 +6,8 @@
       <div class="franja franja-azul"></div>
       <div class="franja franja-roja"></div>
       <div class="header-contenido">
-        <h1>PLAsist.org</h1>
-        <p>Plataforma de Asistencia Humanitaria Centralizada - Sismo Venezuela</p>
+        <h1>Plasist.org</h1>
+        <p>Plataforma de Asistencia Humanitaria Centralizada - Venezuela</p>
       </div>
     </header>
 
@@ -39,7 +39,7 @@
 
 <!-- NUEVA TARJETA CHATS DE WHATSAPP VECINDARIOS LA GUAIRA -->
 <div class="tarjeta">
-  <h2 class="titulo-seccion borde-azul">🏢 Chats de WhatsApp Vecindarios (La Guaira)</h2>
+  <h2 class="titulo-seccion borde-azul">🏢 Chats de WhatsApp de Vecinos (La Guaira)</h2>
   <p class="instrucciones">Grupos directos por residencias para coordinación local y búsqueda de familiares:</p>
   <div class="lista-chats-whatsapp">
     <div v-for="grupo in recursos.gruposWhatsapp" :key="grupo.id" class="item-chat-vecinal">
