@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "pais": "🇩🇪 Alemania",
+    "ciudad": "Berlín",
+    "nombreLugar": "AYAKAYO BERLIN",
+    "direccion": "📍 Stargarder Str. 68, 10437 Berlín",
+    "horario": "Dom: 10:00 AM - 2:00 PM",
+    "contacto": "Presencial / Ver Flyer",
+    "flyer": "/flyers/berlin-acopio.jpg"
+  },
+  {
+    "id": 2,
+    "pais": "🇪🇸 España",
+    "ciudad": "Madrid",
+    "nombreLugar": "Por definir",
+    "direccion": "📍 Calle de Alcalá 12, 28014",
+    "horario": "Sáb y Dom: 10:00 AM - 4:00 PM",
+    "contacto": "—",
+    "flyer": "/flyers/madrid-acopio.jpg"
+  },
+    {
+    "id": 4,
+    "pais": "🇻🇪 Venezuela",
+    "ciudad": "Maracay",
+    "nombreLugar": "VENTE VENEZUELA ARAGUA",
+    "direccion": "📍 Av. 19 de Abril, C.C. La Capilla, Piso 1, Local 21",
+    "horario": "Ver Flyer Oficial",
+    "contacto": "Comando Con VZLA Aragua",
+    "flyer": "/flyers/aragua-acopio.jpg"
+  },
+  {
+    "id": 5,
+    "pais": "🇻🇪 Venezuela",
+    "ciudad": "Maracay",
+    "nombreLugar": "PASEO DE LA LIBERTAD",
+    "direccion": "📍 Av. Las Delicias, frente al Centro Médico de Maracay",
+    "horario": "Ver Flyer Oficial",
+    "contacto": "Presencial",
+    "flyer": "/flyers/aragua-acopio.jpg"
+  },
+  {
+    "id": 6,
+    "pais": "🇻🇪 Venezuela",
+    "ciudad": "Maracay",
+    "nombreLugar": "CÁRITAS DE VENEZUELA ARAGUA",
+    "direccion": "📍 Urb. Cantarrana, Av. Rotaria con Av. Las Delicias",
+    "horario": "Ver Flyer Oficial",
+    "contacto": "Cáritas Aragua",
+    "flyer": "/flyers/aragua-acopio.jpg"
+  }
+
+]

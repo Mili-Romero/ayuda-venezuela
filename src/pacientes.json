@@ -1,0 +1,6332 @@
+[
+  {
+    "apellidos": "OROZCO",
+    "nombres": "YUSBELIS",
+    "ci": "24.140.952",
+    "edad": "35",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CUYAN",
+    "nombres": "FRAN",
+    "ci": "10.235.290",
+    "edad": "60",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "OJEDA",
+    "nombres": "CARLOS",
+    "ci": "12.066.889",
+    "edad": "51",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RAMIREZ",
+    "nombres": "YILMAR",
+    "ci": "22.316.562",
+    "edad": "32",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MOYANO",
+    "nombres": "JAIME",
+    "ci": "26.346.743",
+    "edad": "28",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BENEDETI",
+    "nombres": "YORLIANIS",
+    "ci": "25.846.221",
+    "edad": "29",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "TRIGOSO",
+    "nombres": "CARLOS",
+    "ci": "8.418.724",
+    "edad": "59",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MARRERO",
+    "nombres": "YORGELIS",
+    "ci": "31.331.652",
+    "edad": "20",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "TOVAR",
+    "nombres": "LUISONA",
+    "ci": "17.443.980",
+    "edad": "17",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CARILLO",
+    "nombres": "YASMIN",
+    "ci": "5.424.760",
+    "edad": "67",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "NOGUERA",
+    "nombres": "FABIAN",
+    "ci": "30.334.636",
+    "edad": "22",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CASTELLANO",
+    "nombres": "JOSE",
+    "ci": "21.364.204",
+    "edad": "35",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BARAJA",
+    "nombres": "ANDRES",
+    "ci": "17.491.087",
+    "edad": "41",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "SANDOVAL",
+    "nombres": "DORIS",
+    "ci": "4.029.093",
+    "edad": "80",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ESCALONA",
+    "nombres": "JOAQUIN",
+    "ci": "6.482.918",
+    "edad": "65",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "SOSA",
+    "nombres": "EMILIA",
+    "ci": "3.409.148",
+    "edad": "78",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "SANCHEZ",
+    "nombres": "JOSE",
+    "ci": "—",
+    "edad": "19",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "LOPEZ",
+    "nombres": "FRANCISCA",
+    "ci": "—",
+    "edad": "16",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MENDOZA",
+    "nombres": "ANA",
+    "ci": "—",
+    "edad": "72",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ANTEQUIA",
+    "nombres": "MAYULI",
+    "ci": "—",
+    "edad": "50",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "URBINA",
+    "nombres": "MOISES",
+    "ci": "—",
+    "edad": "30",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MONTILLA",
+    "nombres": "NANCY",
+    "ci": "—",
+    "edad": "57",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ZAMBRANO",
+    "nombres": "DOMINI",
+    "ci": "—",
+    "edad": "39",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PALACIO",
+    "nombres": "JHON",
+    "ci": "—",
+    "edad": "31",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CORTEZ",
+    "nombres": "NOELI",
+    "ci": "—",
+    "edad": "30",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PANTOJA",
+    "nombres": "RAINER",
+    "ci": "—",
+    "edad": "17",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "DANTOJA",
+    "nombres": "TONI",
+    "ci": "—",
+    "edad": "47",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "HANMA",
+    "nombres": "ANTONIO",
+    "ci": "2.072.832",
+    "edad": "66",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MORALES",
+    "nombres": "MARIA",
+    "ci": "—",
+    "edad": "18",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "COA",
+    "nombres": "DEIVIS",
+    "ci": "—",
+    "edad": "36",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RUEDA",
+    "nombres": "JOSE",
+    "ci": "—",
+    "edad": "45",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ROSIER",
+    "nombres": "LIZ",
+    "ci": "—",
+    "edad": "28",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "OJEDA",
+    "nombres": "YONTACO",
+    "ci": "—",
+    "edad": "62",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MUÑOZ",
+    "nombres": "GEMA",
+    "ci": "—",
+    "edad": "24",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ACOSTA",
+    "nombres": "YOLERFAN",
+    "ci": "—",
+    "edad": "26",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RODRIGUEZ",
+    "nombres": "MAIKEL",
+    "ci": "—",
+    "edad": "42",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "SOMOZA",
+    "nombres": "RIAND",
+    "ci": "—",
+    "edad": "19",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "SOLORZANO",
+    "nombres": "OMARÑO",
+    "ci": "—",
+    "edad": "18",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "LA VERDE",
+    "nombres": "VICTOR",
+    "ci": "—",
+    "edad": "18",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "LU",
+    "nombres": "DINGPI",
+    "ci": "—",
+    "edad": "49",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "WU HUA",
+    "nombres": "JUAN",
+    "ci": "—",
+    "edad": "47",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "WU",
+    "nombres": "SUSUP",
+    "ci": "—",
+    "edad": "14",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CÁCERES",
+    "nombres": "NATHALIA",
+    "ci": "—",
+    "edad": "13",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CÁCERES",
+    "nombres": "PATRICIA",
+    "ci": "—",
+    "edad": "18",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CÁCERES",
+    "nombres": "ELIOSE",
+    "ci": "—",
+    "edad": "55",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PEREZ",
+    "nombres": "ARIANI",
+    "ci": "—",
+    "edad": "20",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "IBARRA",
+    "nombres": "WILMER",
+    "ci": "—",
+    "edad": "45",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "LÓPEZ",
+    "nombres": "EDIS",
+    "ci": "—",
+    "edad": "70",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "OROPEZA",
+    "nombres": "SOCORRO",
+    "ci": "—",
+    "edad": "53",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "OROPEZA",
+    "nombres": "CATIA",
+    "ci": "—",
+    "edad": "52",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GOSLING",
+    "nombres": "RAYMOND",
+    "ci": "—",
+    "edad": "49",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ABREU",
+    "nombres": "JOSE",
+    "ci": "—",
+    "edad": "52",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "SILVA",
+    "nombres": "IBRAHIM",
+    "ci": "—",
+    "edad": "35",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MENDOZA",
+    "nombres": "MARIO",
+    "ci": "—",
+    "edad": "73",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RAMOS SILVA",
+    "nombres": "MARYELIS",
+    "ci": "—",
+    "edad": "18",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "SILVA",
+    "nombres": "INDIANA",
+    "ci": "—",
+    "edad": "46",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GUZMAN",
+    "nombres": "ANGELICA",
+    "ci": "—",
+    "edad": "48",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RAMÍREZ",
+    "nombres": "ELEYSA",
+    "ci": "—",
+    "edad": "64",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RODRÍGUEZ",
+    "nombres": "MARBELIS",
+    "ci": "—",
+    "edad": "52",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RODRÍGUEZ",
+    "nombres": "YALITZA",
+    "ci": "—",
+    "edad": "57",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ZHANGYOU",
+    "nombres": "CHEN",
+    "ci": "—",
+    "edad": "57",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CHEN",
+    "nombres": "BOYE",
+    "ci": "—",
+    "edad": "21",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "FRANCO",
+    "nombres": "ANTONIO",
+    "ci": "—",
+    "edad": "63",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BARRETO",
+    "nombres": "IRAMA",
+    "ci": "—",
+    "edad": "74",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MOISES",
+    "nombres": "(MENOR)",
+    "ci": "—",
+    "edad": "5",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PÉREZ",
+    "nombres": "CECALIO",
+    "ci": "—",
+    "edad": "72",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MOY",
+    "nombres": "MARIA",
+    "ci": "—",
+    "edad": "47",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PÉREZ",
+    "nombres": "CARMEN",
+    "ci": "—",
+    "edad": "64",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "OMAÑA",
+    "nombres": "RAIZA",
+    "ci": "—",
+    "edad": "45",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BELANDRIA",
+    "nombres": "JOFFRE",
+    "ci": "—",
+    "edad": "63",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BEGOCHEA",
+    "nombres": "REINALDO",
+    "ci": "—",
+    "edad": "43",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MACHADO",
+    "nombres": "CARMEN",
+    "ci": "—",
+    "edad": "77",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "HERNÁNDEZ",
+    "nombres": "JACKELINE",
+    "ci": "—",
+    "edad": "62",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "TINGY",
+    "nombres": "JOSÉ",
+    "ci": "—",
+    "edad": "44",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MUÑOZ",
+    "nombres": "CAMILA",
+    "ci": "—",
+    "edad": "15",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "LLORET",
+    "nombres": "LAURA",
+    "ci": "—",
+    "edad": "85",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "LLORET",
+    "nombres": "LILIANA",
+    "ci": "—",
+    "edad": "59",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CEDEÑO",
+    "nombres": "CARLOS",
+    "ci": "—",
+    "edad": "76",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "VARELA",
+    "nombres": "ANGEL",
+    "ci": "—",
+    "edad": "47",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ARTEAGA",
+    "nombres": "BETI",
+    "ci": "—",
+    "edad": "51",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GUERRA",
+    "nombres": "PETRA",
+    "ci": "—",
+    "edad": "72",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GARCÍA",
+    "nombres": "ANTONIO",
+    "ci": "—",
+    "edad": "36",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ALVARADO",
+    "nombres": "NAIROBIS",
+    "ci": "—",
+    "edad": "32",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "QUERALES",
+    "nombres": "ALEIDA",
+    "ci": "—",
+    "edad": "64",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Cruz Roja Venezolana",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CASTILLO",
+    "nombres": "JORGE",
+    "ci": "—",
+    "edad": "26",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "SÁNCHEZ",
+    "nombres": "MARIA",
+    "ci": "—",
+    "edad": "77",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RODRÍGUEZ",
+    "nombres": "CINDY",
+    "ci": "—",
+    "edad": "30",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PABÓN",
+    "nombres": "MARIANGEL",
+    "ci": "—",
+    "edad": "21",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "COLMENARAS",
+    "nombres": "YADHER",
+    "ci": "—",
+    "edad": "3",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "DURÓN",
+    "nombres": "MARY",
+    "ci": "—",
+    "edad": "36",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CONTRERAS",
+    "nombres": "VALERIA",
+    "ci": "—",
+    "edad": "18",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MORENO",
+    "nombres": "YADER",
+    "ci": "—",
+    "edad": "24",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ESPINOSA",
+    "nombres": "FERMÍNE",
+    "ci": "—",
+    "edad": "70",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CAPELLA",
+    "nombres": "HAROLD",
+    "ci": "—",
+    "edad": "33",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "VALENCIA",
+    "nombres": "ELIX",
+    "ci": "—",
+    "edad": "43",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RODRÍGUEZ",
+    "nombres": "SANELLY",
+    "ci": "—",
+    "edad": "12",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MAYOR",
+    "nombres": "HENDERSON",
+    "ci": "—",
+    "edad": "15",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "LÓPEZ",
+    "nombres": "MARIOLY",
+    "ci": "—",
+    "edad": "44",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "HADDAN",
+    "nombres": "YALEISY",
+    "ci": "—",
+    "edad": "41",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ALBINO",
+    "nombres": "WALTER",
+    "ci": "—",
+    "edad": "45",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GONZÁLEZ",
+    "nombres": "ANDERSON",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "LAMA",
+    "nombres": "DANIELA",
+    "ci": "—",
+    "edad": "3",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "LÓPEZ",
+    "nombres": "HERLANE",
+    "ci": "—",
+    "edad": "68",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "LÓPEZ",
+    "nombres": "NEIBOY",
+    "ci": "—",
+    "edad": "22",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CIPRIOTA",
+    "nombres": "SEVILLE",
+    "ci": "—",
+    "edad": "29",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "QUETOY",
+    "nombres": "YSABEL",
+    "ci": "—",
+    "edad": "36",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PASTONO",
+    "nombres": "GYAMILY",
+    "ci": "—",
+    "edad": "32",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RODRÍGUEZ",
+    "nombres": "PINDIOLE",
+    "ci": "—",
+    "edad": "51",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ALFONSO",
+    "nombres": "FRANKLIN",
+    "ci": "—",
+    "edad": "65",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "SALAZAR",
+    "nombres": "CAROLINE",
+    "ci": "—",
+    "edad": "6",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MARTÍNEZ",
+    "nombres": "YAMILITH",
+    "ci": "—",
+    "edad": "30",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RIVAS",
+    "nombres": "MARY",
+    "ci": "—",
+    "edad": "30",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PENA",
+    "nombres": "YOHSEN",
+    "ci": "—",
+    "edad": "51",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ZEALARIO",
+    "nombres": "ALEXIS",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GONZÁLEZ",
+    "nombres": "ANA",
+    "ci": "—",
+    "edad": "46",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RANGEL",
+    "nombres": "ENDER",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "DURÁN",
+    "nombres": "YACHER NANCY",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CONTRERAS",
+    "nombres": "YARLYS",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PALENCIA",
+    "nombres": "ALEX",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RODRÍGUEZ",
+    "nombres": "DANELY",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "AQUINO",
+    "nombres": "HELINSSON",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GONZALEZ",
+    "nombres": "GORDOFÓN",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "FERMÍNE",
+    "nombres": "CERVELAN",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "IBARRA",
+    "nombres": "ANA",
+    "ci": "—",
+    "edad": "74",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "TORREALBA",
+    "nombres": "NUVIA",
+    "ci": "—",
+    "edad": "68",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GARCIA",
+    "nombres": "YENNY",
+    "ci": "—",
+    "edad": "34",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ISCALA",
+    "nombres": "YENNY",
+    "ci": "—",
+    "edad": "42",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ABREU",
+    "nombres": "PAULINA",
+    "ci": "—",
+    "edad": "8",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "TRUJILLO",
+    "nombres": "ELIAN",
+    "ci": "—",
+    "edad": "19",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "LISCANO",
+    "nombres": "PEDRO",
+    "ci": "—",
+    "edad": "40",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MARCANO",
+    "nombres": "KATIUSKA",
+    "ci": "—",
+    "edad": "56",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ARRIETA",
+    "nombres": "DORIS",
+    "ci": "—",
+    "edad": "65",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BALBUENO",
+    "nombres": "WILMED",
+    "ci": "—",
+    "edad": "37",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "WINCHESTER",
+    "nombres": "KELLYS",
+    "ci": "—",
+    "edad": "28",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "VEGA",
+    "nombres": "SAMUEL",
+    "ci": "—",
+    "edad": "11",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RONDÓN",
+    "nombres": "ANGEL",
+    "ci": "—",
+    "edad": "12",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RENGIFO",
+    "nombres": "GUILLERMINA",
+    "ci": "—",
+    "edad": "46",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GONZALEZ",
+    "nombres": "OLGA",
+    "ci": "—",
+    "edad": "63",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MIJARES",
+    "nombres": "ISOLIBETH",
+    "ci": "—",
+    "edad": "45",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "URBINA",
+    "nombres": "SILIBETO",
+    "ci": "—",
+    "edad": "80",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BORGES",
+    "nombres": "LILIANE",
+    "ci": "—",
+    "edad": "21",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ALAYON",
+    "nombres": "SUHYN",
+    "ci": "—",
+    "edad": "25",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BISVAL",
+    "nombres": "CLARA",
+    "ci": "—",
+    "edad": "62",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RIVAS",
+    "nombres": "FRANKENIL",
+    "ci": "—",
+    "edad": "53",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PORTILLO",
+    "nombres": "OMAR",
+    "ci": "—",
+    "edad": "40",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "SUAREZ",
+    "nombres": "RENE",
+    "ci": "—",
+    "edad": "62",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CALDERA",
+    "nombres": "LEWIS",
+    "ci": "—",
+    "edad": "40",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PADILLA",
+    "nombres": "RODOSKI",
+    "ci": "—",
+    "edad": "4",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RAMÍREZ",
+    "nombres": "MARIANGEL",
+    "ci": "—",
+    "edad": "33",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BLANCOS",
+    "nombres": "YESSICA",
+    "ci": "—",
+    "edad": "53",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RIVAS",
+    "nombres": "FABINA",
+    "ci": "—",
+    "edad": "23",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MILANO",
+    "nombres": "GLADIVSKA",
+    "ci": "—",
+    "edad": "29",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MUÑON",
+    "nombres": "MARIANGEL",
+    "ci": "—",
+    "edad": "59",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "VASCONCELO",
+    "nombres": "ANDREINA",
+    "ci": "—",
+    "edad": "43",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PADILLA",
+    "nombres": "RODOSKI",
+    "ci": "—",
+    "edad": "52",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PIRETO",
+    "nombres": "SEBASTIÁN",
+    "ci": "—",
+    "edad": "16",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BARRETO",
+    "nombres": "RICARDO",
+    "ci": "—",
+    "edad": "42",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "OBREGON",
+    "nombres": "DIEGO",
+    "ci": "—",
+    "edad": "14",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CABEZA",
+    "nombres": "KARINA",
+    "ci": "—",
+    "edad": "30",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GONZALEZ",
+    "nombres": "ALEXANDRA",
+    "ci": "—",
+    "edad": "42",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CHACÓN",
+    "nombres": "CARLOS",
+    "ci": "—",
+    "edad": "43",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "LOPEZ",
+    "nombres": "HADDY",
+    "ci": "—",
+    "edad": "42",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CASTILLO",
+    "nombres": "VICTORIA",
+    "ci": "—",
+    "edad": "40",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CASTAÑO",
+    "nombres": "DANA",
+    "ci": "—",
+    "edad": "17",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "TORRES",
+    "nombres": "MILAGROS",
+    "ci": "—",
+    "edad": "46",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PARRA",
+    "nombres": "GABRIELA",
+    "ci": "—",
+    "edad": "19",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ARTEAGA",
+    "nombres": "GLADYS",
+    "ci": "—",
+    "edad": "72",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "VILCHEZ",
+    "nombres": "BRAYAN",
+    "ci": "—",
+    "edad": "23",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "FUENTES",
+    "nombres": "ALBERTO",
+    "ci": "—",
+    "edad": "52",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PEREZ",
+    "nombres": "FRANCISCA",
+    "ci": "—",
+    "edad": "63",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MARABITO",
+    "nombres": "JOSEANI",
+    "ci": "—",
+    "edad": "32",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ABELLO",
+    "nombres": "MATILDE",
+    "ci": "—",
+    "edad": "36",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RODRIGUEZ",
+    "nombres": "EDUARDO",
+    "ci": "—",
+    "edad": "65",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "DIVITO",
+    "nombres": "ROSA",
+    "ci": "—",
+    "edad": "64",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GUERRERO",
+    "nombres": "DEIVERSON",
+    "ci": "—",
+    "edad": "20",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CÓRDOVA",
+    "nombres": "ARNALDO",
+    "ci": "—",
+    "edad": "19",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "REY",
+    "nombres": "JENNICEL",
+    "ci": "—",
+    "edad": "29",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RIVERO",
+    "nombres": "DANIEL",
+    "ci": "—",
+    "edad": "60",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BLANCO",
+    "nombres": "JOSE",
+    "ci": "—",
+    "edad": "6",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "FERNANDEZ",
+    "nombres": "NEISY",
+    "ci": "—",
+    "edad": "37",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ROJAS",
+    "nombres": "RAFAEL",
+    "ci": "—",
+    "edad": "50",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GONZALEZ",
+    "nombres": "STEPHANY",
+    "ci": "—",
+    "edad": "22",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GONZALEZ",
+    "nombres": "RAFAEL",
+    "ci": "—",
+    "edad": "39",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CASTRO",
+    "nombres": "JUAN",
+    "ci": "—",
+    "edad": "26",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ESCALONA",
+    "nombres": "IVIS",
+    "ci": "—",
+    "edad": "55",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "SERRANO",
+    "nombres": "NANCY",
+    "ci": "—",
+    "edad": "67",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ROMERO",
+    "nombres": "JOSE",
+    "ci": "—",
+    "edad": "60",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GUAVINI",
+    "nombres": "EFREN",
+    "ci": "—",
+    "edad": "30",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CISNERO",
+    "nombres": "ROSA",
+    "ci": "—",
+    "edad": "57",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MUÑOZ",
+    "nombres": "JOSEFINA",
+    "ci": "—",
+    "edad": "72",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ACOSTA",
+    "nombres": "ISAEL",
+    "ci": "—",
+    "edad": "10",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ACOSTA",
+    "nombres": "ALEXANDER",
+    "ci": "—",
+    "edad": "47",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ACOSTA",
+    "nombres": "HASAEL",
+    "ci": "—",
+    "edad": "13",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BETANCOURT",
+    "nombres": "MARIA",
+    "ci": "—",
+    "edad": "74",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "IZQUIERDO",
+    "nombres": "IRAIMA",
+    "ci": "—",
+    "edad": "83",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "VASQUE",
+    "nombres": "LUIS",
+    "ci": "—",
+    "edad": "77",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ALBE",
+    "nombres": "MANUEL",
+    "ci": "—",
+    "edad": "77",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GONZALEZ",
+    "nombres": "ALBIMAR",
+    "ci": "—",
+    "edad": "59",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "FERNANDEZ",
+    "nombres": "EFRAIN",
+    "ci": "—",
+    "edad": "31",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MENDEZ",
+    "nombres": "YESIRE",
+    "ci": "—",
+    "edad": "24",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PARRA",
+    "nombres": "ESTEFANÍA",
+    "ci": "—",
+    "edad": "15",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "DELGADO",
+    "nombres": "EDIMAR",
+    "ci": "—",
+    "edad": "23",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "OLDAZ",
+    "nombres": "LUISANA",
+    "ci": "—",
+    "edad": "58",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MACHADO",
+    "nombres": "ANARELLA",
+    "ci": "—",
+    "edad": "9",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "FRONTADO",
+    "nombres": "MIEL",
+    "ci": "—",
+    "edad": "7",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "SIMENEZ",
+    "nombres": "AXIEL",
+    "ci": "—",
+    "edad": "4",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PEDRON",
+    "nombres": "JESÚS",
+    "ci": "—",
+    "edad": "68",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GOYO",
+    "nombres": "RAFAEL",
+    "ci": "—",
+    "edad": "32",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "OMASIENTO",
+    "nombres": "SEBASTIÁN",
+    "ci": "—",
+    "edad": "16",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BLANCO",
+    "nombres": "CARMEN",
+    "ci": "—",
+    "edad": "55",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CABARCA",
+    "nombres": "VENDEZILÍN",
+    "ci": "—",
+    "edad": "13",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "SEQUELA",
+    "nombres": "SOFIA",
+    "ci": "—",
+    "edad": "19",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "SALAZAR",
+    "nombres": "ARTURO",
+    "ci": "—",
+    "edad": "43",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MARCANO",
+    "nombres": "ROSA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "SANDOVAL",
+    "nombres": "ADRIANA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MIRANDA",
+    "nombres": "VICTORIA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GUTIERREZ",
+    "nombres": "JOSE",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ORANA",
+    "nombres": "EDUAR",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GONZALEZ",
+    "nombres": "MILEIBIS",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "SEDEÑO",
+    "nombres": "MARYURI",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RAMIREZ",
+    "nombres": "HEILIMAR",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BRIZUELA",
+    "nombres": "GABRIEL",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CARRIZO",
+    "nombres": "VIVIANA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GARCIA",
+    "nombres": "DIEGO",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MARCANO",
+    "nombres": "YENNI",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "D ANZOLA",
+    "nombres": "MANUELA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "LEON",
+    "nombres": "GONZALO",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MIJARES",
+    "nombres": "CELIANA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ORTUÑO",
+    "nombres": "YENNY",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PACHECO",
+    "nombres": "CESAR",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "DIAS",
+    "nombres": "ANA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "URDIDAS",
+    "nombres": "ADRIANA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "AGUILERA",
+    "nombres": "ANA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "SUCRE",
+    "nombres": "PETNA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ALVAREZ",
+    "nombres": "WILLIAN",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CARDENAS",
+    "nombres": "ALEXANDRA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "SUCRE",
+    "nombres": "FRANCIS MEDINA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "HERNANDEZ",
+    "nombres": "CRUZ",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RONDON",
+    "nombres": "FRAN",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BECERRA",
+    "nombres": "LEONARDO",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PAREDES",
+    "nombres": "CENEIDA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RAMIREZ",
+    "nombres": "ORIANA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "VIERA",
+    "nombres": "YULID PAREDES",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CORDERO",
+    "nombres": "YADIRA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RONDON",
+    "nombres": "DAYANA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "QUINTERO",
+    "nombres": "CRISDALIS",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GODOY",
+    "nombres": "ERIC",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MOLINA",
+    "nombres": "NAGIBI",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ECHARA",
+    "nombres": "MARIA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GOMEZ",
+    "nombres": "MANUEL",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CASTILLO",
+    "nombres": "AYARI",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MEDINA",
+    "nombres": "NATHACHA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "IGLESIAS",
+    "nombres": "IHSEN",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "VALERO",
+    "nombres": "MARIA FELICIA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GUILLEN",
+    "nombres": "MARIA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GARCIA",
+    "nombres": "JUVYER",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GRANADO",
+    "nombres": "CRISBEL",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MARTINEZ",
+    "nombres": "WILLIAMS",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "LOPEZ",
+    "nombres": "NATIN",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "LOPEZ",
+    "nombres": "THAIS",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "FERNANDEZ",
+    "nombres": "ANGEL",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BRACAMONTE",
+    "nombres": "GENESIS",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PEROZA",
+    "nombres": "SAMUEL",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "VIERA",
+    "nombres": "ROSALINDA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "NOVIS",
+    "nombres": "CANDELARIO",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "OROPEZA",
+    "nombres": "LOURDES",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PALMA",
+    "nombres": "MILAGRO",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "FERNANDEZ",
+    "nombres": "RODRIGO",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ORTIZ",
+    "nombres": "ALVARO",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "QUINTERO",
+    "nombres": "BARBARA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "TIRADO",
+    "nombres": "YUNIOR",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MOSQUERA",
+    "nombres": "EMILI",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "DIAS",
+    "nombres": "VICTOR",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ARAQUE",
+    "nombres": "MARIA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RAMIREZ",
+    "nombres": "BARBARA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BRITO",
+    "nombres": "DAVID",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "DAVILA",
+    "nombres": "MARLENE",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GARCIA",
+    "nombres": "MARIO",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RODRIGUEZ",
+    "nombres": "FREDY",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "FIGUEIRA",
+    "nombres": "FERNANDA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PALMA",
+    "nombres": "YOSE",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ANGARITA",
+    "nombres": "CARMEN",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "COLINA",
+    "nombres": "YOANDRI",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "YAPTISTA",
+    "nombres": "YERMIN",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "DIAS",
+    "nombres": "SANDRA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "DE SANTIAGO",
+    "nombres": "JUANA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ORTUÑO",
+    "nombres": "YONI",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "OLIVERO",
+    "nombres": "ANA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MARTINEZ",
+    "nombres": "MARLIN",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GARCIA",
+    "nombres": "JUAN",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "SOJA",
+    "nombres": "ALEJANDRA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "YEGUE",
+    "nombres": "EIBAN",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BERNAL",
+    "nombres": "MARCELA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "AZOCAR",
+    "nombres": "VALERIA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MORILLO",
+    "nombres": "ANABELA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MORALES",
+    "nombres": "LESVIA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BUENO",
+    "nombres": "MERIDO",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MONTOLLA",
+    "nombres": "MARIA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RIVERO",
+    "nombres": "MARLEIDI",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "TORRES",
+    "nombres": "ISABEL",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "LOPEZ",
+    "nombres": "DUFAR",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ACOSTA",
+    "nombres": "YANELI",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CHAVEZ",
+    "nombres": "NERI",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CHACON",
+    "nombres": "ELIZABETH",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GONZALEZ",
+    "nombres": "ELIZABETH",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PAREDES",
+    "nombres": "CRUZENDIDA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PAREDES",
+    "nombres": "YULID",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "IDAGO",
+    "nombres": "ELIANNI",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BASTIDO",
+    "nombres": "VERONICA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GONZALEZ",
+    "nombres": "ISABEL",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "LOPEZ",
+    "nombres": "FRANLEYDI",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ESTABILITO",
+    "nombres": "ANICAR",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "NAVAS",
+    "nombres": "YODALIS",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GONZALEZ",
+    "nombres": "ADRIANA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MARTINEZ",
+    "nombres": "GABRIEL",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MARTINEZ",
+    "nombres": "ZORAIDA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "32.320.251",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LOS TEQUES",
+    "hospital": "Tlf: 0412-3574177",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "33.230.043",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "SAN AGUSTIN",
+    "hospital": "Tlf: 0424-2414874",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "5.343.446",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "PINTO SALINAS",
+    "hospital": "Tlf: 0424-1519166",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "12.882.457",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "CACIQUE TIUNA",
+    "hospital": "Tlf: 0424-5860106",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "22.513.789",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "MONTALBAN",
+    "hospital": "Tlf: 0412-9854079",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "10.813.576",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "CEMENTERIO",
+    "hospital": "Tlf: 0414-1878802",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "18.274.233",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "CATIA",
+    "hospital": "Tlf: 0412-2913570",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "25.304.211",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "COCHE",
+    "hospital": "Tlf: 0412-5749550",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "22.538.576",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LAS MAYAS",
+    "hospital": "Tlf: 0424-2562305",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "36.085.467",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LAS MAYAS",
+    "hospital": "Tlf: 0424-2562305",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "13.409.559",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LAS MAYAS",
+    "hospital": "Tlf: 0424-2562305",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "22.89",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "VARGAS LAGUNILLAS",
+    "hospital": "Tlf: 0424-3357891",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "32.807.709",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA EL TREBOL",
+    "hospital": "Sin teléfono",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "18.780.841",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Tlf: 0424-1534022",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "15.430.608",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "AV LIBERTADOR",
+    "hospital": "Tlf: 0416-7089152",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "26.068.002",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Tlf: 0412-9095086",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "13.470.155",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "EL VALLE COCHE",
+    "hospital": "Tlf: 0424-8168787",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "27.797.121",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "EL VALLE",
+    "hospital": "Tlf: 0416-7537984",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "16.208.203",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "COCHE",
+    "hospital": "Tlf: 0412-2091099",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "15.267.293",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "EL VALLE",
+    "hospital": "Tlf: 0412-2983051",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "31.445.070",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Tlf: 0412-3175785",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "30.334.452",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Tlf: 0412-8162456",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "8.358.411",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Tlf: 0424-3579081",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "8.229.616",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Tlf: 0412-3958541",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "34.553.337",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Tlf: 0412-3758541",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "36.192.938",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Tlf: 0424-1507138",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "32.790.475",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Tlf: 0424-1507138",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "11.061.197",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Tlf: 0426-1507138",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "24.175.821",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Tlf: 0414-7335723",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "15.332.705",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Tlf: 0412-9646938",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "6.045.544",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "CATIA TAMARINDO / LA GUAIRA",
+    "hospital": "Tlf: 0412-2928549",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "11.639.518",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Tlf: 0412-2728549",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "11.639.511",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Tlf: 0412-2928",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "29.900.166",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Tlf: 0414-5215646",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "20.562.844",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "CATIA LA MAR",
+    "hospital": "Sin teléfono",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "6274191",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Sin teléfono",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "32.111.741",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LOS CARACAS / LA GUAIRA",
+    "hospital": "Sin teléfono",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "14.929.760",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Tlf: 0412-0109465",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "—",
+    "nombres": "—",
+    "ci": "13.717.596",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Tlf: 0424-2668717",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ABDLY",
+    "nombres": "ABDELYS",
+    "ci": "26.254.624",
+    "edad": "28",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Ricardo Baquero González",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ABELLO",
+    "nombres": "MATILDE",
+    "ci": "—",
+    "edad": "36",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ABELLO",
+    "nombres": "WILMARI",
+    "ci": "—",
+    "edad": "36",
+    "sexo": "F",
+    "procedencia": "PETARE",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ABREU",
+    "nombres": "ANA",
+    "ci": "22.036.301",
+    "edad": "36",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Ricardo Baquero González",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ABREU",
+    "nombres": "PAULINA",
+    "ci": "—",
+    "edad": "8",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Dr. Domingo Luciani",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ABREU",
+    "nombres": "ISABEL",
+    "ci": "—",
+    "edad": "36",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital de Catia",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "ABREU",
+    "nombres": "JOSE LUIS",
+    "ci": "15.800.038",
+    "edad": "47",
+    "sexo": "M",
+    "procedencia": "HOYO DE LA PUERTA",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "24/06/26"
+  },
+  {
+    "apellidos": "ABREU",
+    "nombres": "JOSE",
+    "ci": "15.810.058",
+    "edad": "52",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ABREU",
+    "nombres": "EMMA",
+    "ci": "—",
+    "edad": "8",
+    "sexo": "F",
+    "procedencia": "SABANA GRANDE",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ACEVEDO",
+    "nombres": "MIA",
+    "ci": "—",
+    "edad": "7",
+    "sexo": "F",
+    "procedencia": "CATIA LA MAR",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ACOSTA",
+    "nombres": "YANELI",
+    "ci": "31.760.907",
+    "edad": "—",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "24/6/26"
+  },
+  {
+    "apellidos": "ACOSTA",
+    "nombres": "ALEXANDER",
+    "ci": "—",
+    "edad": "47",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ACOSTA",
+    "nombres": "ALI",
+    "ci": "—",
+    "edad": "47",
+    "sexo": "M",
+    "procedencia": "BARUTA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ACOSTA",
+    "nombres": "ISRAEL",
+    "ci": "—",
+    "edad": "10",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ACOSTA",
+    "nombres": "ISAEL",
+    "ci": "—",
+    "edad": "10",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital Dr. Domingo Luciani",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ACOSTA",
+    "nombres": "HASAEL",
+    "ci": "—",
+    "edad": "13",
+    "sexo": "M",
+    "procedencia": "BARUTA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ACOSTA",
+    "nombres": "JAIRO",
+    "ci": "12.864.639",
+    "edad": "49",
+    "sexo": "M",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "25/06/24"
+  },
+  {
+    "apellidos": "ACOSTA",
+    "nombres": "YOLEIFER",
+    "ci": "28.136.168",
+    "edad": "26",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "24/06/26"
+  },
+  {
+    "apellidos": "ACOSTA",
+    "nombres": "ASHLY",
+    "ci": "—",
+    "edad": "MENOR",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "ACOSTA",
+    "nombres": "ADRIANI",
+    "ci": "—",
+    "edad": "MENOR",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "ACOSTA",
+    "nombres": "ALAN",
+    "ci": "—",
+    "edad": "MENOR",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "ACOSTA",
+    "nombres": "MIGUEL",
+    "ci": "7.991.965",
+    "edad": "—",
+    "sexo": "M",
+    "procedencia": "CARABALLEDA",
+    "hospital": "Hospital Dr. José María Vargas (La Guaira)",
+    "fecha": "25/06/26"
+  },
+  {
+    "apellidos": "ADAN",
+    "nombres": "AIGUEROA",
+    "ci": "—",
+    "edad": "14",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Dr. Domingo Luciani",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ADELINO",
+    "nombres": "JOSUÉ",
+    "ci": "—",
+    "edad": "61",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Victorino Santaella (Los Teques)",
+    "fecha": "26/06/26"
+  },
+  {
+    "apellidos": "ADRIAN",
+    "nombres": "MILAGRO",
+    "ci": "10.583.198",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/06/2026"
+  },
+  {
+    "apellidos": "AGRE",
+    "nombres": "JOSE",
+    "ci": "—",
+    "edad": "49",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital de Catia",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "AGUILAR",
+    "nombres": "JOANI",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "AGUILAR",
+    "nombres": "YOMMY",
+    "ci": "14.953.283",
+    "edad": "43",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "25/06/24"
+  },
+  {
+    "apellidos": "AGUILAR",
+    "nombres": "ALFREDO",
+    "ci": "10.487.289",
+    "edad": "57",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Ciudad Caribia",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "AGUILAR",
+    "nombres": "YOANNY",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "AGUILERA",
+    "nombres": "ANA",
+    "ci": "20.003.134",
+    "edad": "—",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "24/6/26"
+  },
+  {
+    "apellidos": "AGUILERA",
+    "nombres": "YULEYMI",
+    "ci": "—",
+    "edad": "39",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Dr. Domingo Luciani",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "AGUILERA",
+    "nombres": "YULENNY",
+    "ci": "18.215.359",
+    "edad": "39",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Dr. Domingo Luciani",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "AHANMA",
+    "nombres": "ANTONIO",
+    "ci": "2.072.832",
+    "edad": "66",
+    "sexo": "—",
+    "procedencia": "AV. ROOSEVELT",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "24/06/26"
+  },
+  {
+    "apellidos": "ALAHABI",
+    "nombres": "YANET",
+    "ci": "—",
+    "edad": "23",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Dr. Domingo Luciani",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ALAYON",
+    "nombres": "SUHEYN",
+    "ci": "—",
+    "edad": "25",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Dr. Domingo Luciani",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ALBE",
+    "nombres": "MANUEL",
+    "ci": "—",
+    "edad": "77",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ALCANTARA",
+    "nombres": "AMALIS",
+    "ci": "17.443.332",
+    "edad": "39",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Ricardo Baquero González",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ALFONZO",
+    "nombres": "FRANKLIN",
+    "ci": "—",
+    "edad": "65",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital de Catia",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "ALHABI",
+    "nombres": "HAMMAD",
+    "ci": "9.445.489",
+    "edad": "56",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Dr. Domingo Luciani",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ALI",
+    "nombres": "YOSEF",
+    "ci": "3.406.891",
+    "edad": "—",
+    "sexo": "M",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "25/06/24"
+  },
+  {
+    "apellidos": "ALVAREZ",
+    "nombres": "WILIAN",
+    "ci": "16.125.101",
+    "edad": "—",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "24/6/26"
+  },
+  {
+    "apellidos": "ALVAREZ",
+    "nombres": "JHOHANA",
+    "ci": "—",
+    "edad": "41",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "ALVAREZ",
+    "nombres": "ISAAC",
+    "ci": "7.952.509",
+    "edad": "50",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "ALVAREZ",
+    "nombres": "ABRAHAM",
+    "ci": "18.032.279",
+    "edad": "—",
+    "sexo": "M",
+    "procedencia": "HOTEL ALAMEDA",
+    "hospital": "Hospital Dr. José María Vargas (La Guaira)",
+    "fecha": "25/06/26"
+  },
+  {
+    "apellidos": "AMAYA",
+    "nombres": "ROSALBA",
+    "ci": "25.464.509",
+    "edad": "—",
+    "sexo": "F",
+    "procedencia": "CARIBE",
+    "hospital": "Hospital Dr. José María Vargas (La Guaira)",
+    "fecha": "25/06/26"
+  },
+  {
+    "apellidos": "AMAYA",
+    "nombres": "AMIRA",
+    "ci": "—",
+    "edad": "11 MESES",
+    "sexo": "F",
+    "hospital": "Hospital JM de los Ríos",
+    "procedencia": "—",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "STABILITO",
+    "nombres": "AMILCAR",
+    "ci": "23.241.059",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "AMUNDARAIN",
+    "nombres": "JOHANA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "F",
+    "procedencia": "CARIBE",
+    "hospital": "Hospital Dr. José María Vargas (La Guaira)",
+    "fecha": "25/06/26"
+  },
+  {
+    "apellidos": "HUGA",
+    "nombres": "ANDERSON",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Dr. Domingo Luciani",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ANDRADE",
+    "nombres": "MARLENE",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "ANDRADE",
+    "nombres": "JEAN",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "ANGARITA",
+    "nombres": "CARMEN",
+    "ci": "12.060.080",
+    "edad": "—",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ANTEQUIA",
+    "nombres": "MAYULI",
+    "ci": "12.882.457",
+    "edad": "50",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "24/06/26"
+  },
+  {
+    "apellidos": "ARAIS",
+    "nombres": "AL AL",
+    "ci": "21.191.308",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "MAIQUETIA",
+    "hospital": "Hospital Dr. José María Vargas (La Guaira)",
+    "fecha": "25/06/26"
+  },
+  {
+    "apellidos": "ARANA",
+    "nombres": "EDUAR",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ARANGUREN",
+    "nombres": "MARIANNYS",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "ARAQUE",
+    "nombres": "MARIA",
+    "ci": "28.100.561",
+    "edad": "—",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ARAQUE",
+    "nombres": "JOSE",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "ARCILLA",
+    "nombres": "MARISOL",
+    "ci": "—",
+    "edad": "60",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "ARENA",
+    "nombres": "GENYELIS",
+    "ci": "R-17154060",
+    "edad": "7",
+    "sexo": "F",
+    "procedencia": "CARIBE",
+    "hospital": "Hospital Dr. José María Vargas (La Guaira)",
+    "fecha": "25/06/26"
+  },
+  {
+    "apellidos": "ARIAN",
+    "nombres": "FRAN",
+    "ci": "27.127.733",
+    "edad": "18",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Dr. Domingo Luciani",
+    "fecha": "25/06/26"
+  },
+  {
+    "apellidos": "ARIAS",
+    "nombres": "FRANK",
+    "ci": "—",
+    "edad": "18",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital Dr. Domingo Luciani",
+    "fecha": "25/06/26"
+  },
+  {
+    "apellidos": "ARIAS",
+    "nombres": "YONAY",
+    "ci": "—",
+    "edad": "52",
+    "sexo": "M",
+    "procedencia": "COSTA SUR",
+    "hospital": "Hospital Dr. José María Vargas (La Guaira)",
+    "fecha": "25/06/26"
+  },
+  {
+    "apellidos": "ARMANZA",
+    "nombres": "EDGAR",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "ARMAS",
+    "nombres": "CARLOS",
+    "ci": "—",
+    "edad": "9",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital JM de los Ríos",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ARRATIA",
+    "nombres": "THIAGO",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "ARRIETA",
+    "nombres": "DORIS",
+    "ci": "—",
+    "edad": "65",
+    "sexo": "F",
+    "procedencia": "BARUTA",
+    "hospital": "Hospital Dr. Domingo Luciani",
+    "fecha": "25/06/26"
+  },
+  {
+    "apellidos": "ARRON",
+    "nombres": "ISAC",
+    "ci": "—",
+    "edad": "8",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/06/2026"
+  },
+  {
+    "apellidos": "ARTEAGA",
+    "nombres": "AIDE",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ARTEAGA",
+    "nombres": "GLADYS",
+    "ci": "—",
+    "edad": "72",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ARTEAGA",
+    "nombres": "RUDI",
+    "ci": "10.581.795",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Ciudad Caribia",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "AVILA",
+    "nombres": "EDITH",
+    "ci": "31.073.850",
+    "edad": "20",
+    "sexo": "F",
+    "procedencia": "LAS ADJUNTAS",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "24/06/26"
+  },
+  {
+    "apellidos": "AVILA",
+    "nombres": "HECTOR RAFAEL",
+    "ci": "17.906.795",
+    "edad": "—",
+    "sexo": "M",
+    "procedencia": "ALAMEDA",
+    "hospital": "Hospital Dr. José María Vargas (La Guaira)",
+    "fecha": "25/06/26"
+  },
+  {
+    "apellidos": "AVILAN",
+    "nombres": "KATHERINE",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "AVILAN",
+    "nombres": "FRANCISCO",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "AVILAN",
+    "nombres": "FABIOLA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "AVILAN",
+    "nombres": "PAOLA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "AVILE",
+    "nombres": "GUSTAVO",
+    "ci": "—",
+    "edad": "52",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital de Catia",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "AZOCAR",
+    "nombres": "VALERIA",
+    "ci": "28.544.619",
+    "edad": "—",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "24/6/26"
+  },
+  {
+    "apellidos": "AZUAJE",
+    "nombres": "ALANI",
+    "ci": "—",
+    "edad": "9 MESES",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital JM de los Ríos",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BADILLO",
+    "nombres": "YOSELIS",
+    "ci": "—",
+    "edad": "7",
+    "sexo": "—",
+    "procedencia": "TANAGUARENA",
+    "hospital": "Hospital Dr. José María Vargas (La Guaira)",
+    "fecha": "25/06/26"
+  },
+  {
+    "apellidos": "BAEZ",
+    "nombres": "MARIA ANGELICA",
+    "ci": "31.178.460",
+    "edad": "20",
+    "sexo": "F",
+    "procedencia": "GALIPAN",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "25/06/26"
+  },
+  {
+    "apellidos": "BAEZ",
+    "nombres": "MARIA A",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "BALAS",
+    "nombres": "LAURA",
+    "ci": "30.041.612",
+    "edad": "22",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Dr. Domingo Luciani",
+    "fecha": "25/06/26"
+  },
+  {
+    "apellidos": "BALBUENA",
+    "nombres": "WILMER",
+    "ci": "—",
+    "edad": "37",
+    "sexo": "M",
+    "procedencia": "PETARE",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BAPTISTA",
+    "nombres": "YERMIN",
+    "ci": "31.948.173",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BARAJA",
+    "nombres": "ANDRES",
+    "ci": "17.491.087",
+    "edad": "41",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BARAS",
+    "nombres": "ESMERALDA",
+    "ci": "10.582.063",
+    "edad": "54",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Dr. Domingo Luciani",
+    "fecha": "25/06/26"
+  },
+  {
+    "apellidos": "BARREGO",
+    "nombres": "JOSE",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "BARRERA",
+    "nombres": "GEREMI",
+    "ci": "—",
+    "edad": "16",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital JM de los Ríos",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BARRETO",
+    "nombres": "RICARDO",
+    "ci": "—",
+    "edad": "42",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BARRIOS",
+    "nombres": "EBERTO",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "BASTARDO",
+    "nombres": "VERONICA",
+    "ci": "30.170.626",
+    "edad": "—",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BASTIDA",
+    "nombres": "ADRIANA",
+    "ci": "17.856.045",
+    "edad": "—",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "24/6/26"
+  },
+  {
+    "apellidos": "BAUTE",
+    "nombres": "MAVELIS MIRELIS",
+    "ci": "6.483.724",
+    "edad": "65",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Dr. Domingo Luciani",
+    "fecha": "25/06/26"
+  },
+  {
+    "apellidos": "BECERRA",
+    "nombres": "LEONARDO",
+    "ci": "34.800.366",
+    "edad": "—",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "24/6/26"
+  },
+  {
+    "apellidos": "BELLO",
+    "nombres": "USIEL",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "BELTRAN",
+    "nombres": "OMAR",
+    "ci": "13.582.518",
+    "edad": "—",
+    "sexo": "M",
+    "procedencia": "ALAMEDA",
+    "hospital": "Hospital Dr. José María Vargas (La Guaira)",
+    "fecha": "25/06/26"
+  },
+  {
+    "apellidos": "BENAVIDEZ",
+    "nombres": "YOLIMAR",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "BENEDETTI",
+    "nombres": "YORLIANIS",
+    "ci": "25.846.221",
+    "edad": "29",
+    "sexo": "F",
+    "procedencia": "ALTAMIRA",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BENITES",
+    "nombres": "KARLI",
+    "ci": "—",
+    "edad": "43",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital de Catia",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "BENITEZ",
+    "nombres": "STEFANY",
+    "ci": "—",
+    "edad": "31",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Victorino Santaella (Los Teques)",
+    "fecha": "26/06/26"
+  },
+  {
+    "apellidos": "BENITEZ",
+    "nombres": "MARIOLIMAR",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "BERBESI",
+    "nombres": "ISABELA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "BERCOMO",
+    "nombres": "NORKIS",
+    "ci": "—",
+    "edad": "37",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Dr. Domingo Luciani",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BERNAL",
+    "nombres": "MARCELA",
+    "ci": "6.049.995",
+    "edad": "—",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "24/6/26"
+  },
+  {
+    "apellidos": "BETANCOURT",
+    "nombres": "MARIA",
+    "ci": "—",
+    "edad": "74",
+    "sexo": "F",
+    "procedencia": "PETARE",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BISBAL",
+    "nombres": "CLARA",
+    "ci": "—",
+    "edad": "62",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BLANCO",
+    "nombres": "CARMEN",
+    "ci": "—",
+    "edad": "55",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BLANCO",
+    "nombres": "JOSE",
+    "ci": "—",
+    "edad": "6",
+    "sexo": "M",
+    "procedencia": "EL HATILLO",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BLANCO",
+    "nombres": "YESSIKA",
+    "ci": "—",
+    "edad": "53",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BLANCO",
+    "nombres": "ANYELIMAR",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "BLANCO",
+    "nombres": "ANGELO",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "BLANCO",
+    "nombres": "CLAUDIA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "BLANCO",
+    "nombres": "GABRIEL",
+    "ci": "—",
+    "edad": "16",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital JM de los Ríos",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BLANCO CARMEN",
+    "nombres": "CARMEN",
+    "ci": "6.331.767",
+    "edad": "—",
+    "sexo": "F",
+    "procedencia": "PLAYA GRANDE",
+    "hospital": "Hospital Dr. José María Vargas (La Guaira)",
+    "fecha": "25/06/26"
+  },
+  {
+    "apellidos": "BLANCO VERDU",
+    "nombres": "DOMINGO",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "BLANDI",
+    "nombres": "SEBASTIAN",
+    "ci": "—",
+    "edad": "7",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital Dr. José María Vargas (La Guaira)",
+    "fecha": "25/06/26"
+  },
+  {
+    "apellidos": "BLARE",
+    "nombres": "YESSICA",
+    "ci": "11.635.019",
+    "edad": "53",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Dr. Domingo Luciani",
+    "fecha": "25/06/26"
+  },
+  {
+    "apellidos": "BOADA",
+    "nombres": "EVELYN",
+    "ci": "11.636.506",
+    "edad": "54",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Dr. Domingo Luciani",
+    "fecha": "27/06/2026"
+  },
+  {
+    "apellidos": "BOMPARD",
+    "nombres": "RODNI",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BORGES",
+    "nombres": "LILIANI",
+    "ci": "—",
+    "edad": "21",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Dr. Domingo Luciani",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BORGES",
+    "nombres": "MARIELA",
+    "ci": "9.855.570",
+    "edad": "57",
+    "sexo": "F",
+    "procedencia": "CARIBE",
+    "hospital": "Hospital Ciudad Caribia",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "BORREGO",
+    "nombres": "JOSE LUIS",
+    "ci": "26.327.360",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BOSPARTE",
+    "nombres": "RONNY",
+    "ci": "—",
+    "edad": "33",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BOUIS CARVAJAL",
+    "nombres": "CANDELARIO JOSE",
+    "ci": "9.416.493",
+    "edad": "59",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BRACAMONTE",
+    "nombres": "GENESIS",
+    "ci": "31.428.533",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/06/2026"
+  },
+  {
+    "apellidos": "BRACHO",
+    "nombres": "ADRIANA",
+    "ci": "16.310.954",
+    "edad": "42",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Dr. José María Vargas (La Guaira)",
+    "fecha": "25/06/26"
+  },
+  {
+    "apellidos": "BRANDO",
+    "nombres": "ANIBAL",
+    "ci": "30.456.508",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "TANAGUARENA",
+    "hospital": "Hospital Dr. José María Vargas (La Guaira)",
+    "fecha": "25/06/26"
+  },
+  {
+    "apellidos": "BRIAN",
+    "nombres": "JESUS",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "CARIBE",
+    "hospital": "Hospital Dr. José María Vargas (La Guaira)",
+    "fecha": "25/06/26"
+  },
+  {
+    "apellidos": "BRITO",
+    "nombres": "DAVID",
+    "ci": "30.678.485",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BRITO",
+    "nombres": "ANTONELA",
+    "ci": "—",
+    "edad": "11",
+    "sexo": "F",
+    "procedencia": "CATIA",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BRITO",
+    "nombres": "CARMEN",
+    "ci": "5.432.113",
+    "edad": "65",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "25/06/24"
+  },
+  {
+    "apellidos": "BRIZUELA",
+    "nombres": "GABRIEL",
+    "ci": "32.781.459",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "24/6/26"
+  },
+  {
+    "apellidos": "BUENO",
+    "nombres": "MERIDO",
+    "ci": "17.158.021",
+    "edad": "—",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital Pérez Carreño",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CADENAS",
+    "nombres": "JOSE GREGORIO",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "CABARCA",
+    "nombres": "YENDERLI",
+    "ci": "—",
+    "edad": "13",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/06/26"
+  },
+  {
+    "apellidos": "CABRERA",
+    "nombres": "KARINA",
+    "ci": "—",
+    "edad": "30",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CABRERA",
+    "nombres": "MAGALI",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "CACERES",
+    "nombres": "ELOISE",
+    "ci": "11.061.197",
+    "edad": "55",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CACERES",
+    "nombres": "PATRICIA",
+    "ci": "32.790.475",
+    "edad": "18",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CACERES",
+    "nombres": "NATHALIA",
+    "ci": "36.192.938",
+    "edad": "13",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "24/06/26"
+  },
+  {
+    "apellidos": "CACERES",
+    "nombres": "JOSE",
+    "ci": "11.061.147",
+    "edad": "55",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "24/06/26"
+  },
+  {
+    "apellidos": "CADENAS",
+    "nombres": "ONAS",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "CADENAS",
+    "nombres": "LANDRO",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "CAISEDO",
+    "nombres": "AIMANDO",
+    "ci": "—",
+    "edad": "67",
+    "sexo": "—",
+    "procedencia": "TANAGUARENA",
+    "hospital": "Hospital Dr. José María Vargas (La Guaira)",
+    "fecha": "25/06/26"
+  },
+  {
+    "apellidos": "CALDERA",
+    "nombres": "LEWIS",
+    "ci": "—",
+    "edad": "10",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CALDERO",
+    "nombres": "MARIA ELENA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Refugiados Campo de Golf Playa Los Cocos",
+    "fecha": "26/6/26"
+  },
+  {
+    "apellidos": "PEREIRA",
+    "nombres": "VILLAMIZAR",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital no especificado",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "LA",
+    "nombres": "GUAIRA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "M",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RODRIGUEZ",
+    "nombres": "—",
+    "ci": "11966827",
+    "edad": "28",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ABDLY",
+    "nombres": "—",
+    "ci": "26254624",
+    "edad": "28",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ANTEQUIA",
+    "nombres": "—",
+    "ci": "12882457",
+    "edad": "50",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RAMIREZ",
+    "nombres": "RADA LENNY",
+    "ci": "12717464",
+    "edad": "—",
+    "sexo": "M",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MAYULI",
+    "nombres": "—",
+    "ci": "13582518",
+    "edad": "50",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "LA",
+    "nombres": "GUAIRA",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital no especificado",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CORDOVA",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "19",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ABELLO",
+    "nombres": "—",
+    "ci": "6092167",
+    "edad": "36",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CAMARGO",
+    "nombres": "—",
+    "ci": "11926425",
+    "edad": "29",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "AGRE",
+    "nombres": "—",
+    "ci": "21191308",
+    "edad": "49",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ORVEDALES",
+    "nombres": "JESIVE",
+    "ci": "24182992",
+    "edad": "—",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "AGUILAR",
+    "nombres": "—",
+    "ci": "6488622",
+    "edad": "57",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ALANI",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "7",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital no especificado",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CASTAÑO",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "12",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BENEDETTI",
+    "nombres": "—",
+    "ci": "25846221",
+    "edad": "29",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GUTIERREZ",
+    "nombres": "—",
+    "ci": "26363002",
+    "edad": "16",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ARANGUREN",
+    "nombres": "—",
+    "ci": "16509747",
+    "edad": "34",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "FRANCISCO",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "11",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital no especificado",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GONZALEZ",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "26",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ABREU",
+    "nombres": "—",
+    "ci": "22036301",
+    "edad": "36",
+    "sexo": "F",
+    "procedencia": "PETARE",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "DE",
+    "nombres": "SILVA",
+    "ci": "14556746",
+    "edad": "46",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MAYORCA",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "52",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "AGUILAR",
+    "nombres": "—",
+    "ci": "10487289",
+    "edad": "57",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MIGUEL",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "13",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital no especificado",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "YOANNY",
+    "nombres": "—",
+    "ci": "31178460",
+    "edad": "20",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PIMENTEL",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ABREU",
+    "nombres": "—",
+    "ci": "31428533",
+    "edad": "8",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CASTRO",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "54",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ARAQUE",
+    "nombres": "—",
+    "ci": "36337677",
+    "edad": "13",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PIÑATE",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital no especificado",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "FRONTADO",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "7",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "AGUILERA",
+    "nombres": "—",
+    "ci": "20003134",
+    "edad": "57",
+    "sexo": "F",
+    "procedencia": "PETARE",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "LA",
+    "nombres": "VENDE",
+    "ci": "3344528",
+    "edad": "18",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ELIAN",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "19",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "JOSE",
+    "nombres": "LUIS",
+    "ci": "28143770",
+    "edad": "35",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "M",
+    "nombres": "—",
+    "ci": "30041612",
+    "edad": "22",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "FERNANDEZ",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "35",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "DIAZ",
+    "nombres": "—",
+    "ci": "13999719",
+    "edad": "47",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BERCOMO",
+    "nombres": "—",
+    "ci": "3551269",
+    "edad": "37",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "AGUILERA",
+    "nombres": "YULENNY",
+    "ci": "18215359",
+    "edad": "39",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ARIAS",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "18",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "AHANMA",
+    "nombres": "—",
+    "ci": "2072832",
+    "edad": "66",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CARDONA",
+    "nombres": "DAYANA",
+    "ci": "17434972",
+    "edad": "—",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "LIZ",
+    "nombres": "—",
+    "ci": "22504476",
+    "edad": "42",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "HERICK",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital no especificado",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "POLITRAUMA",
+    "nombres": "EMERGENCIA",
+    "ci": "22751340",
+    "edad": "34",
+    "sexo": "M",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BALBUENO",
+    "nombres": "—",
+    "ci": "26327913",
+    "edad": "37",
+    "sexo": "F",
+    "procedencia": "PETARE",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GUZMAN",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "17",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "JOSE",
+    "nombres": "LUIS",
+    "ci": "27127733",
+    "edad": "23",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BRITO",
+    "nombres": "—",
+    "ci": "5432113",
+    "edad": "65",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "IZQUIERDO",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "55",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ABREU",
+    "nombres": "P",
+    "ci": "31948173",
+    "edad": "8",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "LOPEZ",
+    "nombres": "—",
+    "ci": "6045349",
+    "edad": "70",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CAVARCA",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "13",
+    "sexo": "—",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ARIAS",
+    "nombres": "YONAY",
+    "ci": "52052187",
+    "edad": "52",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GONZALEZ",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "12",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital no especificado",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ACEVEDO",
+    "nombres": "—",
+    "ci": "17491087",
+    "edad": "7",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "TRIGOSO",
+    "nombres": "—",
+    "ci": "8418724",
+    "edad": "59",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "FRONTEDOS",
+    "nombres": "MIELRAINE",
+    "ci": "7995694",
+    "edad": "7",
+    "sexo": "M",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ARMANZA",
+    "nombres": "—",
+    "ci": "31428503",
+    "edad": "41",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CASTILLO",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "28",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ACOSTA",
+    "nombres": "—",
+    "ci": "31760907",
+    "edad": "39",
+    "sexo": "F",
+    "procedencia": "PETARE",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "COA",
+    "nombres": "—",
+    "ci": "18760841",
+    "edad": "36",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ARMAS",
+    "nombres": "—",
+    "ci": "13827306",
+    "edad": "9",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ACOSTA",
+    "nombres": "—",
+    "ci": "17158021",
+    "edad": "47",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CARPIO",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "3",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ALFONZO",
+    "nombres": "—",
+    "ci": "10582063",
+    "edad": "65",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ARRIETA",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "65",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "LA",
+    "nombres": "FLORIDA",
+    "ci": "32111714",
+    "edad": "58",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RIVERO",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "53",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ALHABI",
+    "nombres": "HAMMAD",
+    "ci": "9445489",
+    "edad": "56",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BARRERA",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "16",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital no especificado",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ALI",
+    "nombres": "—",
+    "ci": "3406891",
+    "edad": "20",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CABARCA",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "13",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CUYAN",
+    "nombres": "—",
+    "ci": "10235290",
+    "edad": "60",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CARRASQUEL",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "14",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "DELGADO",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "7",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital no especificado",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "DA",
+    "nombres": "SILVA",
+    "ci": "—",
+    "edad": "21",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "HENRIQUE",
+    "nombres": "—",
+    "ci": "14213277",
+    "edad": "46",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "PARRA",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "59",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CARRASQUEL",
+    "nombres": "SANTIAGO",
+    "ci": "36337677",
+    "edad": "14",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "NIEVES",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "5",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital no especificado",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BARRETO",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "42",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "DINGYI",
+    "nombres": "—",
+    "ci": "83584110",
+    "edad": "44",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "DESMON",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "54",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ALVAREZ",
+    "nombres": "—",
+    "ci": "1582202",
+    "edad": "41",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "TORREALBA",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "10",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital no especificado",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "HUGA",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "9",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "COLO",
+    "nombres": "RODRIGO",
+    "ci": "29910634",
+    "edad": "26",
+    "sexo": "M",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ALVAREZ",
+    "nombres": "—",
+    "ci": "7952509",
+    "edad": "50",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Periférico de Catia",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ACOSTA",
+    "nombres": "—",
+    "ci": "12864639",
+    "edad": "49",
+    "sexo": "M",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ARTEAGA",
+    "nombres": "—",
+    "ci": "32790475",
+    "edad": "72",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "HENRIQUE",
+    "nombres": "MARIA",
+    "ci": "8471007",
+    "edad": "64",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MARVELIA",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "11",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital no especificado",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "JIMENEZ",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "4",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CACERES",
+    "nombres": "—",
+    "ci": "36192938",
+    "edad": "13",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "LUCE",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "25",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "AMAYA",
+    "nombres": "—",
+    "ci": "25464509",
+    "edad": "13",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CHACON",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "13",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "25/6/26",
+    "nombres": "—",
+    "ci": "30170626",
+    "edad": "16",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "AMAYA",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "5",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital no especificado",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "YOLEIFER",
+    "nombres": "—",
+    "ci": "10581795",
+    "edad": "55",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GUERRERO",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "—",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "AMILCAR",
+    "nombres": "—",
+    "ci": "23241059",
+    "edad": "13",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "AVILA",
+    "nombres": "—",
+    "ci": "31073850",
+    "edad": "20",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "DORIA",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "32",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BASTIDA",
+    "nombres": "—",
+    "ci": "17856045",
+    "edad": "59",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "YALESKA",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "23",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BASTIDO",
+    "nombres": "—",
+    "ci": "17856045",
+    "edad": "32",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "MARRERO",
+    "nombres": "—",
+    "ci": "31331652",
+    "edad": "20",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ANDERSON",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "4",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "LA",
+    "nombres": "GUAIRA",
+    "ci": "15544121",
+    "edad": "45",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "DANIEL",
+    "nombres": "—",
+    "ci": "18814839",
+    "edad": "42",
+    "sexo": "F",
+    "procedencia": "PETARE",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ACOSTA",
+    "nombres": "MIGUEL",
+    "ci": "7991965",
+    "edad": "65",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ROBERTH",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "16",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital no especificado",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GARABITO",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "30",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "BECERRA",
+    "nombres": "—",
+    "ci": "34800366",
+    "edad": "10",
+    "sexo": "F",
+    "procedencia": "PETARE",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "GOMEZ",
+    "nombres": "—",
+    "ci": "11926425",
+    "edad": "80",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ADAN",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "14",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ANDRADE",
+    "nombres": "—",
+    "ci": "11636506",
+    "edad": "54",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "USECHE",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "13",
+    "sexo": "M",
+    "procedencia": "—",
+    "hospital": "Hospital no especificado",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ADELINO",
+    "nombres": "—",
+    "ci": "11563403",
+    "edad": "61",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "CASTAÑEDA",
+    "nombres": "—",
+    "ci": "—",
+    "edad": "73",
+    "sexo": "F",
+    "procedencia": "—",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "ANGARITA",
+    "nombres": "—",
+    "ci": "12060080",
+    "edad": "6",
+    "sexo": "F",
+    "procedencia": "PETARE",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "RODRIGUEZ",
+    "nombres": "—",
+    "ci": "14299716",
+    "edad": "88",
+    "sexo": "—",
+    "procedencia": "—",
+    "hospital": "Hospital Universitario de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "DE",
+    "nombres": "FREITES NELY",
+    "ci": "6800389",
+    "edad": "—",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Vargas de Caracas",
+    "fecha": "25/6/26"
+  },
+  {
+    "apellidos": "AVILAN",
+    "nombres": "—",
+    "ci": "29579633",
+    "edad": "10",
+    "sexo": "F",
+    "procedencia": "LA GUAIRA",
+    "hospital": "Hospital Domingo Luciani (El Llanito)",
+    "fecha": "25/6/26"
+  }
+]

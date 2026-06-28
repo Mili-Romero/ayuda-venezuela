@@ -1,0 +1,61 @@
+{
+  "enlacesDrive": [
+    {
+      "id": 1,
+      "titulo": "📂 Ver Carpeta Principal de Listados en Google Drive",
+      "url": "https://google.com"
+    },
+    {
+      "id": 2,
+      "titulo": "📱 Acceso Celular Optimizado - Listas de Hospitales",
+      "url": "https://google.com"
+    }
+  ],
+  "gruposWhatsapp": [
+    { "id": 1, "nombre": "RESIDENCIA VALLARTA", "url": "https://chat.whatsapp.com/BZY0yAFm6dY2lOK86xnJws" },
+    { "id": 2, "nombre": "RESIDENCIA AURO", "url": "https://chat.whatsapp.com/ILeVat1CmWkB7T6W7KtfFz?mode=gi_t" },
+    { "id": 3, "nombre": "COSTA BRAVA - LOS CORALES", "url": "https://chat.whatsapp.com/H5P3l1S670t0aZeEAUcLXt?s=cl&p=a&mlu=1" },
+    { "id": 4, "nombre": "BELO HORIZONTE", "url": "https://chat.whatsapp.com/Fald83XKvlCGdZxlD9B78T?s=cl&p=a&mlu=1" },
+    { "id": 5, "nombre": "BLOQUES LA PAEZ", "url": "https://chat.whatsapp.com/JgpcZ72YgQO5FyIal2KEta?mode=gi_t" },
+    { "id": 6, "nombre": "RIOMAR", "url": "https://chat.whatsapp.com/BwPazZHftgo9NCvvI4FAhC?s=cl&p=a&ilr=4&amv=1" },
+    { "id": 7, "nombre": "TAHITI", "url": "https://chat.whatsapp.com/HNJGnvAjHt73jVm5chJbb1" },
+    { "id": 8, "nombre": "BAHIA MAR (AV. LA COSTANERA)", "url": "https://chat.whatsapp.com/ISyrrGR1zZD2Rozxg5mIkJ?mode=gi_t" },
+    { "id": 9, "nombre": "CORAL MAR", "url": "https://chat.whatsapp.com/Bv4FJAeNCaBJ2t8BktXdmA?mode=gi_t" },
+    { "id": 10, "nombre": "BRISAMAR", "url": "https://chat.whatsapp.com/H3iFBmdaUIV8nsShhyH9s6?s=cl&p=a&ilr=4&amv=1" },
+    { "id": 11, "nombre": "CARIBE", "url": "https://chat.whatsapp.com/Eu2Qxi3FksaCVfc9R2QY3F?mode=gi_t" },
+    { "id": 12, "nombre": "PLAYA GRANDE", "url": "https://chat.whatsapp.com/CvcNnaP0RAk8G6L7qcx6U5?mode=gi_t" },
+    { "id": 13, "nombre": "MISION VIVIENDA CARIBE / LOS COCOS", "url": "https://chat.whatsapp.com/Ed2luxf4ccNC06vS2Bo2N4?mode=gi_t" },
+    { "id": 14, "nombre": "BUCANERO", "url": "https://chat.whatsapp.com/BRO9FEzYcmy8edBt9mv5P3?mode=gi_t" },
+    { "id": 15, "nombre": "OASIS", "url": "https://chat.whatsapp.com/EEkdJ8FKF0X9QpsECcIl00?mode=gi_t" },
+    { "id": 16, "nombre": "AGUJA AZUL", "url": "https://chat.whatsapp.com/EMbKVXJ7K2nDCT7Rn5gfU9?mode=gi_t" },
+    { "id": 17, "nombre": "NAUTILUS", "url": "https://chat.whatsapp.com/FREyEko43OtJ7RXR2r7lnT?mode=gi_t" },
+    { "id": 18, "nombre": "RITAMAR PALACE", "url": "https://chat.whatsapp.com/FwK2RqEn4QFItDezIjdi7u?s=cl&p=i&mlu=1" },
+    { "id": 19, "nombre": "PLAYATE", "url": "https://chat.whatsapp.com/KBLsn6okam48WoHgTFDAHM?s=cl&p=i&mlu=1" },
+    { "id": 20, "nombre": "GRAÑAMAR", "url": "https://chat.whatsapp.com/LNNIKFd8AkJ6s3dKhFYVhA?s=cl&p=i&mlu=1" },
+    { "id": 21, "nombre": "PERLAMAR", "url": "https://chat.whatsapp.com/LKvlHltCgMk44KV6Lgk5gm?s=cl&p=i&mlu=1" }
+  ],
+  "fotosSobrevivientes": [
+    { "id": 1, "titulo": "Lista 1: Campo de Golf / Caribe (La Guaira)", "url": "/listas-mano/foto1.jpg" },
+    { "id": 2, "titulo": "Lista 2: Sobrevivientes Refugio", "url": "/listas-mano/foto2.jpg" },
+    { "id": 3, "titulo": "Lista 3: Sobrevivientes Refugio", "url": "/listas-mano/foto3.jpg" },
+    { "id": 4, "titulo": "Lista 4: Sobrevivientes Refugio", "url": "/listas-mano/foto4.jpg" },
+    { "id": 5, "titulo": "Lista 5: Sobrevivientes Refugio", "url": "/listas-mano/foto5.jpg" },
+    { "id": 6, "titulo": "Lista 6: Sobrevivientes Refugio", "url": "/listas-mano/foto6.jpg" },
+    { "id": 7, "titulo": "Lista 7: Sobrevivientes Refugio", "url": "/listas-mano/foto7.jpg" }
+  ],
+  "medicos": [
+    { "id": 1, "nombre": "Dr. Jesús Suárez (Médico Cirujano)", "especialidad": "🩺 Orientación médica remota, crisis de ansiedad, tensión arterial, síntomas comunes y salud familiar.", "contacto": "WhatsApp: +49 1522 9451064 | Instagram: @latinoembata" },
+    { "id": 2, "nombre": "Dr. Teosmar Chamorro", "especialidad": "🩺 Orientación para situaciones leves en casa, heridas leves, crisis de ansiedad y síntomas gastrointestinales.", "contacto": "WhatsApp: +49 176 20195194 | Instagram: @teosmarchamorro" }
+  ],
+  "fundaciones": [
+    { "id": 1, "nombre": "AVAS - Asociación Venezolana-Alemana de Socorro", "descripcion": "Canalización directa de insumos médicos. Compran materiales en el terreno. Cuentas: Mercantil Bs Cuenta 0105-0641-71-1641000473 (RIF: J-00117666-7) / Pax Bank Köln Euros IBAN: DE21 3706 0193 0057 2440 03.", "enlace": "mailto:avasvenezuela@gmail.com" },
+    { "id": 2, "nombre": "Fondo de Alivio de Emergencia - GoFundMe", "descripcion": "Campaña internacional activa de recaudación de fondos para compra de insumos de primera necesidad y medicinas para los damnificados del terremoto.", "enlace": "https://gofundme.com" }
+  ],
+  "plataformas": [
+    { "id": 1, "titulo": "Desaparecidos Terremoto Venezuela - Localizador Ciudadano", "autor": "Iniciativa Voluntaria Ciudadana", "descripcion": "Portal interactivo dedicado a reconectar familias. Permite reportar a personas desaparecidas o confirmar sobrevivientes en el padrón.", "enlace": "https://desaparecidosterremotovenezuela.com" },
+    { "id": 2, "titulo": "Interp-Aid - Intérpretes Telefónicos", "autor": "Voluntariado Internacional", "descripcion": "Plataforma de inscripción para traductores remotos. Los socorristas extranjeros necesitan apoyo telefónico urgente.", "enlace": "http://lovable.app" },
+    { "id": 3, "titulo": "Cruz Roja Venezolana - Registro de Voluntarios de Emergencia", "autor": "+C IFRC (Registro No Pertenecientes)", "descripcion": "Formulario oficial de inscripción para quienes deseen apoyar tras el sismo. Se prioriza personal del área de salud y respuesta inmediata en el terreno.", "enlace": "https://ifrc.org" },
+    { "id": 4, "titulo": "BitChat - Mensajería Privada P2P", "autor": "Herramientas de Emergencia", "descripcion": "Aplicación móvil recomendada para comunicación privada cifrada de punto a punto, ideal para mantener la seguridad de tus mensajes.", "enlace": "https://bitchat.im" },
+    { "id": 5, "titulo": "Briar / Bridgefy - Redes Mesh por Bluetooth", "autor": "Herramientas de Emergencia", "descripcion": "Aplicaciones recomendadas para chatear sin internet. Permiten enviar mensajes saltando de teléfono a teléfono usando el Bluetooth cuando las antenas telefónicas colapsan.", "enlace": "https://briarproject.org" }
+  ]
+}
