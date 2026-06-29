@@ -108,7 +108,7 @@ const corregirExtensionWhatsApp = (evento, foto) => {
 }
 
 .tarjeta-foto {
-  flex: 0 0 150px; /* Evita que las fotos se encojan, manteniendo un ancho fijo */
+  flex: 0 0 140px; /* Tamaño ideal y fijo para miniaturas en móviles */
   background: #f8fafc;
   border: 1px solid #e2e8f0;
   border-radius: 6px;
@@ -116,6 +116,32 @@ const corregirExtensionWhatsApp = (evento, foto) => {
   cursor: pointer;
   transition: transform 0.2s, border-color 0.2s;
 }
+
+/* 📱 CORRECCIÓN QUIRÚRGICA PARA CELULARES (PANTALLAS CHICAS) */
+@media (max-width: 768px) {
+  .tarjeta-foto {
+    flex: 0 0 120px; /* Se hace un pelo más pequeña en teléfonos para que quepan más en pantalla */
+  }
+  
+  .btn-carrusel {
+    display: none !important; /* Escondemos las flechas en celulares; la gente desliza con el dedo de forma nativa */
+  }
+  
+  .galeria-listas-carrusel {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .visor-modal-contenido {
+    max-width: 95%; /* Aprovecha casi todo el ancho del teléfono */
+    max-height: 90vh;
+  }
+
+  .img-modal-ampliada {
+    max-height: 75vh; /* Evita que el título del pie se corte en pantallas alargadas */
+  }
+}
+
 
 .tarjeta-foto:hover {
   transform: translateY(-4px);

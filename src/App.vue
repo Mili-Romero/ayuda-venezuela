@@ -248,6 +248,11 @@ body {
   gap: 20px; 
 }
 
+.columna-principal {
+  min-width: 0; /* TRUCO TÉCNICO: Fuerza a la columna a respetar el ancho del celular y activa el scroll interno */
+  width: 100%;
+}
+
 @media (min-width: 768px) { 
   .contenido { grid-template-columns: 340px 1fr; } 
 }
@@ -312,54 +317,6 @@ li {
   background-color: #15803d; 
 }
 
-/* CUADRÍCULA DE FOTOS LISTAS A MANO */
-.galeria-listas { 
-  display: grid; 
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); 
-  gap: 12px; 
-  margin-top: 15px; 
-}
-
-.tarjeta-foto { 
-  background: #f8fafc; 
-  border: 1px solid #e2e8f0; 
-  border-radius: 6px; 
-  overflow: hidden; 
-  display: flex; 
-  flex-direction: column; 
-  text-decoration: none; 
-  transition: transform 0.1s; 
-}
-
-.tarjeta-foto:hover { 
-  transform: scale(1.02); 
-  border-color: #94a3b8; 
-}
-
-.wrapper-imagen { 
-  width: 100%; 
-  height: 160px; 
-  background-color: #cbd5e1; 
-  overflow: hidden; 
-  position: relative; 
-}
-
-.img-lista { 
-  width: 100%; 
-  height: 100%; 
-  object-fit: cover; 
-}
-
-.foto-titulo { 
-  font-size: 11px; 
-  font-weight: 600; 
-  color: #334155; 
-  padding: 8px; 
-  text-align: center; 
-  line-height: 1.3; 
-  background: white; 
-  border-top: 1px solid #e2e8f0; 
-}
 
 /* RECURSOS EXTRAS */
 .lista-medicos { 
