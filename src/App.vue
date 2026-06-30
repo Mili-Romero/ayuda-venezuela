@@ -1,4 +1,6 @@
 <template>
+  <Bienvenida v-if="mostrarBienvenida" @entrar="accederAlPortal" />
+
   <div class="pagina">
     <!-- Encabezado Oficial PLAsist.org -->
     <header class="header-tricolor">
@@ -174,6 +176,16 @@ import { ref } from 'vue'
 import centrosAcopio from './acopio.json'
 import datosRecursos from './recursos.json'
 import gallery from './gallery.vue'
+// INSERCIÓN QUIRÚRGICA: IMPORTAR COMPONENTE DE BIENVENIDA y VARIABLE DE CONTROL
+import Bienvenida from './Bienvenida.vue'
+
+// Esta variable inicia en true (verdadero) para obligar a que la pantalla de bienvenida salga primero
+const mostrarBienvenida = ref(true)
+
+// Función que apaga la bienvenida cuando el usuario presiona "Entrar al Portal Informativo"
+const accederAlPortal = () => {
+  mostrarBienvenida.value = false
+}
 
 
 const recursos = ref(datosRecursos)
