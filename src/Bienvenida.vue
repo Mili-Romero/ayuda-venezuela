@@ -68,7 +68,7 @@ const emitirEntrada = () => {
   background-image: url('/images/fondo.PNG'); /* Mantiene intacto tu archivo local */
   background-size: cover;
   background-position: center;
-  filter: blur(2px) brightness(0.35); /* Bajamos el blur para que se aprecie más tu foto de fondo */
+  filter: blur(1px) brightness(0.35); /* Bajamos el blur para que se aprecie más tu foto de fondo */
   z-index: -1;
 }
 
