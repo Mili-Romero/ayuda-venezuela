@@ -104,6 +104,17 @@ const emitirEntrada = () => {
   padding: 40px 30px;
   text-align: center;
 }
+
+.contenedor-bienvenida {
+  /* Si el navegador es viejo usa vh, si es moderno (como Safari iOS actual) usa dvh */
+  height: 100vh; 
+  height: 100dvh; 
+  width: 100vw;
+  /* Asegura que la imagen de fondo no se distorsione al estirarse */
+  object-fit: cover; 
+}
+
+
 /*
 .emblema-alerta {
   display: inline-block;
