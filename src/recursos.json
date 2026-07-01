@@ -39,7 +39,7 @@
     { "id": 21, "nombre": "PERLAMAR", "url": "https://chat.whatsapp.com/LKvlHltCgMk44KV6Lgk5gm?s=cl&p=i&mlu=1" }
   ],
   "fotosSobrevivientes": [
-    { "id": 1, "titulo": "Lista 1: Campo de Golf / Caribe (La Guaira)", "url": "/listas-mano/foto1.jpeg" },
+    { "id": 1, "titulo": "Lista 1: Campo de Golf", "url": "/listas-mano/foto1.jpeg" },
     { "id": 2, "titulo": "Lista 2: Campo de Golf", "url": "/listas-mano/foto2.jpeg" },
     { "id": 3, "titulo": "Lista 3: Campo de Golf", "url": "/listas-mano/foto3.jpeg" },
     { "id": 4, "titulo": "Lista 4: Campo de Golf", "url": "/listas-mano/foto4.jpeg" },
@@ -52,14 +52,16 @@
     { "id": 10, "titulo": "Lista 11: Campo de Golf", "url": "/listas-mano/foto11.jpeg" }
   ],
   "medicos": [
-    { "id": 1, "nombre": "Dr. Jesús Suárez (Médico Cirujano)", "especialidad": "🩺 Orientación médica remota, crisis de ansiedad, tensión arterial, síntomas comunes y salud familiar.", "contacto": "WhatsApp: +49 1522 9451064 | Instagram: @latinoembata" },
-    { "id": 2, "nombre": "Dr. Teosmar Chamorro", "especialidad": "🩺 Orientación para situaciones leves en casa, heridas leves, crisis de ansiedad y síntomas gastrointestinales.", "contacto": "WhatsApp: +49 176 20195194 | Instagram: @teosmarchamorro" }
+    { "id": 1, "nombre": "Dra. Yulliana Pina (Médico Perdiátra) ", "especialidad": "🩺 Orientación médica remota, perdiátra puericultor, apoyo y contención emocional.", "contacto": "WhatsApp: +46 764 381868 | Instagram: @yulliana_pina" },
+    { "id": 2, "nombre": "Dr. Teosmar Chamorro", "especialidad": "🩺 Orientación para situaciones leves en casa, heridas leves, crisis de ansiedad y síntomas gastrointestinales.", "contacto": "WhatsApp: +49 176 20195194 | Instagram: @teosmarchamorro" },
+    { "id": 3, "nombre": "Dr. José Luis Rojas", "especialidad": "🩺 Orientación médica remota, crisis de ansiedad, tensión arterial, síntomas comunes y salud familiar.", "contacto": "WhatsApp: +58 414 200 00 00 | Instagram: @drjose.l.rojas" },
+    { "id": 4, "nombre": "Dr. Jesús Suárez (Médico Cirujano)", "especialidad": "🩺  Orientación médica remota, crisis de ansiedad, tensión arterial, síntomas comunes y salud familiar.", "contacto": "WhatsApp: +49 1522 9451064 | Instagram: @latinoembata" }
   ],
   "fundaciones": [
      {
       "id": 1,
-      "nombre": "Vente Conmigo (Human Capital for the World)",
-      "descripcion": "Organización internacional 501(c)(4) dedicada a la defensa de los derechos fundamentales y la movilización de recursos. Sirve como plataforma global de soporte humanitario para la canalización directa de fondos de auxilio de emergencia.",
+      "nombre": "Vente Conmigo",
+      "descripcion": "(Human Capital for the World), Organización internacional 501(c)(4) dedicada a la defensa de los derechos fundamentales y la movilización de recursos. Sirve como plataforma global de soporte humanitario para la canalización directa de fondos de auxilio de emergencia.",
       "enlace": "https://venteconmigo.org/donar/"
     },
     {
