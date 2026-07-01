@@ -35,6 +35,7 @@
           <ul>
             <li><strong>Protección Civil:</strong> 0800-7248451</li>
             <li><strong>Bomberos:</strong> 0212-5417133 & 0212-577-9209911</li> <!-- Corregir esto -->
+            <li><strong>Bomberos USB:</strong> 0412-4038790</li>
             <li><strong>Cruz Roja:</strong> 0212-5714522</li>
           </ul>
         </div>
@@ -163,6 +164,7 @@
       <p>📬 <strong>¿Quieres postular a tu fundación, red médica o plataforma voluntaria en esta central?</strong></p>
       <p>Envíanos la información oficial y los canales verificados de soporte a nuestro correo institucional:</p>
       <a href="mailto:Info@plasist.org" class="boton-email">Info@plasist.org</a>
+      <p>Plasist.org es una plataforma humanitaria creada de manera voluntaria por venezolanos dentro y fuera del país para centralizar información que facilite la coordinación de la ayuda durante situaciones de emergencia. Nuestro objetivo es reunir en un solo lugar recursos oficiales, centros de asistencia, redes de apoyo, información para la búsqueda de personas y herramientas desarrolladas por organizaciones y voluntarios. PLAsist.org no recibe ni administra dinero, no solicita donaciones económicas y no gestiona ayudas en nombre de terceros. Nuestra labor consiste exclusivamente en organizar y difundir información pública y verificada para ponerla al servicio de quienes la necesiten.</p>
       <div class="footer-nota">
         <p>©️ 2026 plasist.org - Plataforma de Asistencia Humanitaria Centralizada - Venezuela</p>
       </div>
