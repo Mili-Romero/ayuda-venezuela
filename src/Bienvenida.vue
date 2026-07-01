@@ -185,7 +185,7 @@ const emitirEntrada = () => {
 
 .nota-bienvenida {
   font-size: 13px;
-  color: #8c9aad;
+  color: #cee881;
   margin: 0;
 }
 
