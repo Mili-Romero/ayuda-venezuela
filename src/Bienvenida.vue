@@ -27,9 +27,7 @@
           </div>
         </div>
         
-        <p class="nota-bienvenida">Toda la información contenida en esta central es de carácter público y voluntario.</p>
-      <p>Somos una plataforma humanitaria creada de manera voluntaria por venezolanos dentro y fuera del país. Nuestro objetivo es centralizar la información y así facilitar la coordinación de la ayuda necesaria durante situaciones de emergencia. Nuestra principallabor consiste exclusivamente en organizar y difundir información pública y verificada para ponerla al servicio de quienes la necesiten.</p>
-      </div>
+        <p class="nota-bienvenida">Somos una plataforma humanitaria creada de manera voluntaria por venezolanos dentro y fuera del país. Nuestra principal labor consiste exclusivamente en organizar y difundir información pública y verificada para ponerla al servicio de quienes la necesiten durante situaciones de emergencia. Toda la información contenida en esta central es de carácter público y voluntario.</p>
     </div>
   </div>
 </template>
