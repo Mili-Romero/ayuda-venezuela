@@ -45,7 +45,7 @@
         </div>
 
         <div class="fila-grafico">
-          <span class="etiqueta-grafico">Menor (< 4.0):</span>
+          <span class="etiqueta-grafico">Menor (&lt; 4.0):</span>
           <div class="barra-contenedor">
             <div class="barra-progreso bg-amarillo" :style="{ width: infoGrafico.porcentajeMenor + '%' }"></div>
           </div>
