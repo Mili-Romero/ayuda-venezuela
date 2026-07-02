@@ -20,15 +20,16 @@
       <aside class="columna-lateral">
         <!-- ALERTA DE INTERNET MÓVIL STARLINK -->
           <div class="tarjeta alerta-starlink">
-            <h2 class="titulo-seccion borde-amarillo">📡 Internet Satelital Disponible</h2>
-            <p class="alerta-texto">Puntos de <strong>Conexión</strong> inmediata y activa en las siguientes zonas del litoral:</p>
+            <h2 class="titulo-seccion borde-amarillo">📡 Puntos de internet gratuito</h2>
+            <p class="alerta-texto">Conéctate a la red WiFi llamada <strong>STARLINK.</strong> Es el mismo nombre en todos los puntos.</p>
             <div class="datos-conexion">
-              <p><strong>Contraseña:</strong> <span class="codigo-red">Sin contraseñas</span></p>
+              <p><strong>Red Abierta:</strong> <span class="codigo-red">Sin Contraseñas</span></p>
             </div>
             <!-- ubicaciones -->
-            <p class="referencia-movil">🛻 <strong>Ubicación 1:</strong> Estacion de servicio PDV Tanaguarenas, antigua parada de buses Naiguata, Caraballeda.</p>
-            <p class="referencia-movil">🛻 <strong>Ubicación 2:</strong> Estación de Servicio Texaco, frente a Costa del Sol, Caraballeda.</p>
-            <p class="referencia-movil">🛻 <strong>Ubicación 3:</strong> Frente a Casa Rusitca pizzeria. Avenida Ibarra, Quinta Galipán, Macuto.</p>
+            <p class="referencia-movil">🛻 <strong>Estadio Garcia Carneiro  </strong><a href="https://www.google.com/maps?q=10.602906,-66.905842" target="_blank" rel="noopener noreferrer"> 📍 10.602906, -66.905842</a> — Macuto, Estado Vargas. </p>            
+            <p class="referencia-movil">🛻 <strong>Urbanización Caribe</strong> <a href="https://www.google.com/maps?q=10.618664,-66.846288" target="_blank" rel="noopener noreferrer">📍 10.6187, -66.8463</a> — 📍 Caraballeda, Estado Vargas. </p>
+            <p class="referencia-movil">🛻 <strong>Tanaguarena</strong><a href="https://www.google.com/maps?q=10.611498,-66.820835" target="_blank" rel="noopener noreferrer">📍 10.6115, -66.8208</a> 📍 Caraballeda, Estado Vargas. </p>
+            <p class="alerta-texto">📍Para ver la ubicación de otros puntos de internet satelital gratuito<a href="https://www.reconectavenezuela.com/" target="_blank" rel="noopener noreferrer"> Presiona Aqui.</a></p>
           </div>
         <!-- Boton Ayuda -->
           <div class="tarjeta">
@@ -130,7 +131,7 @@
 
         <!-- Bloque 3: Red de Apoyo de Médicos Remotos -->
         <div class="tarjeta">
-          <h2 class="titulo-seccion borde-amarillo">🩺 Red de Apoyo Médico Remoto</h2>
+          <h2 class="titulo-seccion borde-amarillo">🩺 Red de Apoyo Médico y de ⚖️ Profesionales Remoto.</h2>
           <p class="instrucciones">Profesionales de la salud ofreciendo telemedicina y contención psicológica gratuita a distancia:</p>
           <div class="lista-medicos">
             <div v-for="medico in recursos.medicos" :key="medico.id" class="item-medico">
