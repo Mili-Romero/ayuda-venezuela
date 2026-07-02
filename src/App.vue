@@ -21,7 +21,7 @@
         <!-- ALERTA DE INTERNET MÓVIL STARLINK -->
           <div class="tarjeta alerta-starlink">
             <h2 class="titulo-seccion borde-amarillo">📡 Internet Satelital Disponible</h2>
-            <p class="alerta-texto">Existen actualmente varios puntos de <strong>conexión inmediata</strong> y activa en las siguienteszonas del litoral:</p>
+            <p class="alerta-texto">Puntos de <strong>Conexión</strong> inmediata y activa en las siguientes zonas del litoral:</p>
             <div class="datos-conexion">
               <p><strong>Contraseña:</strong> <span class="codigo-red">Sin contraseñas</span></p>
             </div>
