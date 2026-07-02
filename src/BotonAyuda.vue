@@ -1,9 +1,9 @@
 <template>
   <div class="tarjeta boton-ayuda">
-    <h2>¿Necesitas alimentos o insumos médicos?</h2>
+    <h2>¿Necesitas ayuda?</h2>
 
     <p class="texto">
-      Presiona el botón para solicitar ayuda de insumos médicos, comidas listas o alimentos al equipo de <strong>Cocinando por Venezuela</strong>.
+      Presiona el botón para enviar una solicitud de alimentos, comidas preparadas o insumos esenciales al equipo de <strong>Cocinando por Venezuela.</strong> Las solicitudes son atendidas por voluntarios comprometidos que trabajan para brindar apoyo a las familias afectadas, de acuerdo con la disponibilidad de recursos.
     </p>
 
     <a href="https://cocinandoporvenezuela.org/solicitar-ayuda" target="_blank" class="btn-ayuda">
