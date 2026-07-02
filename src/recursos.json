@@ -57,9 +57,7 @@
     { "id": 3, "nombre": "Dr. José Luis Rojas", "especialidad": "🩺 Orientación médica remota, crisis de ansiedad, tensión arterial, síntomas comunes y salud familiar.", "contacto": "WhatsApp: +58 414 200 00 00 | Instagram: @drjose.l.rojas" },
     { "id": 4, "nombre": "Dr. Jesús Suárez (Médico Cirujano)", "especialidad": "🩺  Orientación médica remota, crisis de ansiedad, tensión arterial, síntomas comunes y salud familiar.", "contacto": "WhatsApp: +49 1522 9451064 | Instagram: @latinoembata" },
     { "id": 5, "nombre": "Dra. Maria Elena Alzuru (Médico Perdiátra)", "especialidad": "🩺  Orientación médica remota, perdiátra puericultor, apoyo y contención emocional.", "contacto": "WhatsApp: +34 657 081 710" },
-    { "id": 6, "nombre": "Mariana Palacios (Abogado)", "especialidad": "⚖️ Civil, mercantil y apoyo legal gratuito", "contacto": "WhatsApp: +58 414 3388183" },  
-    { "id": 7, "nombre": "Alexandra Rojas (Abogado)", "especialidad": "⚖️ Civil, penal y apoyo legal gratuito", "contacto": "WhatsApp: +58 424 5541717" }
-  ],
+    { "id": 6, "nombre": "Mariana Palacios (Abogado)", "especialidad": "⚖️ Civil, mercantil y apoyo legal gratuito", "contacto": "WhatsApp: +58 414 3388183" }  ],
   "fundaciones": [
      {
       "id": 1,
