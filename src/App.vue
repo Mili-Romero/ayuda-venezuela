@@ -35,8 +35,9 @@
           <div class="tarjeta">
             <BotonAyuda />
           </div>
-
-
+          
+        <!-- Apoyo Infantil -->
+          <ApoyoInfantil />
 
 
          <!-- PANEL DE SISMOS EN VIV0 -->
@@ -201,6 +202,8 @@ import BotonAyuda from './BotonAyuda.vue'
 import Bienvenida from './Bienvenida.vue'
 
 import SismosVenezuela from './SismosVenezuela.vue'
+
+import ApoyoInfantil from './ApoyoInfantil.vue'
 
 // Esta variable inicia en true (verdadero) para obligar a que la pantalla de bienvenida salga primero
 const mostrarBienvenida = ref(true)
