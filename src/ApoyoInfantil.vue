@@ -1,7 +1,7 @@
 <template>
   <div class="tarjeta tarjeta-infantil">
     <h2 class="titulo-seccion borde-amarillo">
-      🧸 Un libro para ayudar a losniños a comprender lo ocurrido
+      🧸 Un libro para ayudar a los niños a comprender lo ocurrido
     </h2>
 
     <p class="descripcion">
@@ -10,15 +10,12 @@
     </p>
 
     <p class="descripcion">
-      Este libro ilustrado, elaborado por la editorial independiente
-      <strong>Ate con Queso</strong>, ofrece palabras sencillas para ayudar a
-      madres, padres y cuidadores a conversar con las infancias sobre lo
+      Este pequeño libro ilustrado, ofrece palabras sencillas para ayudar a padres y cuidadores a conversar con los niños sobre lo
       ocurrido.
     </p>
 
     <p class="descripcion">
-      Su autora ha puesto este material a disposición del público de forma
-      gratuita para que pueda ser utilizado por las familias y comunidades que
+      Su autora ha puesto este material a disposición del público para que pueda ser utilizado por las familias y comunidades que
       lo necesiten.
     </p>
 
@@ -28,12 +25,12 @@
       rel="noopener noreferrer"
       class="btn-libro"
     >
-      📚 Leer el libro gratuito
+      📚 Leer el libro
     </a>
 
     <p class="nota">
       💙 Recurso compartido con fines de apoyo emocional para las familias
-      afectadas.
+      afectadas por la editorial independiente <strong>Ate con Queso</strong>.
     </p>
   </div>
 </template>
@@ -46,6 +43,7 @@
 
 .tarjeta-infantil{
     margin-bottom:20px;
+    text-align:center;
 }
 
 .descripcion{
