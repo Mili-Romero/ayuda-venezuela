@@ -16,7 +16,7 @@
     <!-- Contenido en Rejilla Responsiva -->
     <div class="contenido">
       
-      <!-- Columna Lateral Izquierda: Contactos Clave y Centros de Acopio -->
+      <!-- Columna Lateral Izquierda: Contactos Clave, Centros de Acopio e informacion importante -->
       <aside class="columna-lateral">
         <!-- ALERTA DE INTERNET MÓVIL STARLINK -->
           <div class="tarjeta alerta-starlink">
@@ -26,18 +26,16 @@
               <p><strong>Red Abierta:</strong> <span class="codigo-red">Sin Contraseñas</span></p>
             </div>
             <!-- ubicaciones -->
-            <p class="referencia-movil">🛻 <strong>Estadio Garcia Carneiro  </strong><a href="https://www.google.com/maps?q=10.602906,-66.905842" target="_blank" rel="noopener noreferrer"> 📍 10.602906, -66.905842</a> — Macuto, Estado Vargas. </p>            
-            <p class="referencia-movil">🛻 <strong>Urbanización Caribe</strong> <a href="https://www.google.com/maps?q=10.618664,-66.846288" target="_blank" rel="noopener noreferrer">📍 10.6187, -66.8463</a> — 📍 Caraballeda, Estado Vargas. </p>
-            <p class="referencia-movil">🛻 <strong>Tanaguarena</strong><a href="https://www.google.com/maps?q=10.611498,-66.820835" target="_blank" rel="noopener noreferrer">📍 10.6115, -66.8208</a> 📍 Caraballeda, Estado Vargas. </p>
-            <p class="alerta-texto">📍Para ver la ubicación de otros puntos de internet satelital gratuito<a href="https://www.reconectavenezuela.com/" target="_blank" rel="noopener noreferrer"> Presiona Aqui.</a></p>
+            <p class="descripcion">🛻 <strong>📍 Estadio Garcia Carneiro</strong><a href="https://www.google.com/maps?q=10.602906,-66.905842" target="_blank" rel="noopener noreferrer">  10.602906, -66.905842</a> — Macuto, Estado Vargas. </p>            
+            <p class="descripcion">🛻 <strong>📍 Urb. Caribe</strong><a href="https://www.google.com/maps?q=10.618664,-66.846288" target="_blank" rel="noopener noreferrer"> 10.6187, -66.8463</a> — Caraballeda, Estado Vargas. </p>
+            <p class="descripcion">🛻 <strong>📍 Tanaguarena</strong><a href="https://www.google.com/maps?q=10.611498,-66.820835" target="_blank" rel="noopener noreferrer"> 10.6115, -66.8208</a> - Caraballeda, Estado Vargas. </p>
+            <p class="alerta-texto"> 📍 Para ver la ubicación de otros puntos de internet satelital gratuito <a href="https://www.reconectavenezuela.com/" target="_blank" rel="noopener noreferrer"><strong> 'Presiona Aqui'.</strong></a></p>
           </div>
+
         <!-- Boton Ayuda -->
           <div class="tarjeta">
             <BotonAyuda />
           </div>
-
-
-
 
          <!-- PANEL DE SISMOS EN VIV0 -->
           <div class="tarjeta">
@@ -90,6 +88,8 @@
             </div>
           </div>
         </div>
+        <!-- Apoyo Infantil -->
+          <ApoyoInfantil />
       </aside>
 
       <!-- Columna Principal Derecha: Enlaces Rápidos y Galerías de Fotos -->
@@ -118,7 +118,7 @@
 
         </div> <!-- AQUÍ CIERRA LA TARJETA PRINCIPAL -->
 
-
+ 
 
 
 
@@ -201,6 +201,8 @@ import BotonAyuda from './BotonAyuda.vue'
 import Bienvenida from './Bienvenida.vue'
 
 import SismosVenezuela from './SismosVenezuela.vue'
+
+import ApoyoInfantil from './ApoyoInfantil.vue'
 
 // Esta variable inicia en true (verdadero) para obligar a que la pantalla de bienvenida salga primero
 const mostrarBienvenida = ref(true)
@@ -505,35 +507,52 @@ li {
   color: #94a3b8; 
 }
 
-/* starlink*/
-/* ALERTA EN VIVO STARLINK */
+/* =========================
+   ALERTA STARLINK RESPONSIVE
+========================= */
+
 .alerta-starlink {
-  background-color: #fffbeb !important; /* Fondo amarillo/crema suave de advertencia */
-  border: 2px solid #f59e0b !important; /* Borde naranja llamativo */
+  background-color: #fffbeb !important;
+  border: 2px solid #f59e0b !important;
   box-shadow: 0 4px 6px -1px rgba(245, 158, 11, 0.15);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  padding: 14px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
+/* TEXTO GENERAL */
 .alerta-texto {
-  font-size: 13.5px;
-  line-height: 1.4;
-  margin: 5px 0 10px 0;
+  font-size: clamp(12px, 2.2vw, 14px);
+  line-height: 1.5;
+  margin: 6px 0 10px 0;
   color: #78350f;
 }
 
+/* CAJA DE DATOS */
 .datos-conexion {
   background-color: white;
   padding: 10px;
   border-radius: 6px;
   border: 1px solid #fef3c7;
-  margin-bottom: 10px;
+
+  width: 100%;
+  max-width: 360px;
+  box-sizing: border-box;
 }
 
 .datos-conexion p {
   margin: 4px 0;
-  font-size: 13.5px;
+  font-size: clamp(11px, 2vw, 13px);
   color: #1e293b;
 }
 
+/* CODIGO WIFI */
 .codigo-red {
   font-family: monospace;
   background-color: #f1f5f9;
@@ -541,14 +560,62 @@ li {
   border-radius: 4px;
   font-weight: 700;
   color: #b45309;
-  font-size: 14px;
+  font-size: clamp(12px, 2.2vw, 14px);
 }
 
+/* =========================
+   UBICACIONES RESPONSIVE
+========================= */
+
 .referencia-movil {
-  font-size: 12.5px;
+  font-size: clamp(11px, 2.2vw, 14px);
   color: #92400e;
-  margin: 0;
+
+  margin: 8px 0;
   line-height: 1.4;
+
+  width: 100%;
+  max-width: 420px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+
+  text-align: center;
+}
+
+/* LINK DE GOOGLE MAPS */
+.referencia-movil a {
+  color: #2563eb;
+  font-weight: 700;
+  text-decoration: none;
+
+  font-size: inherit;
+  white-space: nowrap;
+}
+
+.referencia-movil a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   MEJOR AJUSTE EN MÓVIL
+========================= */
+@media (max-width: 480px) {
+  .alerta-starlink {
+    padding: 12px;
+  }
+
+  .datos-conexion {
+    max-width: 100%;
+  }
+
+  .referencia-movil {
+    font-size: 12px;
+    flex-direction: column;
+    gap: 2px;
+  }
 }
 
 /* ESTILOS DE CHATS VECINALES WHATSAPP */
