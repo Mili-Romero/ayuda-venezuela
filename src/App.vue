@@ -193,16 +193,16 @@
 <script setup>
 import { ref } from 'vue'
 // Cargamos las dos bases de datos locales externas de tu proyecto
-import centrosAcopio from './acopio.json'
-import datosRecursos from './recursos.json'
-import gallery from './gallery.vue'
+import centrosAcopio from './data/acopio.json'
+import datosRecursos from './data/recursos.json'
+import gallery from './components/gallery.vue'
 // INSERCIÓN QUIRÚRGICA: IMPORTAR COMPONENTE DE BIENVENIDA y VARIABLE DE CONTROL
-import BotonAyuda from './BotonAyuda.vue'
-import Bienvenida from './Bienvenida.vue'
+import BotonAyuda from './components/BotonAyuda.vue'
+import Bienvenida from './components/Bienvenida.vue'
 
-import SismosVenezuela from './SismosVenezuela.vue'
+import SismosVenezuela from './components/SismosVenezuela.vue'
 
-import ApoyoInfantil from './ApoyoInfantil.vue'
+import ApoyoInfantil from './components/ApoyoInfantil.vue'
 
 // Esta variable inicia en true (verdadero) para obligar a que la pantalla de bienvenida salga primero
 const mostrarBienvenida = ref(true)
