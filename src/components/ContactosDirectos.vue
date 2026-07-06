@@ -15,54 +15,26 @@
         </div>
         </template>
         -->
+<template>
+       <div class="ContactosDirectos">
+         <h2 class="titulo-seccion borde-azul">📞 Teléfonos de Emergencia</h2>
+         <ul>
+          <li><strong>Dir. Emergencias (Nacional):</strong><a href="tel:911">VEN 911 📞</a></li>
+          <li><strong>Protección Civil (Nacional):</strong><a href="tel:166">166 📞</a></li>
+          <li><strong>Bomberos (Nacional):</strong><a href="tel:167">167 📞</a></li>
+          <li><strong>Protección Civil (Capital):</strong><a href="tel:+582125753332">0212-5753332 📞</a></li>
 
-        <template>
-  <div class="ContactosDirectos">
-    <h2 class="titulo-seccion borde-azul">📞 Teléfonos de Emergencia</h2>
-
-    <ul>
-      <li>
-        <strong>Dir. Emergencias (Nacional):</strong>
-        <a href="tel:911">VEN 911 📞</a>
-      </li>
-
-      <li>
-        <strong>Protección Civil (Nacional):</strong>
-        <a href="tel:166">166 📞</a>
-      </li>
-
-      <li>
-        <strong>Bomberos (Nacional):</strong>
-        <a href="tel:167">167 📞</a>
-      </li>
-
-      <li>
-        <strong>Protección Civil (Capital):</strong>
-        <a href="tel:+582125753332">0212-5753332 📞</a>
-      </li>
-
-      <li>
-        <strong>Bomberos (Capital):</strong>
-        <a href="tel:+582125454545">0212-5454545 📞</a>
-      </li>
-
-      <li>
-        <strong>Bomberos (U.S.B.):</strong>
-        <a href="tel:+584124038790">0412-4038790 📞</a>
-      </li>
-
-      <li>
-        <strong>Protección Civil (Litoral):</strong>
-        <a href="tel:+584242075335">0424-2075335 📞</a>
-      </li>
-
-      <li>
-        <strong>Bomberos (Litoral):</strong>
-        <a href="tel:+582123322165">0212-3322165 📞</a>
-      </li>
+      <li><strong>Bomberos (Capital):</strong><a href="tel:+582125454545">0212-5454545 📞</a></li>
+      <li><strong>Bomberos (U.S.B.):</strong><a href="tel:+584124038790">0412-4038790 📞</a></li>
+      <li><strong>Protección Civil (Litoral):</strong><a href="tel:+584242075335">0424-2075335 📞</a></li>
+      <li><strong>Bomberos (Litoral):</strong><a href="tel:+582123322165">0212-3322165 📞</a></li>
     </ul>
   </div>
 </template>
+
+<script setup>
+// aquí no necesitas lógica todavía
+</script>
 
 <style scoped>
 .ContactosDirectos {
@@ -136,6 +108,3 @@
   }
 }
 </style>
-<script setup>
-// aquí no necesitas lógica todavía
-</script>
