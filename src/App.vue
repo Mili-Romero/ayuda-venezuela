@@ -18,6 +18,12 @@
       
       <!-- Columna Lateral Izquierda: Contactos Clave, Centros de Acopio e informacion importante -->
       <aside class="columna-lateral">
+
+         <!-- Boton Ayuda -->
+          <div class="tarjeta">
+            <BotonAyuda />
+          </div>
+          
         <!-- ALERTA DE INTERNET MÓVIL STARLINK -->
           <div class="tarjeta alerta-starlink">
             <h2 class="titulo-seccion borde-amarillo">📡 Puntos de internet gratuito</h2>
@@ -32,15 +38,16 @@
             <p class="alerta-texto"> 📍 Para ver la ubicación de otros puntos de internet satelital gratuito <a href="https://www.reconectavenezuela.com/" target="_blank" rel="noopener noreferrer"><strong> 'Presiona Aqui'.</strong></a></p>
           </div>
 
-        <!-- Boton Ayuda -->
-          <div class="tarjeta">
-            <BotonAyuda />
-          </div>
 
          <!-- PANEL DE SISMOS EN VIV0 -->
           <div class="tarjeta">
             <SismosVenezuela />
           </div>
+<!-- Contactos Directos -->
+<div class="tarjetas">
+  <ContactosDirectos /> 
+</div>
+
 
 <!-- NUEVA TARJETA CHATS DE WHATSAPP VECINDARIOS LA GUAIRA -->
 <div class="tarjeta">
