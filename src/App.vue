@@ -19,18 +19,7 @@
       <!-- Columna Lateral Izquierda: Contactos Clave, Centros de Acopio e informacion importante -->
       <aside class="columna-lateral">
         <!-- ALERTA DE INTERNET MÓVIL STARLINK -->
-          <div class="tarjeta alerta-starlink">
-            <h2 class="titulo-seccion borde-amarillo">📡 Puntos de internet gratuito</h2>
-            <p class="alerta-texto">Conéctate a la red WiFi llamada <strong>STARLINK.</strong> Es el mismo nombre en todos los puntos.</p>
-            <div class="datos-conexion">
-              <p><strong>Red Abierta:</strong> <span class="codigo-red">Sin Contraseñas</span></p>
-            </div>
-            <!-- ubicaciones -->
-            <p class="descripcion">🛻 <strong>📍 Estadio Garcia Carneiro</strong><a href="https://www.google.com/maps?q=10.602906,-66.905842" target="_blank" rel="noopener noreferrer">  10.602906, -66.905842</a> — Macuto, Estado Vargas. </p>            
-            <p class="descripcion">🛻 <strong>📍 Urb. Caribe</strong><a href="https://www.google.com/maps?q=10.618664,-66.846288" target="_blank" rel="noopener noreferrer"> 10.6187, -66.8463</a> — Caraballeda, Estado Vargas. </p>
-            <p class="descripcion">🛻 <strong>📍 Tanaguarena</strong><a href="https://www.google.com/maps?q=10.611498,-66.820835" target="_blank" rel="noopener noreferrer"> 10.6115, -66.8208</a> - Caraballeda, Estado Vargas. </p>
-            <p class="alerta-texto"> 📍 Para ver la ubicación de otros puntos de internet satelital gratuito <a href="https://www.reconectavenezuela.com/" target="_blank" rel="noopener noreferrer"><strong> 'Presiona Aqui'.</strong></a></p>
-          </div>
+          <StarlinkCard />
 
         <!-- Boton Ayuda -->
           <div class="tarjeta">
@@ -117,12 +106,7 @@
           </div>
 
         </div> <!-- AQUÍ CIERRA LA TARJETA PRINCIPAL -->
-
  
-
-
-
-
         <!-- Bloque 2: Galería de Fotos de Sobrevivientes (Campo de Golf / Caribe) -->
                 <!-- Bloque 2: Galería de Fotos de Sobrevivientes (Componente Modular Separado) -->
         <gallery :lista-fotos="recursos.fotosSobrevivientes" />
@@ -194,11 +178,11 @@
 import { ref } from 'vue'
 // Cargamos las dos bases de datos locales externas de tu proyecto
 import centrosAcopio from './data/acopio.json'
-import datosRecursos from './data/recursos.json'
+import datosRecursos from './data/recursos.json' // Cargamos la base de datos de recursos y enlaces verificados
 import gallery from './components/gallery.vue'
-// INSERCIÓN QUIRÚRGICA: IMPORTAR COMPONENTE DE BIENVENIDA y VARIABLE DE CONTROL
 import BotonAyuda from './components/BotonAyuda.vue'
-import Bienvenida from './components/Bienvenida.vue'
+import Bienvenida from './components/Bienvenida.vue' // Importamos el componente de bienvenida para mostrar la pantalla inicial
+import StarlinkCard from './components/StarlinkCard.vue'  // Importamos el componente de alerta de Starlink para mostrar la información de internet satelital gratuito
 
 import SismosVenezuela from './components/SismosVenezuela.vue'
 
