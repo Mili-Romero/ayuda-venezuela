@@ -18,33 +18,25 @@
       
       <!-- Columna Lateral Izquierda: Contactos Clave, Centros de Acopio e informacion importante -->
       <aside class="columna-lateral">
-        <!-- ALERTA DE INTERNET MÓVIL STARLINK -->
-          <StarlinkCard />
 
-        <!-- Boton Ayuda -->
+         <!-- Boton Ayuda -->
           <div class="tarjeta">
             <BotonAyuda />
           </div>
+          
+        <!-- ALERTA DE INTERNET MÓVIL STARLINK -->
+          <StarlinkCard />
+
 
          <!-- PANEL DE SISMOS EN VIV0 -->
           <div class="tarjeta">
             <SismosVenezuela />
           </div>
+<!-- Contactos Directos -->
+<div class="tarjetas">
+  <ContactosDirectos /> 
+</div>
 
-        <!---- Contactos Directos -->
-        <div class="tarjeta">
-          <h2 class="titulo-seccion borde-azul">📞 Teléfonos de Emergencia</h2>
-          <ul>
-            <li><strong>Dir. Emergencias(Nacional):</strong>VEN 911</li>
-            <li><strong>Protección Civil(Nacional):</strong>166</li>
-            <li><strong>Bomberos(Nacional):</strong>167</li>
-            <li><strong>Protección Civil(Capital):</strong> 0212-575332</li>
-            <li><strong>Bomberos(Capital):</strong>0212-5454545</li> <!-- Corregir esto -->
-            <li><strong>Bomberos(U.S.B.):</strong>0412-4038790</li>
-            <li><strong>Protección Civil(Litoral):</strong> 0424-2075335</li>
-            <li><strong>Bomberos(Litoral):</strong>0212-3322165</li>
-          </ul>
-        </div>
 
 <!-- NUEVA TARJETA CHATS DE WHATSAPP VECINDARIOS LA GUAIRA -->
 <div class="tarjeta">
@@ -185,7 +177,7 @@ import Bienvenida from './components/Bienvenida.vue' // Importamos el componente
 import StarlinkCard from './components/StarlinkCard.vue'  // Importamos el componente de alerta de Starlink para mostrar la información de internet satelital gratuito
 
 import SismosVenezuela from './components/SismosVenezuela.vue'
-
+import ContactosDirectos from './components/ContactosDirectos.vue'
 import ApoyoInfantil from './components/ApoyoInfantil.vue'
 
 // Esta variable inicia en true (verdadero) para obligar a que la pantalla de bienvenida salga primero
@@ -339,7 +331,7 @@ li {
 }
 
 
-/* RECURSOS EXTRAS */
+/* lista de medicos */
 .lista-medicos { 
   display: flex; 
   flex-direction: column; 
