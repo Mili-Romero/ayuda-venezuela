@@ -3,7 +3,7 @@
   <div class="tarjeta">
     <h2 class="titulo-seccion borde-amarillo">📸 Listas Manuscritas de Sobrevivientes (Zonas de Refugio)</h2>
     <p class="instrucciones">
-      Fotos de los listados tomados a mano en los campamentos de La Guaira. 
+      Fotos de los listados tomados a mano en los camppos de golf de Caraballeda. 
       Usa las flechas para deslizarte y toca cualquier imagen para ampliarla y hacerle zoom con tus dedos [13:02].
     </p>
     

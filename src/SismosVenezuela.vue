@@ -1,6 +1,6 @@
 <template>
   <div class="panel-sismos">
-    <span class="fuente-superior">EL SISMO · DATOS DEL USGS, EN VIVO</span>
+    <span class="fuente-superior">ACTIVIDAD SISMICA · VENEZUELA, EN VIVO</span>
     
     <div v-if="cargando" class="estado-sismos">
       Cargando monitoreo y estadísticas en tiempo real...

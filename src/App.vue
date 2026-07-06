@@ -16,21 +16,26 @@
     <!-- Contenido en Rejilla Responsiva -->
     <div class="contenido">
       
-      <!-- Columna Lateral Izquierda: Contactos Clave y Centros de Acopio -->
+      <!-- Columna Lateral Izquierda: Contactos Clave, Centros de Acopio e informacion importante -->
       <aside class="columna-lateral">
         <!-- ALERTA DE INTERNET MÓVIL STARLINK -->
           <div class="tarjeta alerta-starlink">
-            <h2 class="titulo-seccion borde-amarillo">📡 Internet Satelital Disponible</h2>
-            <p class="alerta-texto">Hay un punto <strong>Starlink</strong> activo moviéndose por la zona de desastre:</p>
+            <h2 class="titulo-seccion borde-amarillo">📡 Puntos de internet gratuito</h2>
+            <p class="alerta-texto">Conéctate a la red WiFi llamada <strong>STARLINK.</strong> Es el mismo nombre en todos los puntos.</p>
             <div class="datos-conexion">
-              <p><strong>Red/Usuario:</strong> <span class="codigo-red">Ja2402</span></p>
-              <p><strong>Contraseña:</strong> <span class="codigo-red">12345678</span></p>
+              <p><strong>Red Abierta:</strong> <span class="codigo-red">Sin Contraseñas</span></p>
             </div>
-            <p class="referencia-movil">🛻 <strong>Ubicación:</strong> Lo carga una camioneta negra. El equipo Starlink está montado sobre el capó.</p>
+            <!-- ubicaciones -->
+            <p class="descripcion">🛻 <strong>📍 Estadio Garcia Carneiro</strong><a href="https://www.google.com/maps?q=10.602906,-66.905842" target="_blank" rel="noopener noreferrer">  10.602906, -66.905842</a> — Macuto, Estado Vargas. </p>            
+            <p class="descripcion">🛻 <strong>📍 Urb. Caribe</strong><a href="https://www.google.com/maps?q=10.618664,-66.846288" target="_blank" rel="noopener noreferrer"> 10.6187, -66.8463</a> — Caraballeda, Estado Vargas. </p>
+            <p class="descripcion">🛻 <strong>📍 Tanaguarena</strong><a href="https://www.google.com/maps?q=10.611498,-66.820835" target="_blank" rel="noopener noreferrer"> 10.6115, -66.8208</a> - Caraballeda, Estado Vargas. </p>
+            <p class="alerta-texto"> 📍 Para ver la ubicación de otros puntos de internet satelital gratuito <a href="https://www.reconectavenezuela.com/" target="_blank" rel="noopener noreferrer"><strong> 'Presiona Aqui'.</strong></a></p>
           </div>
 
-
-
+        <!-- Boton Ayuda -->
+          <div class="tarjeta">
+            <BotonAyuda />
+          </div>
 
          <!-- PANEL DE SISMOS EN VIV0 -->
           <div class="tarjeta">
@@ -41,20 +46,20 @@
         <div class="tarjeta">
           <h2 class="titulo-seccion borde-azul">📞 Teléfonos de Emergencia</h2>
           <ul>
-            <li><strong>Directo de Emergencia(Nacional):</strong>VEN 911</li>
+            <li><strong>Dir. Emergencias(Nacional):</strong>VEN 911</li>
             <li><strong>Protección Civil(Nacional):</strong>166</li>
             <li><strong>Bomberos(Nacional):</strong>167</li>
-            <li><strong>Protección Civil(CCS):</strong> 0212-575332</li>
-            <li><strong>Bomberos(CCS):</strong>0212-5454545</li> <!-- Corregir esto -->
-            <li><strong>Bomberos(USB):</strong>0412-4038790</li>
-            <li><strong>Protección Civil(La Guaira):</strong> 0424-2075335</li>
-            <li><strong>Bomberos(La Guaira):</strong>0212-3322165</li>
+            <li><strong>Protección Civil(Capital):</strong> 0212-575332</li>
+            <li><strong>Bomberos(Capital):</strong>0212-5454545</li> <!-- Corregir esto -->
+            <li><strong>Bomberos(U.S.B.):</strong>0412-4038790</li>
+            <li><strong>Protección Civil(Litoral):</strong> 0424-2075335</li>
+            <li><strong>Bomberos(Litoral):</strong>0212-3322165</li>
           </ul>
         </div>
 
 <!-- NUEVA TARJETA CHATS DE WHATSAPP VECINDARIOS LA GUAIRA -->
 <div class="tarjeta">
-  <h2 class="titulo-seccion borde-azul">🏢 Chats de WhatsApp de Vecinos (La Guaira)</h2>
+  <h2 class="titulo-seccion borde-azul">🏢 Chats de WhatsApp de Vecinos (Litoral)</h2>
   <p class="instrucciones">Grupos directos por residencias para coordinación local y búsqueda de familiares:</p>
   <div class="lista-chats-whatsapp">
     <div v-for="grupo in recursos.gruposWhatsapp" :key="grupo.id" class="item-chat-vecinal">
@@ -83,6 +88,8 @@
             </div>
           </div>
         </div>
+        <!-- Apoyo Infantil -->
+          <ApoyoInfantil />
       </aside>
 
       <!-- Columna Principal Derecha: Enlaces Rápidos y Galerías de Fotos -->
@@ -111,7 +118,7 @@
 
         </div> <!-- AQUÍ CIERRA LA TARJETA PRINCIPAL -->
 
-
+ 
 
 
 
@@ -124,7 +131,7 @@
 
         <!-- Bloque 3: Red de Apoyo de Médicos Remotos -->
         <div class="tarjeta">
-          <h2 class="titulo-seccion borde-amarillo">🩺 Red de Apoyo Médico Remoto</h2>
+          <h2 class="titulo-seccion borde-amarillo">🩺 Red de Apoyo Médico y de ⚖️ Profesionales Remoto.</h2>
           <p class="instrucciones">Profesionales de la salud ofreciendo telemedicina y contención psicológica gratuita a distancia:</p>
           <div class="lista-medicos">
             <div v-for="medico in recursos.medicos" :key="medico.id" class="item-medico">
@@ -140,12 +147,12 @@
         <!-- Bloque 4: Canales de Donación Seguros -->
         <div class="tarjeta">
           <h2 class="titulo-seccion borde-amarillo">🤝 Donaciones y Fundaciones Verificadas</h2>
-          <p class="instrucciones">Enlaces directos a portales institucionales serios para canalizar aportes económicos de forma transparente [12:49]:</p>
+          <p class="instrucciones">Enlaces directos a portales institucionales serios para canalizar aportes económicos de forma transparente:</p>
           <div class="lista-medicos">
             <div v-for="funda in recursos.fundaciones" :key="funda.id" class="item-medico border-funda">
               <div class="medico-header">
                 <strong>🏛️ {{ funda.nombre }}</strong>
-                <a :href="funda.enlace" target="_blank" rel="noopener noreferrer" class="link-externo">Donar ➡️</a>
+                <a :href="funda.enlace" target="_blank" rel="noopener noreferrer" class="link-externo">Visitar ➡️</a>
               </div>
               <p class="desc-funda">{{ funda.descripcion }}</p>
             </div>
@@ -160,7 +167,7 @@
             <div v-for="plat in recursos.plataformas" :key="plat.id" class="item-medico border-plat">
               <div class="medico-header">
                 <strong>💻 {{ plat.titulo }}</strong>
-                <a :href="plat.enlace" target="_blank"  class="link-externo">Ir al Portal ➡️</a>
+                <a :href="plat.enlace" target="_blank"  class="link-externo">Visitar ➡️</a>
               </div>
               <div class="autor-plat">Desarrollado por: {{ plat.autor }}</div>
               <p class="desc-funda">{{ plat.descripcion }}</p>
@@ -190,9 +197,12 @@ import centrosAcopio from './acopio.json'
 import datosRecursos from './recursos.json'
 import gallery from './gallery.vue'
 // INSERCIÓN QUIRÚRGICA: IMPORTAR COMPONENTE DE BIENVENIDA y VARIABLE DE CONTROL
+import BotonAyuda from './BotonAyuda.vue'
 import Bienvenida from './Bienvenida.vue'
 
 import SismosVenezuela from './SismosVenezuela.vue'
+
+import ApoyoInfantil from './ApoyoInfantil.vue'
 
 // Esta variable inicia en true (verdadero) para obligar a que la pantalla de bienvenida salga primero
 const mostrarBienvenida = ref(true)
@@ -497,35 +507,52 @@ li {
   color: #94a3b8; 
 }
 
-/* starlink*/
-/* ALERTA EN VIVO STARLINK */
+/* =========================
+   ALERTA STARLINK RESPONSIVE
+========================= */
+
 .alerta-starlink {
-  background-color: #fffbeb !important; /* Fondo amarillo/crema suave de advertencia */
-  border: 2px solid #f59e0b !important; /* Borde naranja llamativo */
+  background-color: #fffbeb !important;
+  border: 2px solid #f59e0b !important;
   box-shadow: 0 4px 6px -1px rgba(245, 158, 11, 0.15);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  padding: 14px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
+/* TEXTO GENERAL */
 .alerta-texto {
-  font-size: 13.5px;
-  line-height: 1.4;
-  margin: 5px 0 10px 0;
+  font-size: clamp(12px, 2.2vw, 14px);
+  line-height: 1.5;
+  margin: 6px 0 10px 0;
   color: #78350f;
 }
 
+/* CAJA DE DATOS */
 .datos-conexion {
   background-color: white;
   padding: 10px;
   border-radius: 6px;
   border: 1px solid #fef3c7;
-  margin-bottom: 10px;
+
+  width: 100%;
+  max-width: 360px;
+  box-sizing: border-box;
 }
 
 .datos-conexion p {
   margin: 4px 0;
-  font-size: 13.5px;
+  font-size: clamp(11px, 2vw, 13px);
   color: #1e293b;
 }
 
+/* CODIGO WIFI */
 .codigo-red {
   font-family: monospace;
   background-color: #f1f5f9;
@@ -533,14 +560,62 @@ li {
   border-radius: 4px;
   font-weight: 700;
   color: #b45309;
-  font-size: 14px;
+  font-size: clamp(12px, 2.2vw, 14px);
 }
 
+/* =========================
+   UBICACIONES RESPONSIVE
+========================= */
+
 .referencia-movil {
-  font-size: 12.5px;
+  font-size: clamp(11px, 2.2vw, 14px);
   color: #92400e;
-  margin: 0;
+
+  margin: 8px 0;
   line-height: 1.4;
+
+  width: 100%;
+  max-width: 420px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px;
+
+  text-align: center;
+}
+
+/* LINK DE GOOGLE MAPS */
+.referencia-movil a {
+  color: #2563eb;
+  font-weight: 700;
+  text-decoration: none;
+
+  font-size: inherit;
+  white-space: nowrap;
+}
+
+.referencia-movil a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+   MEJOR AJUSTE EN MÓVIL
+========================= */
+@media (max-width: 480px) {
+  .alerta-starlink {
+    padding: 12px;
+  }
+
+  .datos-conexion {
+    max-width: 100%;
+  }
+
+  .referencia-movil {
+    font-size: 12px;
+    flex-direction: column;
+    gap: 2px;
+  }
 }
 
 /* ESTILOS DE CHATS VECINALES WHATSAPP */

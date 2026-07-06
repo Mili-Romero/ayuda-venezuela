@@ -9,7 +9,7 @@
        <!-- <span class="emblema-alerta">🚨 CRISIS HUMANITARIA</span>-->
         <h1 class="titulo-bienvenida">plasist.org</h1>
         <p class="subtitulo-bienvenida">
-          Plataforma de Asistencia Centralizada
+          Plataforma de Asistencia Humantaria Centralizada
         </p>
 
         <!-- ZONA DE ACCIÓN: BOTONES MÁS CORTOS, MINIMALISTAS Y JUNTOS -->
