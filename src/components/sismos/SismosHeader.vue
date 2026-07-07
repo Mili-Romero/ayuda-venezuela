@@ -10,7 +10,7 @@
       <div>
 
         <h1 class="titulo">
-          ACTIVIDAD SÍSMICA EN TIEMPO REAL
+          ACTIVIDAD SÍSMICA EN VENEZUELA
         </h1>
 
         <div class="estado">
