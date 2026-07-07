@@ -38,10 +38,12 @@
               v-if="activeInfoSection === 'comunicacion'"
               :gruposWhatsapp="recursos.gruposWhatsapp"
             />
-            <SismosVenezuela v-else-if="activeInfoSection === 'sismos'" />
+            <SismosDashboard v-else-if="activeInfoSection === 'sismos'" />
             <CanalesDonacion v-else-if="activeInfoSection === 'donacion'" />
             <RedMedica v-else-if="activeInfoSection === 'medica'" />
             <PlataformasAliadas v-else-if="activeInfoSection === 'plataformas'" />
+            
+
           </div>
         </div>
 
@@ -107,7 +109,9 @@ import PlataformasAliadas from './components/PlataformasAliadas.vue'
 import CanalesDonacion from './components/CanalesDonacion.vue'
 import RedMedica from './components/RedMedica.vue'
 import Comunicacion from './components/Comunicacion.vue'
-
+import SismosDashboard from "./components/sismos/SismosDashboard.vue"
+import SismosSparkline from "./components/sismos/SismosSparkline.vue"
+import SismosFooter from "./components/sismos/SismosFooter.vue"
 // Esta variable inicia en true (verdadero) para obligar a que la pantalla de bienvenida salga primero
 const mostrarBienvenida = ref(true)
 
