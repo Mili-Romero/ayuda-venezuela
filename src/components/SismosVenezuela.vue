@@ -66,7 +66,7 @@
     </div>
     
     <div class="footer-datos">
-      <a href="https://usgs.gov" target="_blank" rel="noopener noreferrer">Datos en vivo · USGS</a>
+      <a href="https://www.usgs.gov/" target="_blank" rel="noopener noreferrer">Datos en vivo · USGS</a>
     </div>
   </div>
 </template>
