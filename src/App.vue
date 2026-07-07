@@ -41,6 +41,7 @@
             <SismosDashboard v-else-if="activeInfoSection === 'sismos'" />
             <CanalesDonacion v-else-if="activeInfoSection === 'donacion'" />
             <RedMedica v-else-if="activeInfoSection === 'medica'" />
+            <ApoyoInfantil v-else-if="activeInfoSection === 'infantil'" />
             <PlataformasAliadas v-else-if="activeInfoSection === 'plataformas'" />
             
 
