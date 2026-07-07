@@ -34,8 +34,8 @@
 
 
         <div
-            v-for="(sismos,index) in sismos"
-            :key="sismos.id"
+            v-for="(sismo,index) in sismos"
+            :key="sismo.id"
             class="evento"
             :style="{animationDelay:index*0.08+'s'}"
         >
@@ -45,10 +45,10 @@
 
             <div
                 class="magnitud"
-                :class="claseMagnitud(sismos.mag)"
+                :class="claseMagnitud(sismo.mag)"
             >
 
-                M{{ sismos.mag.toFixed(1) }}
+                M{{ sismo.mag.toFixed(1) }}
 
             </div>
 
@@ -62,15 +62,13 @@
 
                 <strong>
 
-                    {{ sismos.lugar }}
+                    {{ sismo.lugar }}
 
                 </strong>
 
 
                 <span>
-
-                    📍 Venezuela
-
+                    📍 {{ obtenerPais(sismo.lugar) }}
                 </span>
 
 
@@ -90,7 +88,7 @@
                 </span>
 
 
-                {{ sismos.profundidad || '--' }} km
+                {{ sismo.profundidad || '--' }} km
 
 
             </div>
@@ -104,7 +102,7 @@
             <div class="tiempo">
 
 
-                {{ sismos.tiempo }}
+                {{ sismo.tiempo }}
 
 
             </div>
@@ -141,7 +139,27 @@ defineProps({
 
 })
 
+function obtenerPais(lugar) {
+  if (!lugar) return "Ubicación no disponible"
 
+  if (
+    lugar.includes("Venezuela") ||
+    lugar.includes("Caracas") ||
+    lugar.includes("La Guaira")
+  ) {
+    return "Venezuela"
+  }
+
+  if (
+    lugar.includes("CA") ||
+    lugar.includes("Alaska") ||
+    lugar.includes("New Mexico")
+  ) {
+    return "Estados Unidos"
+  }
+
+  return "Ubicación internacional"
+}
 
 function claseMagnitud(mag){
 
