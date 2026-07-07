@@ -1,0 +1,138 @@
+:root {
+  --azul: #0f172a;
+  --azul2: #1e3a8a;
+  --gris: #64748b;
+  --borde: #e5e7eb;
+  --rojo: #dc2626;
+  --naranja: #f59e0b;
+  --verde: #16a34a;
+  --panel: #ffffff;
+  --fondo-suave: #f8fafc;
+  --shadow: 0 12px 35px rgba(15, 23, 42, 0.1);
+}
+
+.sismos-dashboard {
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+  background: var(--panel);
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--borde);
+  display: flex;
+  flex-direction: column;
+}
+
+.panel {
+  padding: 24px;
+  border-bottom: 1px solid #eef2f7;
+}
+
+.card,
+.tarjeta {
+  background: var(--fondo-suave);
+  border-radius: 18px;
+  padding: 20px;
+  border: 1px solid #e2e8f0;
+}
+
+.titulo {
+  font-size: clamp(22px, 4vw, 32px);
+  font-weight: 800;
+  color: var(--azul);
+  margin: 0;
+}
+
+.subtitulo {
+  font-size: 14px;
+  color: var(--gris);
+  margin-top: 6px;
+}
+
+.live {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 14px;
+  background: #fee2e2;
+  color: #b91c1c;
+  font-size: 12px;
+  font-weight: 800;
+  border-radius: 999px;
+}
+
+.live::before {
+  content: "";
+  width: 9px;
+  height: 9px;
+  background: #ef4444;
+  border-radius: 50%;
+  animation: pulse 1.2s infinite;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 11px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 800;
+  color: white;
+}
+
+.rojo {
+  background: var(--rojo);
+}
+
+.naranja {
+  background: var(--naranja);
+}
+
+.verde {
+  background: var(--verde);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.45);
+    opacity: 0.45;
+  }
+
+  100% {
+    transform: scale(0.9);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 900px) {
+  .sismos-dashboard {
+    max-width: 100%;
+    border-radius: 16px;
+  }
+
+  .panel {
+    padding: 18px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sismos-dashboard {
+    border-radius: 14px;
+  }
+
+  .panel {
+    padding: 16px;
+  }
+
+  .card,
+  .tarjeta {
+    padding: 16px;
+  }
+}
