@@ -30,6 +30,24 @@ body {
   padding: 20px;
 }
 
+/* Full-width page wrapper for background and content separation */
+body > #app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 60;
+}
+
+.header-spacer {
+  height: 18px;
+}
+
 /* ENCABEZADO: menos ruido, altura reducida */
 .header-tricolor {
   background-color: transparent;
@@ -282,10 +300,20 @@ li {
   border-top: 4px solid #dc2626; 
 }
 
-.footer-sitio p { 
-  margin: 4px 0; 
-  font-size: 13.5px; 
+/* PIE DE PÁGINA ACTUALIZADO */
+.footer-sitio { 
+  width: 100%; /* Fuerza el ancho completo de la pantalla */
+  box-sizing: border-box; /* Evita que el padding genere scroll horizontal */
+  text-align: center; 
+  background-color: #1e293b; 
+  color: #f1f5f9; 
+  padding: 35px 20px; /* Un poco más de aire vertical y protección lateral */
+  margin-top: 40px; /* Más separación con el contenido de arriba */
+  border-top: 4px solid #dc2626; 
+  /* OPCIONAL: Elimina el border-radius si quieres que toque los bordes rectos de la pantalla */
+  border-radius: 0; 
 }
+
 
 .boton-email { 
   display: inline-block; 
