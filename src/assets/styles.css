@@ -1,0 +1,372 @@
+:root {
+  --bg: #f6f9fc;
+  --text: #0f1724;
+  --muted: #64748b;
+  --accent-blue: #1d4ed8;
+  --header-bg: rgba(3,62,124,0.88);
+  --accent-yellow: #facc15;
+  --accent-red: #dc2626;
+  --card-bg: #ffffff;
+  --card-border: #e6eef7;
+  --shadow: 0 8px 24px rgba(16,24,40,0.06);
+  --radius: 12px;
+  --gap: 18px;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background-color: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.55;
+  font-size: 15px;
+}
+
+.pagina {
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* ENCABEZADO: menos ruido, altura reducida */
+.header-tricolor {
+  background-color: transparent;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 18px;
+  color: var(--text);
+  box-shadow: var(--shadow);
+}
+
+.franja {
+  height: 4px;
+  width: 100%;
+}
+
+.franja-amarilla { background-color: var(--accent-yellow); }
+.franja-azul { background-color: var(--accent-blue); }
+.franja-roja { background-color: var(--accent-red); }
+
+.header-contenido {
+  text-align: center;
+  padding: 16px 15px;
+}
+
+.header-contenido h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--accent-blue);
+}
+
+.header-contenido p {
+  margin: 6px 0 0 0;
+  opacity: 0.85;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* REJILLA RESPONSIVA */
+.contenido { 
+  display: grid; 
+  grid-template-columns: 1fr; 
+  gap: 20px; 
+}
+
+.columna-principal {
+  min-width: 0; /* TRUCO TÉCNICO: Fuerza a la columna a respetar el ancho del celular y activa el scroll interno */
+  width: 100%;
+}
+
+@media (min-width: 768px) { 
+  .contenido { grid-template-columns: 340px 1fr; } 
+}
+
+.tarjeta {
+  background: white;
+  padding: 18px;
+  border-radius: 12px;
+  border: 1px solid #e6eef7;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 18px rgba(16,24,40,0.04);
+  transition: box-shadow .18s ease, transform .18s ease;
+  will-change: box-shadow, transform;
+}
+
+.tarjeta:hover {
+  /* Evitar mover el flujo: solo incrementar sombra para destacar sin desplazar otros elementos */
+  box-shadow: 0 14px 36px rgba(16,24,40,0.08);
+}
+
+.titulo-seccion { 
+  margin-top: 0; 
+  font-size: 16px; 
+  font-weight: 750; 
+  padding-bottom: 8px; 
+  border-bottom: 3px solid #cbd5e1; 
+}
+
+.borde-azul { border-bottom-color: #1d4ed8; color: #1e3a8a; }
+.borde-amarillo { border-bottom-color: #facc15; color: #1e293b; }
+
+/* Listas limpias: quitamos viñetas para evitar densidad visual */
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 8px;
+  font-size: 13.5px;
+}
+
+.instrucciones { 
+  color: #64748b; 
+  font-size: 13px; 
+  margin-bottom: 15px; 
+  line-height: 1.4; 
+}
+
+/* SECCIÓN BLOQUE DRIVE */
+.zona-enlaces { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 10px; 
+}
+
+.btn-drive-oficial { 
+  display: block; 
+  text-align: center; 
+  background-color: #16a34a; 
+  color: white; 
+  padding: 14px; 
+  border-radius: 6px; 
+  font-weight: 700; 
+  font-size: 14px; 
+  text-decoration: none; 
+  transition: background-color 0.2s; 
+}
+
+.btn-drive-oficial:hover { 
+  background-color: #15803d; 
+}
+
+
+/* lista de medicos */
+.lista-medicos { 
+  display: flex; 
+  flex-direction: column; 
+  gap: 12px; 
+}
+
+.item-medico { 
+  padding: 12px; 
+  background-color: #f8fafc; 
+  border-radius: 6px; 
+  border-left: 4px solid #16a34a; 
+}
+
+.border-funda { border-left-color: #ea580c !important; }
+.border-plat { border-left-color: #0d9488 !important; }
+
+.medico-header { 
+  display: flex; 
+  justify-content: space-between; 
+  font-weight: 700; 
+  font-size: 13.5px; 
+}
+
+.link-externo { 
+  color: #2563eb; 
+  text-decoration: none; 
+  font-weight: 700; 
+}
+
+.link-externo:hover { 
+  text-decoration: underline; 
+}
+
+.medico-especialidad { 
+  font-size: 12px; 
+  color: #16a34a; 
+  font-weight: 600; 
+  margin: 2px 0; 
+}
+
+.medico-contacto { 
+  font-size: 13px; 
+  color: #2563eb; 
+  font-weight: 600; 
+}
+
+.desc-funda { 
+  font-size: 13px; 
+  color: #475569; 
+  margin: 4px 0 0 0; 
+  line-height: 1.4; 
+}
+
+.autor-plat { 
+  font-size: 11.5px; 
+  color: #64748b; 
+  font-style: italic; 
+}
+
+/* BARRA DE SCROLL DE LOS CENTROS */
+.lista-chats-whatsapp {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 10px;
+  max-height: 320px;
+  overflow-y: auto;
+  padding-right: 6px;
+}
+
+.lista-chats-whatsapp::-webkit-scrollbar { width: 8px; }
+.lista-chats-whatsapp::-webkit-scrollbar-track { background: transparent; }
+.lista-chats-whatsapp::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.06); border-radius: 8px; }
+
+.item-chat-vecinal {
+  padding: 10px 12px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid rgba(14,165,233,0.06);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.chat-link {
+  font-size: 13px;
+  color: var(--accent-blue);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.chat-link:hover {
+  text-decoration: underline;
+  color: #1346b3;
+}
+ 
+
+.centro-link { 
+  font-size: 14.5px; 
+  color: #2563eb; 
+  text-decoration: underline; 
+  font-weight: 700; 
+  display: inline-block; 
+  padding: 2px 0; 
+}
+
+.centro-link:hover { 
+  color: #1d4ed8; 
+}
+
+.centro-direccion { 
+  font-size: 13px; 
+  color: #334155; 
+  margin-top: 1px; 
+}
+
+/* PIE DE PÁGINA */
+.footer-sitio { 
+  text-align: center; 
+  background-color: #1e293b; 
+  color: #f1f5f9; 
+  padding: 25px 15px; 
+  border-radius: 8px; 
+  margin-top: 25px; 
+  border-top: 4px solid #dc2626; 
+}
+
+.footer-sitio p { 
+  margin: 4px 0; 
+  font-size: 13.5px; 
+}
+
+.boton-email { 
+  display: inline-block; 
+  background-color: #dc2626; 
+  color: white; 
+  padding: 10px 20px; 
+  border-radius: 6px; 
+  font-weight: bold; 
+  text-decoration: none; 
+  margin-top: 10px; 
+  font-size: 14px; 
+}
+
+.footer-nota { 
+  margin-top: 15px; 
+  padding-top: 12px; 
+  border-top: 1px solid #334155; 
+  font-size: 11px; 
+  color: #94a3b8; 
+}
+
+
+/* ESTILOS DE CHATS VECINALES WHATSAPP */
+.lista-chats-whatsapp {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 10px;
+  max-height: 320px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.lista-chats-whatsapp::-webkit-scrollbar { width: 6px; }
+.lista-chats-whatsapp::-webkit-scrollbar-track { background: #f1f5f9; }
+.lista-chats-whatsapp::-webkit-scrollbar-thumb { background: #e6f6ea; border-radius: 6px; }
+
+.item-chat-vecinal {
+  padding: 10px 12px;
+  background-color: #f8fafc;
+  border-radius: 10px;
+  border: 1px solid #e6f6ea;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-align: left;
+}
+
+.chat-link {
+  font-size: 13px;
+  color: #0f5132;
+  text-decoration: none;
+  font-weight: 700;
+  display: block;
+  word-break: break-word;
+}
+
+.chat-link:hover {
+  text-decoration: underline;
+  color: #0b3f29;
+}
+
+/* ESTILOS PRECISOS PARA DESCARGAS LOCALES */
+.zona-descargas-locales {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.btn-descarga-local {
+  display: block;
+  text-align: center;
+  background-color: #1e3a8a; /* Azul Marino Institucional */
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 13.5px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.btn-descarga-local:hover {
+  background-color: #1d4ed8; /* Azul más brillante al pasar el ratón */
+}
