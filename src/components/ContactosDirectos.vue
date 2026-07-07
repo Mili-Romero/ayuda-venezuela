@@ -16,93 +16,113 @@
         </template>
         -->
 <template>
-       <div class="ContactosDirectos">
-         <h2 class="titulo-seccion borde-azul">📞 Teléfonos de Emergencia</h2>
-         <ul>
-          <li><strong>Dir. Emergencias (Nacional):</strong><a href="tel:911">VEN 911 📞</a></li>
-          <li><strong>Protección Civil (Nacional):</strong><a href="tel:166">166 📞</a></li>
-          <li><strong>Bomberos (Nacional):</strong><a href="tel:167">167 📞</a></li>
-          <li><strong>Protección Civil (Capital):</strong><a href="tel:+582125753332">0212-575332 📞</a></li>
-          <li><strong>Bomberos (U.S.B.):</strong><a href="tel:+584124038790">0412-4038790 📞</a></li>
-          <li><strong>Protección Civil (Vargas):</strong><a href="tel:+584242075335">0424-2075335 📞</a></li>
-          <li><strong>Bomberos (Vargas):</strong><a href="tel:+582123322165">0212-3322165 📞</a></li>
-        </ul>
-      </div>
+  <section class="contactos-directos">
+    <h2 class="titulo-seccion">📞 Teléfonos de emergencia</h2>
+
+    <div class="contactos-grid">
+      <a v-for="contacto in contactos"
+        :key="contacto.numero"
+        class="contacto-card"
+        :href="`tel:${contacto.telefono}`">
+
+        <span class="numero">{{ contacto.numero }}</span>
+        <span class="nombre">{{ contacto.nombre }}</span>
+      </a>
+
+       <p class="nota">
+      Más numeros de emergencia en el<strong>enlace.</strong>
+    </p>
+    </div>
+  </section>
 </template>
 
 <script setup>
-// aquí no necesitas lógica todavía
+const contactos = [
+  {
+    numero: "911",
+    nombre: "VEN 911",
+    telefono: "911"
+  },
+  {
+    numero: "166",
+    nombre: "Protección Civil",
+    telefono: "166"
+  },
+  {
+    numero: "167",
+    nombre: "Bomberos",
+    telefono: "167"
+  },
+  {
+    numero: "911",
+    nombre: "Movilnet",
+    telefono: "911"
+  },
+  {
+    numero: "112",
+    nombre: "Digitel",
+    telefono: "112"
+  },
+  {
+    numero: "171",
+    nombre: "Fijo CANTV",
+    telefono: "171"
+  }
+]
 </script>
 
 <style scoped>
-.ContactosDirectos {
-  max-width: 700px;
-  margin: 40px auto;
-  padding: 25px;
-  background: #ffffff;
-  border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+
+.contactos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
 }
 
-.titulo-seccion {
-  text-align: center;
-  color: #1e3a8a;
-  font-size: 1.5rem;
-  margin-bottom: 20px;
-}
-
-.borde-azul {
-  border-bottom: 3px solid #1976d2;
-  display: inline-block;
-  padding-bottom: 8px;
-}
-
-.ContactosDirectos ul {
-  list-style: none;
-  padding: 0;
-}
-
-.ContactosDirectos li {
+.contacto-card {
+  min-height: 70px;
+  padding: 12px 16px;
+  background: #fff;
+  border: 1px solid #dbe4ef;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin: 12px 0;
-  padding: 15px;
-  background: #f5f5f5;
-  border-left: 6px solid #c62828;
-  border-radius: 10px;
-}
-
-.ContactosDirectos li:hover {
-  background: #ffeaea;
-}
-
-.ContactosDirectos strong {
-  color: #c62828;
-}
-
-.ContactosDirectos a {
-  color: #1e3a8a;
+  gap: 12px;
   text-decoration: none;
-  font-weight: bold;
-  font-size: 0.7rem;
-  transition: 0.3s;
+  transition: all .2s ease;
 }
 
-.ContactosDirectos a:hover {
-  color: #c62828;
-  transform: scale(1.05);
+.contacto-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(15, 23, 42, .12);
 }
 
-@media (max-width: 600px) {
-  .ContactosDirectos li {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-  }
+.numero {
+  color: #2563eb;
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 1;
+}
 
-  .ContactosDirectos a {
-    font-size: 1.1rem;
-  }
+.nombre {
+  color: #64748b;
+  font-size: 0.85rem;
+  line-height: 1.15;
+  font-weight: 500;
+}
+
+.nota {
+  grid-column: 1 / -1;
+  text-align: center;
+  margin-top: 16px;
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+.nota strong {
+  display: block;
+  margin-top: 4px;
+  color: #2563eb;
 }
 </style>
