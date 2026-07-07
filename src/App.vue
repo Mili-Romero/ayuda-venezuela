@@ -1,9 +1,10 @@
 <template>
   <Bienvenida v-if="mostrarBienvenida" @entrar="accederAlPortal" />
 
+  <HeaderNav @select-info="handleSelectInfo" />
+  <div class="header-spacer"></div>
+
   <div class="pagina">
-    <!-- Encabezado: componente reutilizable -->
-    <HeaderNav @select-info="handleSelectInfo" />
 
     <!-- Contenido en Rejilla Responsiva -->
     <div class="contenido">
@@ -80,16 +81,20 @@
       </main>
     </div> <!--Cerrar div contenido-->
 
-    <!-- Pie de Página Centralizado -->
-    <footer class="footer-sitio">
-      <p>📬 <strong>¿Quieres postular a tu fundación, red médica o plataforma voluntaria en esta central?</strong></p>
-      <p>Envíanos la información oficial y los canales verificados de soporte a nuestro correo institucional:</p>
-      <a href="mailto:Info@plasist.org" class="boton-email">Info@plasist.org</a>
-      <div class="footer-nota">
-        <p>©️ 2026 plasist.org - Plataforma de Asistencia Humanitaria Centralizada - Venezuela</p>
-      </div>
-    </footer>
+    
   </div> <!--Div cerrar pagina -->
+
+  
+    <!-- Pie de Página Centralizado -->
+        <footer class="footer-sitio">
+          <p>📬 <strong>¿Quieres postular a tu fundación, red médica o plataforma voluntaria en esta central?</strong></p>
+          <p>Envíanos la información oficial y los canales verificados de soporte a nuestro correo institucional:</p>
+          <a href="mailto:Info@plasist.org" class="boton-email">Info@plasist.org</a>
+          <div class="footer-nota">
+            <p>©️ 2026 plasist.org - Plataforma de Asistencia Humanitaria Centralizada - Venezuela</p>
+          </div>
+        </footer>
+
 </template>
 
 <script setup>
