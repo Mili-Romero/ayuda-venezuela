@@ -1,8 +1,8 @@
 <template>
   <footer class="sismos-footer">
     <div class="footer-brand">
-      <strong>Plasist.org</strong>
-      <span>Plataforma de Asistencia Centralizada</span>
+      <!--<strong>Plasist.org</strong>
+      <span>Plataforma de Asistencia Centralizada</span> -->
     </div>
 
     <div class="footer-status">
