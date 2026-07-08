@@ -68,7 +68,7 @@
 
 
                 <span>
-                    📍 {{ obtenerPais(sismo.lugar) }}
+                📍 {{ formatoCoordenadas(sismo.lat, sismo.lon) }}
                 </span>
 
 
@@ -139,26 +139,10 @@ defineProps({
 
 })
 
-function obtenerPais(lugar) {
-  if (!lugar) return "Ubicación no disponible"
+function formatoCoordenadas(lat, lon) {
+  if (!lat || !lon) return "Coordenadas no disponibles"
 
-  if (
-    lugar.includes("Venezuela") ||
-    lugar.includes("Caracas") ||
-    lugar.includes("La Guaira")
-  ) {
-    return "Venezuela"
-  }
-
-  if (
-    lugar.includes("CA") ||
-    lugar.includes("Alaska") ||
-    lugar.includes("New Mexico")
-  ) {
-    return "Estados Unidos"
-  }
-
-  return "Ubicación internacional"
+  return `${lat.toFixed(4)}, ${lon.toFixed(4)}`
 }
 
 function claseMagnitud(mag){
