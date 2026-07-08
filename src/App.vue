@@ -84,7 +84,7 @@
     
   </div> <!--Div cerrar pagina -->
 
-  
+
     <!-- Pie de Página Centralizado -->
         <footer class="footer-sitio">
           <p>📬 <strong>¿Quieres postular a tu fundación, red médica o plataforma voluntaria en esta central?</strong></p>
