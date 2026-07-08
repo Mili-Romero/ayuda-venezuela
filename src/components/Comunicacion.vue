@@ -2,6 +2,12 @@
   <div class="comunicacion-panel">
     <StarlinkCard />
 
+<!--  El nuevo directorio masivo en acordeón arriba -->
+    <section class="panel-directorio">
+      <DirectorioEmergencias />
+    </section>
+
+
     <div class="tarjeta lista-whatsapp">
       <h2 class="titulo-seccion borde-amarillo">💬 Grupos de WhatsApp</h2>
       <p class="instrucciones">Únete a los grupos vecinales para coordinar ayuda, reportar necesidades y compartir rutas seguras.</p>
@@ -18,6 +24,7 @@
 
 <script setup>
 import StarlinkCard from './StarlinkCard.vue'
+import DirectorioEmergencias from './DirectorioEmergencias.vue'
 
 const props = defineProps({
   gruposWhatsapp: {
