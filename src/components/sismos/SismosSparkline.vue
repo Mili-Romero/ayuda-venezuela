@@ -8,11 +8,11 @@
         <div>
 
             <h3>
-                Actividad sísmica
+                Actividad sísmica en Venezuela
             </h3>
 
             <span>
-                Últimas 24 horas
+                En las Últimas 24 horas
             </span>
 
         </div>

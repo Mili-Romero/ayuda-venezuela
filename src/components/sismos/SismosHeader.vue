@@ -72,7 +72,7 @@ justify-content:space-between;
 
 align-items:center;
 
-background:linear-gradient(135deg,#0f172a,#1e3a8a);
+background:linear-gradient(135deg,#0f172a,#3964d8);
 
 color:white;
 
@@ -176,7 +176,7 @@ animation:latido 1.4s infinite;
 
 .offline .punto{
 
-background:#ef4444;
+background:#341e1e;
 
 }
 
@@ -202,7 +202,7 @@ padding:10px 18px;
 
 border-radius:50px;
 
-background:#dc2626;
+background:#dc1d1d;
 
 font-weight:700;
 

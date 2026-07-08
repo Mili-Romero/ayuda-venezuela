@@ -77,14 +77,14 @@
 
         <div class="numero online">
 
-            USGS
+            Sincronizado
 
         </div>
 
 
         <div class="texto">
 
-            Sincronizado
+            con USGS
 
         </div>
 
@@ -257,7 +257,7 @@ border-top:4px solid #2563eb;
 
 .online{
 
-font-size:25px;
+font-size:18px;
 
 color:#2563eb;
 

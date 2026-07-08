@@ -3,30 +3,20 @@ import { ref } from "vue"
 const sismos = ref([])
 const ultimaActualizacion = ref("")
 
-const CARACAS = {
-  lat: 10.4806,
-  lon: -66.9036
+const LIMITES_VENEZUELA = {
+  norte: 13.5,
+  sur: 0.5,
+  oeste: -73.6,
+  este: -59.7
 }
 
-// Distancia máxima alrededor de Venezuela
-const RADIO_KM = 1200
-
-function calcularDistanciaKm(lat1, lon1, lat2, lon2) {
-  const R = 6371
-
-  const dLat = (lat2 - lat1) * Math.PI / 180
-  const dLon = (lon2 - lon1) * Math.PI / 180
-
-  const a =
-    Math.sin(dLat / 2) * Math.sin(dLat / 2) +
-    Math.cos(lat1 * Math.PI / 180) *
-    Math.cos(lat2 * Math.PI / 180) *
-    Math.sin(dLon / 2) *
-    Math.sin(dLon / 2)
-
-  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a))
-
-  return R * c
+function estaEnVenezuela(sismo) {
+  return (
+    sismo.lat >= LIMITES_VENEZUELA.sur &&
+    sismo.lat <= LIMITES_VENEZUELA.norte &&
+    sismo.lon >= LIMITES_VENEZUELA.oeste &&
+    sismo.lon <= LIMITES_VENEZUELA.este
+  )
 }
 
 function tiempoRelativo(timestamp) {
@@ -47,20 +37,13 @@ function tiempoRelativo(timestamp) {
 export function useSismos() {
   async function obtenerSismos() {
     const url =
-      "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson"
+      "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"
 
     const respuesta = await fetch(url)
     const data = await respuesta.json()
 
     const eventos = data.features.map(evento => {
       const [lon, lat, profundidad] = evento.geometry.coordinates
-
-      const distanciaVenezuela = calcularDistanciaKm(
-        CARACAS.lat,
-        CARACAS.lon,
-        lat,
-        lon
-      )
 
       return {
         id: evento.id,
@@ -69,13 +52,12 @@ export function useSismos() {
         tiempo: tiempoRelativo(evento.properties.time),
         profundidad: Number(profundidad.toFixed(1)),
         lat,
-        lon,
-        distanciaVenezuela: Number(distanciaVenezuela.toFixed(0))
+        lon
       }
     })
 
     sismos.value = eventos
-      .filter(sismo => sismo.distanciaVenezuela <= RADIO_KM)
+      .filter(estaEnVenezuela)
       .sort((a, b) => b.mag - a.mag)
 
     ultimaActualizacion.value = new Date().toLocaleString("es-VE", {
