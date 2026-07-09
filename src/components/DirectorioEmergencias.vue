@@ -2,7 +2,7 @@
   <section class="contactos-directos">
     <h2 class="titulo-seccion">📞 Teléfonos de Emergencia</h2>
 
-    <!-- Números principales -->
+    <!-- Números principales
     <div class="contactos-grid">
       <a
         v-for="contacto in contactos"
@@ -13,7 +13,7 @@
         <span class="numero">{{ contacto.numero }}</span>
         <span class="nombre">{{ contacto.nombre }}</span>
       </a>
-    </div>
+    </div> -->
 
     <!-- Acordeón -->
     <div class="acordeon">
@@ -56,12 +56,13 @@
 </template>
 
 <script setup>
+/** 
 const contactos = [
   { numero: "911", nombre: "VEN 911", telefono: "911" },
   { numero: "166", nombre: "Protección Civil", telefono: "166" },
   { numero: "167", nombre: "Bomberos", telefono: "167" },
   { numero: "171", nombre: "Cantv", telefono: "171" }
-]
+]*/
 
 const categorias = [
   {
@@ -258,15 +259,33 @@ summary {
   align-items: center;
   justify-content: space-between;
   padding: 14px 16px;
-  background-color: #f8fafc; /* Fondo gris sutil de la foto */
+  background-color: #f8fafc; 
   cursor: pointer;
   user-select: none;
-  list-style: none; /* Quita la flecha por defecto en navegadores modernos */
+  list-style: none; 
+  
+  /* CAMBIO CRUCIAL: Sirve de ancla para que la flecha no se escape de la casilla gris */
+  position: relative; 
 }
 
 /* Ocultar flecha nativa en Safari */
 summary::-webkit-details-marker {
   display: none;
+}
+
+/* LA FLECHA LATERAL REPARADA */
+summary::after {
+  /* Reemplazamos el caracter '➔' por una flecha más limpia y estética si lo deseas, o mantén el tuyo */
+  content: '▼'; 
+  font-size: 10px;
+  color: #64748b;
+  transition: transform 0.2s ease;
+  
+  /* Posicionamiento absoluto controlado */
+  position: absolute;
+  right: 16px; /* Se alineará exactamente a 16px del borde derecho interno de la tarjeta */
+  top: 50%;    /* Centrado vertical perfecto */
+  transform: translateY(-50%); /* Ajuste fino del eje vertical */
 }
 
 /* Alineación del icono y el texto del título */
@@ -291,21 +310,11 @@ summary::-webkit-details-marker {
   margin-left: auto;
 }
 
-/* CREACIÓN DE LA FLECHA LATERAL (Estilo nativo de la imagen) */
-summary::after {
-  content: '➔';
-  transform: rotate(90deg); /* Apunta hacia abajo por defecto */
-  font-size: 11px;
-  color: #64748b;
-  transition: transform 0.2s ease;
-  position: absolute;
-  right: 36px; /* Posicionamiento exacto */
+/* Cuando el acordeón se abre, la flecha apunta hacia arriba de forma limpia */
+.acordeon-item[open] summary::after {
+  transform: translateY(-50%) rotate(180deg);
 }
 
-/* Cuando el acordeón se abre, la flecha gira hacia arriba */
-.acordeon-item[open] summary::after {
-  transform: rotate(-90deg);
-}
 
 /* Contenedor interno de los contactos desplegados */
 .lista-contactos {
