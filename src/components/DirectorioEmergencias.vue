@@ -2,7 +2,7 @@
   <section class="contactos-directos">
     <h2 class="titulo-seccion">📞 Teléfonos de Emergencia</h2>
 
-    <!-- Números principales -->
+    <!-- Números principales
     <div class="contactos-grid">
       <a
         v-for="contacto in contactos"
@@ -13,7 +13,7 @@
         <span class="numero">{{ contacto.numero }}</span>
         <span class="nombre">{{ contacto.nombre }}</span>
       </a>
-    </div>
+    </div> -->
 
     <!-- Acordeón -->
     <div class="acordeon">
@@ -56,12 +56,13 @@
 </template>
 
 <script setup>
+/** 
 const contactos = [
   { numero: "911", nombre: "VEN 911", telefono: "911" },
   { numero: "166", nombre: "Protección Civil", telefono: "166" },
   { numero: "167", nombre: "Bomberos", telefono: "167" },
   { numero: "171", nombre: "Cantv", telefono: "171" }
-]
+]*/
 
 const categorias = [
   {

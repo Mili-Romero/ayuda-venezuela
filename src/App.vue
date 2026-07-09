@@ -105,10 +105,10 @@ import datosRecursos from './data/recursos.json' // Cargamos la base de datos de
 import gallery from './components/gallery.vue'
 import BotonAyuda from './components/BotonAyuda.vue'
 import Bienvenida from './components/Bienvenida.vue' // Importamos el componente de bienvenida para mostrar la pantalla inicial
-import StarlinkCard from './components/StarlinkCard.vue'  // Importamos el componente de alerta de Starlink para mostrar la información de internet satelital gratuito
+//import StarlinkCard from './components/StarlinkCard.vue'  // Importamos el componente de alerta de Starlink para mostrar la información de internet satelital gratuito
 import HeaderNav from './components/HeaderNav.vue'
 
-import SismosVenezuela from './components/SismosVenezuela.vue'
+import SismosVenezuela from './components/SismosVenezuela.vue' // Seccion  simple
 import ContactosDirectos from './components/ContactosDirectos.vue'
 import ApoyoInfantil from './components/ApoyoInfantil.vue'
 import PlataformasAliadas from './components/PlataformasAliadas.vue'
@@ -116,7 +116,7 @@ import CanalesDonacion from './components/CanalesDonacion.vue'
 import RedMedica from './components/RedMedica.vue'
 import Comunicacion from './components/Comunicacion.vue'
 import SismosDashboard from "./components/sismos/SismosDashboard.vue"
-import SismosSparkline from "./components/sismos/SismosSparkline.vue"
+//import SismosSparkline from "./components/sismos/SismosSparkline.vue"
 import SismosFooter from "./components/sismos/SismosFooter.vue"
 // Esta variable inicia en true (verdadero) para obligar a que la pantalla de bienvenida salga primero
 const mostrarBienvenida = ref(true)
