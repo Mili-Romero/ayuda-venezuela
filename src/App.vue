@@ -27,58 +27,56 @@
 
       <!-- Columna Principal Derecha: panel interactivo que cambia según selección -->
       <main class="columna-principal">
-        <div class="panel-dinamico">
-          <div v-if="!activeInfoSection">
-            <div class="tarjeta">
-              <h2 class="titulo-seccion">Información</h2>
-              <p class="instrucciones">Selecciona una opción en el menú "Información" para ver contenido interactivo aquí (Comunicación, Sismos, Donaciones, Plataformas, etc.).</p>
-            </div>
-          </div>
-          <div v-else>
-            <Comunicacion
-              v-if="activeInfoSection === 'comunicacion'"
-              :gruposWhatsapp="recursos.gruposWhatsapp"
-            />
-            <SismosDashboard v-else-if="activeInfoSection === 'sismos'" />
-            <CanalesDonacion v-else-if="activeInfoSection === 'donacion'" />
-            <RedMedica v-else-if="activeInfoSection === 'medica'" />
-            <ApoyoInfantil v-else-if="activeInfoSection === 'infantil'" />
-            <PlataformasAliadas v-else-if="activeInfoSection === 'plataformas'" />
-            
 
-          </div>
-        </div>
+  <!-- 1. SECCIÓN HOME (Si activeInfoSection está vacío) -->
+  <div v-if="activeInfoSection === ''">
+    <!-- Mensaje de bienvenida -->
+    <div class="tarjeta">
+      <h2 class="titulo-seccion">Información</h2>
+      <p class="instrucciones">Selecciona una opción en el menú "Información" para ver contenido interactivo aquí.</p>
+    </div>
 
-        <template v-if="!activeInfoSection">
-          <!-- Bloque 1: Carpetas oficiales de Google Drive -->
-          <div class="tarjeta">
-            <h2 class="titulo-seccion borde-amarillo">📂 Carpetas Oficiales de Ingresos Hospitalarios</h2>
-            <p class="instrucciones">
-              Accede de forma directa a las bases de datos originales compartidas por los centros médicos. 
-              Revisa los listados organizados en la nube en tiempo real.
-            </p>
-            <div class="zona-enlaces">
-              <a v-for="link in recursos.enlacesDrive" :key="link.id" :href="link.url" target="_blank" class="btn-drive-oficial">
-                {{ link.titulo }}
-              </a>
-            </div> <!-- AQUÍ TERMINA ZONA-ENLACES -->
+    <!-- Carpetas de Google Drive e Informes Hospitalarios -->
+    <div class="tarjeta">
+      <h2 class="titulo-seccion borde-amarillo">📂 Carpetas Oficiales de Ingresos Hospitalarios</h2>
+      <div class="zona-enlaces">
+        <a v-for="link in recursos.enlacesDrive" :key="link.id" :href="link.url" target="_blank" class="btn-drive-oficial">
+          {{ link.titulo }}
+        </a>
+      </div>
+      <div class="zona-descargas-locales" style="margin-top: 15px; border-top: 1px dashed #e2e8f0; padding-top: 15px;">
+        <a v-for="descarga in recursos.descargasLocales" :key="descarga.id" :href="descarga.url" target="_blank" class="btn-descarga-local">
+          {{ descarga.titulo }}
+        </a>
+      </div>
+    </div>
+  </div>
 
-            <!-- Descargar archivo: -->
-            <div class="zona-descargas-locales" style="margin-top: 15px; border-top: 1px dashed #e2e8f0; padding-top: 15px;">
-              <p class="instrucciones" style="margin-bottom: 8px;">📋 Informes consolidados recibidos por canales comunitarios:</p>
-              <a v-for="descarga in recursos.descargasLocales" :key="descarga.id" :href="descarga.url" target="_blank" class="btn-descarga-local">
-                {{ descarga.titulo }}
-              </a>
-            </div>
-          </div> <!-- AQUÍ CIERRA LA TARJETA PRINCIPAL -->
-   
-          <!-- Bloque 2: Galería de Fotos de Sobrevivientes (Componente Modular Separado) -->
-          <section id="gallery">
-            <gallery :lista-fotos="recursos.fotosSobrevivientes" />
-          </section>
-        </template>
+  <!-- 2. SECCIÓN GALLERY (Si activeInfoSection es 'gallery') -->
+  <div v-else-if="activeInfoSection === 'gallery'">
+    <section id="gallery">
+      <gallery :lista-fotos="recursos.fotosSobrevivientes" />
+    </section>
+  </div>
 
-      </main>
+  <!-- 3. SECCIÓN CONTACTO (Si activeInfoSection es 'contacto') -->
+  <div v-else-if="activeInfoSection === 'contacto'">
+    <Contact />
+  </div>
+
+  <!-- 4. SECCIONES DEL SUB-MENÚ INFORMACIÓN (Para cualquier otra opción seleccionada) -->
+  <div v-else class="panel-dinamico">
+    <Comunicacion v-if="activeInfoSection === 'comunicacion'" :gruposWhatsapp="recursos.gruposWhatsapp" />
+    <SismosDashboard v-else-if="activeInfoSection === 'sismos'" />
+    <CanalesDonacion v-else-if="activeInfoSection === 'donacion'" />
+    <RedMedica v-else-if="activeInfoSection === 'medica'" />
+    <ApoyoInfantil v-else-if="activeInfoSection === 'infantil'" />
+    <PlataformasAliadas v-else-if="activeInfoSection === 'plataformas'" />
+  </div>
+
+</main>
+
+
     </div> <!--Cerrar div contenido-->
 
     
@@ -118,6 +116,10 @@ import Comunicacion from './components/Comunicacion.vue'
 import SismosDashboard from "./components/sismos/SismosDashboard.vue"
 //import SismosSparkline from "./components/sismos/SismosSparkline.vue"
 import SismosFooter from "./components/sismos/SismosFooter.vue"
+import Contact from '@/views/Contact.vue'
+
+
+
 // Esta variable inicia en true (verdadero) para obligar a que la pantalla de bienvenida salga primero
 const mostrarBienvenida = ref(true)
 

@@ -38,7 +38,8 @@
               <li><a href="#" @click.prevent.stop="selectInfo('plataformas')">Plataformas Aliadas</a></li>
             </ul>
           </li>
-          <li><a href="#contacto">Contacto</a></li>
+          <!-- For Desktop Navigation (Around line 24) -->
+          <li><a href="#" @click.prevent.stop="selectInfo('contacto')">Contacto</a></li>
         </ul>
       </nav>
 
@@ -59,7 +60,7 @@
         <li><a href="#" @click.prevent.stop="selectInfo('medica')">Red médica</a></li>
         <li><a href="#" @click.prevent.stop="selectInfo('infantil')">Apoyo Infantil</a></li>
         <li><a href="#" @click.prevent.stop="selectInfo('plataformas')">Plataformas Aliadas</a></li>
-        <li><a href="#contacto" @click.prevent.stop="menuOpen = false">Contacto</a></li>
+        <li><a href="#" @click.prevent.stop="selectInfo('contacto')">Contacto</a></li>
       </ul>
     </div>
   </header>
