@@ -26,7 +26,7 @@
       <nav class="nav-desktop" aria-label="Main navigation">
         <ul>
           <li><a href="#" @click.prevent.stop="selectInfo('')">Home</a></li>
-          <li><a href="#gallery">Gallery</a></li>
+          <!---<li><a href="#gallery">Gallery</a></li>-->
           <li class="has-dropdown">
             <a href="#informacion">Información ▾</a>
             <ul class="dropdown">
@@ -53,7 +53,7 @@
     <div class="mobile-menu" v-show="menuOpen">
       <ul>
         <li><a href="#" @click.prevent.stop="selectInfo('')">Home</a></li>
-        <li><a href="#gallery" @click.prevent.stop="menuOpen = false">Gallery</a></li>
+       <!-- <li><a href="#gallery" @click.prevent.stop="menuOpen = false">Gallery</a></li> -->
         <li><a href="#" @click.prevent.stop="selectInfo('comunicacion')">Comunicación</a></li>
         <li><a href="#" @click.prevent.stop="selectInfo('sismos')">Sismos Venezuela</a></li>
         <li><a href="#" @click.prevent.stop="selectInfo('donacion')">Donaciones</a></li>

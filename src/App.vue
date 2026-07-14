@@ -28,35 +28,9 @@
       <!-- Columna Principal Derecha: panel interactivo que cambia según selección -->
       <main class="columna-principal">
 
-  <!-- 1. SECCIÓN HOME (Si activeInfoSection está vacío) -->
-  <div v-if="activeInfoSection === ''">
-    <!-- Mensaje de bienvenida -->
-    <div class="tarjeta">
-      <h2 class="titulo-seccion">Información</h2>
-      <p class="instrucciones">Selecciona una opción en el menú "Información" para ver contenido interactivo aquí.</p>
-    </div>
 
-    <!-- Carpetas de Google Drive e Informes Hospitalarios -->
-    <div class="tarjeta">
-      <h2 class="titulo-seccion borde-amarillo">📂 Carpetas Oficiales de Ingresos Hospitalarios</h2>
-      <div class="zona-enlaces">
-        <a v-for="link in recursos.enlacesDrive" :key="link.id" :href="link.url" target="_blank" class="btn-drive-oficial">
-          {{ link.titulo }}
-        </a>
-      </div>
-      <div class="zona-descargas-locales" style="margin-top: 15px; border-top: 1px dashed #e2e8f0; padding-top: 15px;">
-        <a v-for="descarga in recursos.descargasLocales" :key="descarga.id" :href="descarga.url" target="_blank" class="btn-descarga-local">
-          {{ descarga.titulo }}
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <!-- 2. SECCIÓN GALLERY (Si activeInfoSection es 'gallery') -->
-  <div v-else-if="activeInfoSection === 'gallery'">
-    <section id="gallery">
-      <gallery :lista-fotos="recursos.fotosSobrevivientes" />
-    </section>
+ <div v-if="activeInfoSection === ''">
+    <GuiaHome />
   </div>
 
   <!-- 3. SECCIÓN CONTACTO (Si activeInfoSection es 'contacto') -->
@@ -117,6 +91,7 @@ import SismosDashboard from "./components/sismos/SismosDashboard.vue"
 //import SismosSparkline from "./components/sismos/SismosSparkline.vue"
 import SismosFooter from "./components/sismos/SismosFooter.vue"
 import Contact from '@/views/Contact.vue'
+import GuiaHome from './components/GuiaHome.vue'
 
 
 
