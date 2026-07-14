@@ -7,14 +7,16 @@
       :online="online"
     />
 
-    <!-- ALERTA -->
+    <!-- ALERTA SÍSMICA -->
     <SismosAlerta
-      v-if="alertaVisible"
-      :magnitud="sismosDestacado.mag"
-      :lugar="sismosDestacado.lugar"
+      v-if="alertaVisible && alertaActual"
+      :key="alertaActual.id"
+      :magnitud="alertaActual.mag"
+      :lugar="alertaActual.lugar"
+      @cerrar="cerrarAlerta"
     />
 
-    <!-- SISMO DESTACADO -->
+    <!-- ÚLTIMO SISMO DETECTADO -->
     <SismosDestacado
       :sismos="sismosDestacado"
     />
@@ -31,7 +33,7 @@
       :datos="sparkline"
     />
 
-    <!-- LISTA -->
+    <!-- LISTA DE ÚLTIMOS SISMOS -->
     <SismosLista
       :sismos="ultimosSismos"
     />
@@ -83,22 +85,21 @@ const {
 
 /*
 |--------------------------------------------------------------------------
-| ESTADO DEL SISTEMA
+| ESTADO GENERAL
 |--------------------------------------------------------------------------
 */
 
 const loading = ref(true)
 
-const online = ref(navigator.onLine)
+const online = ref(
+  navigator.onLine
+)
 
 
 /*
 |--------------------------------------------------------------------------
 | TEMPORIZADOR DE ACTUALIZACIÓN
 |--------------------------------------------------------------------------
-|
-| Aquí guardaremos el intervalo para poder detenerlo después.
-|
 */
 
 let intervaloActualizacion = null
@@ -106,21 +107,27 @@ let intervaloActualizacion = null
 
 /*
 |--------------------------------------------------------------------------
-| FUNCIÓN PARA ACTUALIZAR LOS SISMOS
+| ACTUALIZAR LOS DATOS SÍSMICOS
 |--------------------------------------------------------------------------
 */
 
 async function actualizarSismos() {
 
-  // Si no hay internet, no intentamos consultar USGS
   if (!navigator.onLine) {
-    console.warn("Sin conexión a internet")
+
+    console.warn(
+      "Sin conexión a internet"
+    )
+
     return
   }
 
+
   try {
 
-    console.log("Actualizando actividad sísmica...")
+    console.log(
+      "Actualizando actividad sísmica..."
+    )
 
     await obtenerSismos()
 
@@ -141,7 +148,7 @@ async function actualizarSismos() {
 
 /*
 |--------------------------------------------------------------------------
-| FUNCIONES DE CONEXIÓN
+| CONEXIÓN A INTERNET
 |--------------------------------------------------------------------------
 */
 
@@ -149,9 +156,10 @@ function conexionRestaurada() {
 
   online.value = true
 
-  console.log("Conexión restaurada")
+  console.log(
+    "Conexión restaurada"
+  )
 
-  // Actualizamos inmediatamente cuando vuelve internet
   actualizarSismos()
 
 }
@@ -161,24 +169,32 @@ function conexionPerdida() {
 
   online.value = false
 
-  console.warn("Conexión perdida")
+  console.warn(
+    "Conexión perdida"
+  )
 
 }
 
 
 /*
 |--------------------------------------------------------------------------
-| CUANDO EL COMPONENTE SE ABRE
+| CUANDO SE ABRE EL COMPONENTE
 |--------------------------------------------------------------------------
 */
 
 onMounted(async () => {
 
-  // 1. Descargar los datos inmediatamente
+  /*
+  Primera actualización inmediata.
+  */
+
   await actualizarSismos()
 
 
-  // 2. Escuchar cambios de conexión
+  /*
+  Escuchar cambios de conexión.
+  */
+
   window.addEventListener(
     "online",
     conexionRestaurada
@@ -190,33 +206,37 @@ onMounted(async () => {
   )
 
 
-  // 3. Actualizar automáticamente cada 60 segundos
-  intervaloActualizacion = setInterval(() => {
+  /*
+  Actualizar automáticamente
+  cada 60 segundos.
+  */
 
-    actualizarSismos()
-
-  }, 60000)
+  intervaloActualizacion =
+    setInterval(
+      actualizarSismos,
+      60000
+    )
 
 })
 
 
 /*
 |--------------------------------------------------------------------------
-| CUANDO EL USUARIO SALE DEL PANEL
+| CUANDO SE CIERRA EL COMPONENTE
 |--------------------------------------------------------------------------
 */
 
 onUnmounted(() => {
 
-  // Detener el temporizador
   if (intervaloActualizacion) {
 
-    clearInterval(intervaloActualizacion)
+    clearInterval(
+      intervaloActualizacion
+    )
 
   }
 
 
-  // Eliminar los listeners
   window.removeEventListener(
     "online",
     conexionRestaurada
@@ -236,70 +256,325 @@ onUnmounted(() => {
 |--------------------------------------------------------------------------
 */
 
-const ultimaActualizacion = ultimaConsulta
+const ultimaActualizacion =
+  ultimaConsulta
 
 
 /*
 |--------------------------------------------------------------------------
-| SISMO DESTACADO
+| ÚLTIMO SISMO DETECTADO
 |--------------------------------------------------------------------------
 |
-| Busca el sismo con mayor magnitud.
+| useSismos.js ya ordena los eventos
+| desde el más reciente al más antiguo.
 |
 */
 
-const sismosDestacado = computed(() => {
+const sismosDestacado =
+  computed(() => {
 
-  const data = sismos.value || []
+    const data =
+      sismos.value || []
 
-  if (!data.length) {
 
-    return {
+    if (!data.length) {
 
-      mag: 0,
+      return {
 
-      lugar: "No se registran eventos recientes",
+        id: null,
 
-      profundidad: 0,
+        mag: 0,
 
-      lat: 0,
+        lugar:
+          "No se registran eventos recientes",
 
-      lon: 0,
+        profundidad: 0,
 
-      hora: "--"
+        lat: 0,
+
+        lon: 0,
+
+        tiempo: "--",
+
+        fuente: "--"
+
+      }
 
     }
 
-  }
 
-  return data.reduce(
+    /*
+    El primer elemento
+    es el evento más reciente.
+    */
 
-    (max, sismo) =>
-      sismo.mag > max.mag
-        ? sismo
-        : max,
+    return data[0]
 
-    data[0]
-
-  )
-
-})
+  })
 
 
 /*
 |--------------------------------------------------------------------------
-| ALERTA
+| CONFIGURACIÓN DE ALERTAS
 |--------------------------------------------------------------------------
 |
-| Solo aparece si hay un evento de magnitud 5.5 o superior.
+| Mostrar la MAYOR magnitud:
+|
+| - de los últimos 10 días
+| - desde magnitud 2.0
 |
 */
 
-const alertaVisible = computed(() => {
+const MAGNITUD_ALERTA = 2.0
 
-  return sismosDestacado.value.mag >= 5.5
+const DIAS_ALERTA = 10
 
-})
+
+const TIEMPO_VIGENCIA_ALERTA =
+
+  DIAS_ALERTA *
+
+  24 *
+
+  60 *
+
+  60 *
+
+  1000
+
+
+/*
+|--------------------------------------------------------------------------
+| ALERTA CERRADA POR EL USUARIO
+|--------------------------------------------------------------------------
+*/
+
+const alertaCerradaId =
+  ref(
+
+    localStorage.getItem(
+      "alertaSismoCerradaId"
+    ) || ""
+
+  )
+
+
+/*
+|--------------------------------------------------------------------------
+| BUSCAR EL SISMO MÁS FUERTE
+| DE LOS ÚLTIMOS 10 DÍAS
+|--------------------------------------------------------------------------
+*/
+
+const alertaActual =
+  computed(() => {
+
+    const ahora =
+      Date.now()
+
+
+    /*
+    Filtramos únicamente:
+    
+    - magnitud 2.0 o superior
+    - últimos 10 días
+    */
+
+    const alertasRecientes =
+
+      (sismos.value || [])
+        .filter(
+          sismo => {
+
+            if (
+              !sismo.timestamp
+            ) {
+
+              return false
+
+            }
+
+
+            const antiguedad =
+
+              ahora -
+
+              sismo.timestamp
+
+
+            return (
+
+              sismo.mag >=
+                MAGNITUD_ALERTA
+
+              &&
+
+              antiguedad >= 0
+
+              &&
+
+              antiguedad <=
+                TIEMPO_VIGENCIA_ALERTA
+
+            )
+
+          }
+        )
+
+
+    /*
+    Si no existen eventos,
+    no hay alerta.
+    */
+
+    if (
+      !alertasRecientes.length
+    ) {
+
+      return null
+
+    }
+
+
+    /*
+    Buscar el de mayor magnitud.
+    
+    Si dos tienen la misma magnitud,
+    elegimos el más reciente.
+    */
+
+    return alertasRecientes.reduce(
+
+      (
+        masFuerte,
+        sismo
+      ) => {
+
+
+        if (
+          sismo.mag >
+          masFuerte.mag
+        ) {
+
+          return sismo
+
+        }
+
+
+        if (
+
+          sismo.mag ===
+            masFuerte.mag
+
+          &&
+
+          sismo.timestamp >
+            masFuerte.timestamp
+
+        ) {
+
+          return sismo
+
+        }
+
+
+        return masFuerte
+
+      },
+
+      alertasRecientes[0]
+
+    )
+
+  })
+
+
+/*
+|--------------------------------------------------------------------------
+| DECIDIR SI MOSTRAR LA ALERTA
+|--------------------------------------------------------------------------
+*/
+
+const alertaVisible =
+  computed(() => {
+
+    /*
+    No existe ningún evento válido.
+    */
+
+    if (
+      !alertaActual.value
+    ) {
+
+      return false
+
+    }
+
+
+    /*
+    El usuario ya cerró
+    exactamente esta alerta.
+    */
+
+    if (
+
+      alertaActual.value.id ===
+
+      alertaCerradaId.value
+
+    ) {
+
+      return false
+
+    }
+
+
+    return true
+
+  })
+
+
+/*
+|--------------------------------------------------------------------------
+| CERRAR ALERTA
+|--------------------------------------------------------------------------
+*/
+
+function cerrarAlerta() {
+
+  if (
+    !alertaActual.value?.id
+  ) {
+
+    return
+
+  }
+
+
+  /*
+  Guardamos el ID
+  del evento cerrado.
+  */
+
+  alertaCerradaId.value =
+
+    alertaActual.value.id
+
+
+  /*
+  Lo guardamos también
+  en el navegador.
+  */
+
+  localStorage.setItem(
+
+    "alertaSismoCerradaId",
+
+    alertaActual.value.id
+
+  )
+
+}
 
 
 /*
@@ -308,41 +583,49 @@ const alertaVisible = computed(() => {
 |--------------------------------------------------------------------------
 */
 
-const estadisticas = computed(() => {
+const estadisticas =
+  computed(() => {
 
-  const result = {
+    const result = {
 
-    fuertes: 0,
+      fuertes: 0,
 
-    moderados: 0,
+      moderados: 0,
 
-    menores: 0
-
-  }
-
-
-  for (const sismo of sismos.value || []) {
-
-    if (sismo.mag >= 5.5) {
-
-      result.fuertes++
-
-    } else if (sismo.mag >= 4) {
-
-      result.moderados++
-
-    } else {
-
-      result.menores++
+      menores: 0
 
     }
 
-  }
+
+    for (
+      const sismo
+      of sismos.value || []
+    ) {
+
+      if (
+        sismo.mag >= 5.5
+      ) {
+
+        result.fuertes++
+
+      } else if (
+        sismo.mag >= 4
+      ) {
+
+        result.moderados++
+
+      } else {
+
+        result.menores++
+
+      }
+
+    }
 
 
-  return result
+    return result
 
-})
+  })
 
 
 /*
@@ -351,25 +634,42 @@ const estadisticas = computed(() => {
 |--------------------------------------------------------------------------
 */
 
-const sparkline = computed(() => {
+const sparkline =
+  computed(() => {
 
-  return (sismos.value || [])
-    .slice(0, 20)
-    .map(sismo => sismo.mag)
+    return (
+      sismos.value || []
+    )
+      .slice(
+        0,
+        20
+      )
+      .map(
+        sismo =>
+          sismo.mag
+      )
 
-})
+  })
 
 
 /*
 |--------------------------------------------------------------------------
-| ÚLTIMOS SISMOS
+| ÚLTIMOS 4 SISMOS
 |--------------------------------------------------------------------------
 */
 
-const ultimosSismos = computed(() => {
+const ultimosSismos =
+  computed(() => {
 
-  return sismos.value?.slice(0, 4) || []
+    return (
+      sismos.value
+        ?.slice(
+          0,
+          4
+        )
+      || []
+    )
 
-})
+  })
 
 </script>
