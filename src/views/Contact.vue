@@ -84,16 +84,28 @@ function restablecerFormulario() {
 </script>
 
 <style scoped>
+.contacto-contenedor {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.contacto-contenedor > .tarjeta {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
 .subtitulo { font-size: 13.5px; color: #64748b; margin-top: -10px; margin-bottom: 24px; }
-.formulario-contacto { display: flex; flex-direction: column; gap: 16px; }
-.grupo-campo { display: flex; flex-direction: column; gap: 6px; }
+.formulario-contacto { display: flex; flex-direction: column; gap: 16px; width: 100%; }
+.grupo-campo { display: flex; flex-direction: column; gap: 6px; width: 100%; }
 .grupo-campo label { font-size: 13.5px; font-weight: 700; color: #334155; }
 .grupo-campo input, .grupo-campo textarea { width: 100%; padding: 12px; border: 1px solid #cbd5e1; border-radius: 8px; box-sizing: border-box; }
 .grupo-campo input:focus, .grupo-campo textarea:focus { outline: none; border-color: #1d4ed8; }
-.btn-enviar { background-color: #1d4ed8; color: white; padding: 14px; border: none; border-radius: 8px; font-weight: 700; cursor: pointer; }
+.btn-enviar { width: 100%; background-color: #1d4ed8; color: white; padding: 14px; border: none; border-radius: 8px; font-weight: 700; cursor: pointer; }
 .btn-enviar:disabled { background-color: #94a3b8; cursor: not-allowed; }
 .btn-secundario { background-color: transparent; border: 1px solid #cbd5e1; padding: 10px 16px; border-radius: 6px; cursor: pointer; }
-.alerta { padding: 16px; border-radius: 8px; font-size: 14px; text-align: center; margin-top: 10px; }
+.alerta { width: 100%; box-sizing: border-box; padding: 16px; border-radius: 8px; font-size: 14px; text-align: center; margin-top: 10px; }
 .alerta-exito { background-color: #f0fdf4; border: 1px solid #bbf7d0; color: #166534; }
 .alerta-error { background-color: #fef2f2; border: 1px solid #fca5a5; color: #991b1b; }
 </style>
