@@ -29,23 +29,35 @@
       <main class="columna-principal">
 
 
- <div v-if="activeInfoSection === ''">
+ <div v-if="activeInfoSection === ''" class="panel-seccion">
     <GuiaHome />
   </div>
 
   <!-- 3. SECCIÓN CONTACTO (Si activeInfoSection es 'contacto') -->
-  <div v-else-if="activeInfoSection === 'contacto'">
+  <div v-else-if="activeInfoSection === 'contacto'" class="panel-seccion">
     <Contact />
   </div>
 
   <!-- 4. SECCIONES DEL SUB-MENÚ INFORMACIÓN (Para cualquier otra opción seleccionada) -->
   <div v-else class="panel-dinamico">
-    <Comunicacion v-if="activeInfoSection === 'comunicacion'" :gruposWhatsapp="recursos.gruposWhatsapp" />
-    <SismosDashboard v-else-if="activeInfoSection === 'sismos'" />
-    <CanalesDonacion v-else-if="activeInfoSection === 'donacion'" />
-    <RedMedica v-else-if="activeInfoSection === 'medica'" />
-    <ApoyoInfantil v-else-if="activeInfoSection === 'infantil'" />
-    <PlataformasAliadas v-else-if="activeInfoSection === 'plataformas'" />
+    <div v-if="activeInfoSection === 'comunicacion'" class="panel-seccion">
+      <Comunicacion :gruposWhatsapp="recursos.gruposWhatsapp" />
+    </div>
+    <div v-else-if="activeInfoSection === 'sismos'" class="panel-seccion">
+      <SismosDashboard />
+    </div>
+    <div v-else-if="activeInfoSection === 'donacion'" class="panel-seccion">
+      <CanalesDonacion />
+    </div>
+    <div v-else-if="activeInfoSection === 'medica'" class="panel-seccion">
+      <RedMedica />
+    </div>
+    <div v-else-if="activeInfoSection === 'infantil'" class="panel-seccion">
+      <ApoyoInfantil />
+    </div>
+    <div v-else-if="activeInfoSection === 'plataformas'" class="panel-seccion">
+      <PlataformasAliadas />
+    </div>
   </div>
 
 </main>

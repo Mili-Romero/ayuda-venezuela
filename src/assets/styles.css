@@ -98,11 +98,28 @@ body > #app {
   width: 100%;
 }
 
+.panel-dinamico {
+  width: 100%;
+  display: block;
+}
+
+.panel-seccion {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.panel-dinamico > * {
+  width: 100%;
+  box-sizing: border-box;
+}
+
 @media (min-width: 768px) { 
   .contenido { grid-template-columns: 340px 1fr; } 
 }
 
 .tarjeta {
+  width: 100%;
+  box-sizing: border-box;
   background: white;
   padding: 18px;
   border-radius: 12px;

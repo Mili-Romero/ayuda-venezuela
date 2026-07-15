@@ -1,6 +1,6 @@
 <template>
-  <div class="panel-interactivo">
-    <h2>🩺 Red de Apoyo Médico</h2>
+  <section class="panel-interactivo tarjeta">
+    <h2 class="titulo-seccion borde-azul">🩺 Red de Apoyo Médico</h2>
     <p class="instrucciones">Profesionales ofreciendo telemedicina y contención psicológica gratuita.</p>
     <div class="lista-medicos">
       <div v-for="medico in medicos" :key="medico.nombre" class="item-medico">
@@ -11,7 +11,7 @@
         <span class="medico-contacto">💬 {{ medico.contacto }}</span>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup>
@@ -21,5 +21,14 @@ const medicos = computed(() => datosRecursos.medicos || [])
 </script>
 
 <style scoped>
-.panel-interactivo { padding: 8px 6px; }
+.panel-interactivo {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.instrucciones {
+  margin-top: -6px;
+  margin-bottom: 14px;
+}
 </style>
