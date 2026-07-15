@@ -4,7 +4,7 @@
     <div class="tarjeta">
       <h2 class="titulo-seccion borde-azul">📌 Propósito de la Plataforma</h2>
       <p class="texto-proposito">
-        <strong>PLAsist.org</strong> es una central de asistencia humanitaria digital e independiente. 
+        <strong>plasist.org</strong> es una central de asistencia humanitaria digital e independiente. 
         Nuestro objetivo es mitigar la fragmentación de la información durante situaciones de contingencia en Venezuela, 
         reuniendo en un solo espacio seguro los canales de comunicación verificados, herramientas de monitoreo y redes de apoyo civil.
       </p>

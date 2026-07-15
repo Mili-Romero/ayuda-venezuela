@@ -19,7 +19,7 @@
 
         <!-- Contactos Directos (teléfonos de emergencia) -->
         <div class="tarjetas">
-          <ContactosDirectos /> 
+          <ContactosDirectos @select-info="handleSelectInfo" /> 
         </div>
 
         <!-- Botón de ayuda ya está arriba, dejamos solo lo esencial en la columna lateral -->
