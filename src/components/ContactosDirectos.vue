@@ -13,7 +13,7 @@
       </a>
 
         <p class="nota">
-          Más números de emergencia en el 
+          Más números de emergencia 
           <a href="#" @click.prevent.stop="selectInfo('comunicacion')">aqui</a>
         </p>
 
