@@ -1,21 +1,4 @@
-    <!---- Contactos Directos 
-<template>
-        <div class="ContactosDirectos">
-          <h2 class="titulo-seccion borde-azul">📞 Teléfonos de Emergencia</h2>
-          <ul>
-            <li><strong>Dir. Emergencias(Nacional):</strong>VEN 911</li>
-            <li><strong>Protección Civil(Nacional):</strong>166</li>
-            <li><strong>Bomberos(Nacional):</strong>167</li>
-            <li><strong>Protección Civil(Capital):</strong> 0212-575332</li>
-            <li><strong>Bomberos(Capital):</strong>0212-5454545</li>
-            <li><strong>Bomberos(U.S.B.):</strong>0412-4038790</li>
-            <li><strong>Protección Civil(Litoral):</strong> 0424-2075335</li>
-            <li><strong>Bomberos(Litoral):</strong>0212-3322165</li>
-          </ul>
-        </div>
-        </template>
-        -->
-<template>
+   <template>
   <section class="contactos-directos">
     <h2 class="titulo-seccion">📞 Teléfonos de emergencia</h2>
 
@@ -29,14 +12,25 @@
         <span class="nombre">{{ contacto.nombre }}</span>
       </a>
 
-       <p class="nota">
-      Más numeros de emergencia en el<strong>enlace.</strong>
-    </p>
+        <p class="nota">
+          Más números de emergencia en el 
+          <a href="#" @click.prevent.stop="selectInfo('comunicacion')">aqui</a>
+        </p>
+
     </div>
   </section>
 </template>
 
 <script setup>
+import { ssrLooseEqual } from 'vue/server-renderer';
+
+const emit = defineEmits(['select-info'])
+
+function selectInfo(section) {
+  emit('select-info', section)
+}
+
+
 const contactos = [
   {
     numero: "911",
@@ -112,17 +106,28 @@ const contactos = [
   font-weight: 500;
 }
 
+/* ESTILO PARA EL PÁRRAFO DE LA NOTA */
 .nota {
-  grid-column: 1 / -1;
-  text-align: center;
-  margin-top: 16px;
-  color: #64748b;
-  font-size: 0.9rem;
+  font-size: 13px;
+  color: #64748b; /* Gris muted para que no compita visualmente con el contenido de arriba */
+  margin-top: 14px;
+  line-height: 1.4;
+  text-align: left;
 }
 
-.nota strong {
-  display: block;
-  margin-top: 4px;
-  color: #2563eb;
+/* ESTILO EXACTO PARA EL ENLACE INTERACTIVE DE VUE */
+.nota a {
+  color: #1d4ed8; /* Azul marino institucional coincidente con tu --accent-blue */
+  text-decoration: none; /* Subrayado clásico de navegación */
+  font-weight: 750; /* Resalta el grosor para dar constancia de que es clickeable */
+  transition: color 0.15s ease;
+  display: inline-block;
 }
+
+/* Efecto al pasar el cursor por encima */
+.nota a:hover {
+  color: #1e3a8a; /* Se oscurece a un azul más profundo para dar feedback visual */
+  text-decoration: underline;
+}
+
 </style>
