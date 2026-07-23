@@ -58,6 +58,14 @@
     <div v-else-if="activeInfoSection === 'plataformas'" class="panel-seccion">
       <PlataformasAliadas />
     </div>
+
+     <!-- 🚀 NUEVAS GUÍAS DE GESTIÓN DE CRISIS TOTALMENTE INTEGRADAS -->
+      <div v-else-if="activeInfoSection === 'prevencion-sismos'" class="panel-seccion">
+        <Sismos />
+      </div>
+      <div v-else-if="activeInfoSection === 'prevencion-inundaciones'" class="panel-seccion">
+        <Inundaciones />
+      </div>
   </div>
 
 </main>
@@ -84,9 +92,8 @@
 <script setup>
 import { ref } from 'vue'
 // Cargamos las dos bases de datos locales externas de tu proyecto
-import centrosAcopio from './data/acopio.json'
+//import centrosAcopio from './data/acopio.json'
 import datosRecursos from './data/recursos.json' // Cargamos la base de datos de recursos y enlaces verificados
-import gallery from './components/gallery.vue'
 import BotonAyuda from './components/BotonAyuda.vue'
 import Bienvenida from './components/Bienvenida.vue' // Importamos el componente de bienvenida para mostrar la pantalla inicial
 //import StarlinkCard from './components/StarlinkCard.vue'  // Importamos el componente de alerta de Starlink para mostrar la información de internet satelital gratuito
@@ -102,6 +109,10 @@ import Comunicacion from './components/Comunicacion.vue'
 import SismosDashboard from "./components/sismos/SismosDashboard.vue"
 //import SismosSparkline from "./components/sismos/SismosSparkline.vue"
 import SismosFooter from "./components/sismos/SismosFooter.vue"
+// IMPORTACIÓN DIRECTA DE LAS GUÍAS INDEPENDIENTES DE DESASTRES
+import Sismos from './components/prevencion/Sismos.vue' 
+import Inundaciones from './components/prevencion/Inundaciones.vue'
+
 import Contact from '@/views/Contact.vue'
 import GuiaHome from './components/GuiaHome.vue'
 
@@ -115,7 +126,6 @@ const accederAlPortal = () => {
   mostrarBienvenida.value = false
 }
 
-
 const recursos = ref(datosRecursos)
 
 // estado para controlar qué panel interactivo se muestra en la columna principal
@@ -124,7 +134,6 @@ const activeInfoSection = ref('')
 function handleSelectInfo(section) {
   activeInfoSection.value = section
 }
-
 // Función inteligente: si una foto falla por la extensión (.jpg), 
 // el sistema intenta cargarla de forma transparente como .jpeg, .JPEG o .png
 const corregirExtensionWhatsApp = (evento, foto) => {

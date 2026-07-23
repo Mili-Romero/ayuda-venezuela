@@ -19,14 +19,11 @@
             </a>
         </div>
 
-
-
-      
-
-      <nav class="nav-desktop" aria-label="Main navigation">
+            <nav class="nav-desktop" aria-label="Main navigation">
         <ul>
           <li><a href="#" @click.prevent.stop="selectInfo('')">Home</a></li>
-          <!---<li><a href="#gallery">Gallery</a></li>-->
+          
+          <!-- 1. DROPDOWN DE INFORMACIÓN OPERATIVA -->
           <li class="has-dropdown">
             <a href="#informacion">Información ▾</a>
             <ul class="dropdown">
@@ -38,7 +35,16 @@
               <li><a href="#" @click.prevent.stop="selectInfo('plataformas')">Plataformas Aliadas</a></li>
             </ul>
           </li>
-          <!-- For Desktop Navigation (Around line 24) -->
+          
+          <!-- 2. NUEVO DROPDOWN: GESTIÓN DE CRISIS CIENTÍFICA (CORREGIDO) -->
+          <li class="has-dropdown">
+            <a href="#guias">Gestión de Crisis ▾</a>
+            <ul class="dropdown">
+              <li><a href="#" @click.prevent.stop="selectInfo('prevencion-sismos')">🌋 Terremotos</a></li>
+              <li><a href="#" @click.prevent.stop="selectInfo('prevencion-inundaciones')">🌊 Inundaciones</a></li>
+            </ul>
+          </li>
+
           <li><a href="#" @click.prevent.stop="selectInfo('contacto')">Contacto</a></li>
         </ul>
       </nav>
@@ -50,12 +56,17 @@
       </button>
     </div>
 
+    <!-- 3. MENÚ MÓVIL (CORREGIDO PARA INCLUIR LAS DOS LÍNEAS DE GESTIÓN DE CRISIS) -->
     <div class="mobile-menu" v-show="menuOpen">
       <ul>
         <li><a href="#" @click.prevent.stop="selectInfo('')">Home</a></li>
-       <!-- <li><a href="#gallery" @click.prevent.stop="menuOpen = false">Gallery</a></li> -->
         <li><a href="#" @click.prevent.stop="selectInfo('comunicacion')">Comunicación</a></li>
         <li><a href="#" @click.prevent.stop="selectInfo('sismos')">Sismos Venezuela</a></li>
+        
+        <!-- Opciones de Gestión de Crisis añadidas directo al flujo móvil -->
+        <li><a href="#" @click.prevent.stop="selectInfo('prevencion-sismos')">🌋 Guía Terremotos</a></li>
+        <li><a href="#" @click.prevent.stop="selectInfo('prevencion-inundaciones')">🌊 Guía Inundaciones</a></li>
+        
         <li><a href="#" @click.prevent.stop="selectInfo('donacion')">Donaciones</a></li>
         <li><a href="#" @click.prevent.stop="selectInfo('medica')">Red médica</a></li>
         <li><a href="#" @click.prevent.stop="selectInfo('infantil')">Apoyo Infantil</a></li>
@@ -63,6 +74,7 @@
         <li><a href="#" @click.prevent.stop="selectInfo('contacto')">Contacto</a></li>
       </ul>
     </div>
+
   </header>
 </template>
 
