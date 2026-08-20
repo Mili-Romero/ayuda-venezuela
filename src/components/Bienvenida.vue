@@ -16,7 +16,7 @@
         <div class="zona-botones-contenedor">
           <div class="botones-bienvenida">
             <!-- Botón de Donación Directa -->
-            <a href="https://venteconmigo.org/donar/" target="_blank" class="btn-inicial btn-donar-urgente">
+            <a href="https://venteconmigo.org/give/" target="_blank" class="btn-inicial btn-donar-urgente">
               ❤️ Donar
             </a>
             
