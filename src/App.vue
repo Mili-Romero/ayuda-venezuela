@@ -12,11 +12,6 @@
       <!-- Columna Lateral Izquierda: Contactos Clave, Centros de Acopio e informacion importante -->
       <aside class="columna-lateral">
 
-         <!-- Boton Ayuda -->
-          <div class="tarjeta">
-            <BotonAyuda />
-          </div>
-
         <!-- Contactos Directos (teléfonos de emergencia) -->
         <div class="tarjetas">
           <ContactosDirectos @select-info="handleSelectInfo" /> 
@@ -94,12 +89,11 @@ import { ref } from 'vue'
 // Cargamos las dos bases de datos locales externas de tu proyecto
 //import centrosAcopio from './data/acopio.json'
 import datosRecursos from './data/recursos.json' // Cargamos la base de datos de recursos y enlaces verificados
-import BotonAyuda from './components/BotonAyuda.vue'
+
 import Bienvenida from './components/Bienvenida.vue' // Importamos el componente de bienvenida para mostrar la pantalla inicial
 //import StarlinkCard from './components/StarlinkCard.vue'  // Importamos el componente de alerta de Starlink para mostrar la información de internet satelital gratuito
 import HeaderNav from './components/HeaderNav.vue'
 
-import SismosVenezuela from './components/SismosVenezuela.vue' // Seccion  simple
 import ContactosDirectos from './components/ContactosDirectos.vue'
 import ApoyoInfantil from './components/ApoyoInfantil.vue'
 import PlataformasAliadas from './components/PlataformasAliadas.vue'
