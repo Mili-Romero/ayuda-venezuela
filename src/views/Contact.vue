@@ -84,10 +84,13 @@ function restablecerFormulario() {
 </script>
 
 <style scoped>
+
+
 .contacto-contenedor {
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
+  
 }
 
 .contacto-contenedor > .tarjeta {
@@ -96,10 +99,10 @@ function restablecerFormulario() {
   box-sizing: border-box;
 }
 
-.subtitulo { font-size: 13.5px; color: #64748b; margin-top: -10px; margin-bottom: 24px; }
-.formulario-contacto { display: flex; flex-direction: column; gap: 16px; width: 100%; }
+.subtitulo { font-size: 14.5px; color: #64748b; margin-top: -10px; margin-bottom: 24px; }
+.formulario-contacto { display: flex; flex-direction: column; gap: 18px; width: 100%; }
 .grupo-campo { display: flex; flex-direction: column; gap: 6px; width: 100%; }
-.grupo-campo label { font-size: 13.5px; font-weight: 700; color: #334155; }
+.grupo-campo label { font-size: 14.5px; font-weight: 700; color: #334155; }
 .grupo-campo input, .grupo-campo textarea { width: 100%; padding: 12px; border: 1px solid #cbd5e1; border-radius: 8px; box-sizing: border-box; }
 .grupo-campo input:focus, .grupo-campo textarea:focus { outline: none; border-color: #1d4ed8; }
 .btn-enviar { width: 100%; background-color: #1d4ed8; color: white; padding: 14px; border: none; border-radius: 8px; font-weight: 700; cursor: pointer; }

@@ -107,8 +107,6 @@ import CanalesDonacion from './components/CanalesDonacion.vue'
 import RedMedica from './components/RedMedica.vue'
 import Comunicacion from './components/Comunicacion.vue'
 import SismosDashboard from "./components/sismos/SismosDashboard.vue"
-//import SismosSparkline from "./components/sismos/SismosSparkline.vue"
-import SismosFooter from "./components/sismos/SismosFooter.vue"
 // IMPORTACIÓN DIRECTA DE LAS GUÍAS INDEPENDIENTES DE DESASTRES
 import Sismos from './components/prevencion/Sismos.vue' 
 import Inundaciones from './components/prevencion/Inundaciones.vue'

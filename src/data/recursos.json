@@ -7,13 +7,6 @@
     
     }
     ],
-    "descargasLocales": [
-    {
-      "id": 1,
-      "titulo": "📥 LISTA UNIFICADA DE SOBREVIVIENTES - LA GUAIRA",
-      "url": "/documentos/LISTA UNIFICADA DE SOBREVIVIENTES - LA GUAIRA.pdf"
-    }
-  ],
 
   "gruposWhatsapp": [
     { "id": 1, "nombre": "RESIDENCIA VALLARTA", "url": "https://chat.whatsapp.com/BZY0yAFm6dY2lOK86xnJws" },
@@ -63,7 +56,7 @@
       "id": 1,
       "nombre": "Vente Conmigo",
       "descripcion": "(Human Capital for the World), Organización internacional 501(c)(4) dedicada a la defensa de los derechos fundamentales y la movilización de recursos. Sirve como plataforma global de soporte humanitario para la canalización directa de fondos de auxilio de emergencia.",
-      "enlace": "https://venteconmigo.org/donar/"
+      "enlace": "https://venteconmigo.org/give/"
     },
     {
       "id": 2,
@@ -82,12 +75,6 @@
       "nombre": "Guardianes Vzla",
       "descripcion": "Organización de ciudadanos para proteger a niños y adolescentes en situación de vulnerabilidad.",
       "enlace": "https://www.instagram.com/guardianes.vzla"
-    },
-    {
-      "id": 4,
-      "nombre": "Cocinando por Venezuela",
-      "descripcion": "Somos una fundación que distribuye alimentos, insumos de primera necesidad y material médico al necesitado. Desde la cocina de Chef Campus, en Santa Eduvigis, un grupo de voluntarios decidió actuar.",
-      "enlace": "https://cocinandoporvenezuela.org/#mision"
     }
       ],
   "plataformas": [
