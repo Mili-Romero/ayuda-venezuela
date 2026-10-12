@@ -87,11 +87,8 @@
 <script setup>
 import { ref } from 'vue'
 // Cargamos las dos bases de datos locales externas de tu proyecto
-//import centrosAcopio from './data/acopio.json'
 import datosRecursos from './data/recursos.json' // Cargamos la base de datos de recursos y enlaces verificados
 
-import Bienvenida from './components/Bienvenida.vue' // Importamos el componente de bienvenida para mostrar la pantalla inicial
-//import StarlinkCard from './components/StarlinkCard.vue'  // Importamos el componente de alerta de Starlink para mostrar la información de internet satelital gratuito
 import HeaderNav from './components/HeaderNav.vue'
 
 import ContactosDirectos from './components/ContactosDirectos.vue'
@@ -108,15 +105,6 @@ import Inundaciones from './components/prevencion/Inundaciones.vue'
 import Contact from '@/views/Contact.vue'
 import GuiaHome from './components/GuiaHome.vue'
 
-
-
-// Esta variable inicia en true (verdadero) para obligar a que la pantalla de bienvenida salga primero
-const mostrarBienvenida = ref(true)
-
-// Función que apaga la bienvenida cuando el usuario presiona "Entrar al Portal Informativo"
-const accederAlPortal = () => {
-  mostrarBienvenida.value = false
-}
 
 const recursos = ref(datosRecursos)
 
