@@ -36,6 +36,17 @@
           <span>{{ estaCargando ? 'Enviando...' : 'Enviar Mensaje' }}</span>
         </button>
       </form>
+
+      <nav class="redes-contacto" aria-label="Redes sociales">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-8.2h2.8l.4-3.2h-3.2v-2c0-.9.3-1.6 1.6-1.6h1.7V3.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.3H7.3v3.2h2.8V21h3.4Z" /></svg>
+          Facebook
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" /><circle cx="12" cy="12" r="4" /><circle class="icono-punto" cx="17.5" cy="6.5" r="1" /></svg>
+          Instagram
+        </a>
+      </nav>
     </div>
   </section>
 </template>
@@ -111,4 +122,9 @@ function restablecerFormulario() {
 .alerta { width: 100%; box-sizing: border-box; padding: 16px; border-radius: 8px; font-size: 14px; text-align: center; margin-top: 10px; }
 .alerta-exito { background-color: #f0fdf4; border: 1px solid #bbf7d0; color: #166534; }
 .alerta-error { background-color: #fef2f2; border: 1px solid #fca5a5; color: #991b1b; }
+.redes-contacto { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 20px; }
+.redes-contacto a { display: inline-flex; align-items: center; gap: 7px; color: #1d4ed8; font-weight: 700; text-decoration: none; }
+.redes-contacto svg { width: 20px; height: 20px; fill: currentColor; stroke: currentColor; stroke-width: 1.8; }
+.redes-contacto svg rect, .redes-contacto svg circle { fill: none; }
+.redes-contacto svg .icono-punto { fill: currentColor; }
 </style>
