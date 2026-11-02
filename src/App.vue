@@ -48,7 +48,7 @@
           <p>Envíanos la información oficial y los canales verificados de soporte a nuestro correo institucional:</p>
           <a href="mailto:Info@plasist.org" class="boton-email">Info@plasist.org</a>
           <div class="footer-redes" aria-label="Redes sociales">
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <a href="https://www.facebook.com/ResistenciaVenezuela.suecia" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 21v-8.2h2.8l.4-3.2h-3.2v-2c0-.9.3-1.6 1.6-1.6h1.7V3.1c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.3H7.3v3.2h2.8V21h3.4Z" /></svg>
               Facebook
             </a>
