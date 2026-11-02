@@ -23,7 +23,7 @@
         <ul>
           <li><a href="#" @click.prevent.stop="selectInfo('')">Home</a></li>
           
-          <!-- 1. DROPDOWN DE INFORMACIÓN OPERATIVA -->
+          <!-- 1. DROPDOWN DE INFORMACIÓN OPERATIVA 
           <li class="has-dropdown">
             <a href="#informacion">Información ▾</a>
             <ul class="dropdown">
@@ -34,7 +34,7 @@
               <li><a href="#" @click.prevent.stop="selectInfo('infantil')">Apoyo Infantil</a></li>
               <li><a href="#" @click.prevent.stop="selectInfo('plataformas')">Plataformas Aliadas</a></li>
             </ul>
-          </li>
+          </li>-->
           
           <!-- 2. NUEVO DROPDOWN: GESTIÓN DE CRISIS CIENTÍFICA (CORREGIDO) -->
           <li class="has-dropdown">
@@ -46,6 +46,7 @@
           </li>
 
           <li><a href="#" @click.prevent.stop="selectInfo('contacto')">Contacto</a></li>
+          <li><a href="#" @click.prevent.stop="selectInfo('admin')">Administración</a></li>
         </ul>
       </nav>
 
@@ -72,6 +73,7 @@
         <li><a href="#" @click.prevent.stop="selectInfo('infantil')">Apoyo Infantil</a></li>
         <li><a href="#" @click.prevent.stop="selectInfo('plataformas')">Plataformas Aliadas</a></li>
         <li><a href="#" @click.prevent.stop="selectInfo('contacto')">Contacto</a></li>
+        <li><a href="#" @click.prevent.stop="selectInfo('admin')">Administración</a></li>
       </ul>
     </div>
 
