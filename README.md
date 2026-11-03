@@ -36,3 +36,12 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Backend local con XAMPP
+
+1. Copia los archivos PHP de `public` al directorio del proyecto dentro de `htdocs` (por ejemplo, `C:\xampp\htdocs\ayuda-venezuela`).
+2. Inicia Apache y MySQL desde el panel de XAMPP e importa `database/schema.sql` en phpMyAdmin o con el cliente MySQL.
+3. La cuenta local inicial es `admin` / `password`. Es solo para desarrollo: cambia la contraseña antes de desplegar.
+4. El frontend puede llamar a `http://localhost/ayuda-venezuela/login.php`, `obtener_datos.php` y `guardar_datos.php`. El inicio de sesión devuelve un `token` de sesión; envíalo como cabecera `X-Session-ID` al guardar publicaciones.
+
+Los endpoints habilitan CORS con `*` para facilitar las pruebas locales. No uses esa política permisiva en producción; limita el origen al dominio del frontend y usa HTTPS.
