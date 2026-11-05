@@ -23,19 +23,6 @@
         <ul>
           <li><a href="#" @click.prevent.stop="selectInfo('')">Home</a></li>
           
-          <!-- 1. DROPDOWN DE INFORMACIÓN OPERATIVA 
-          <li class="has-dropdown">
-            <a href="#informacion">Información ▾</a>
-            <ul class="dropdown">
-              <li><a href="#" @click.prevent.stop="selectInfo('comunicacion')">Comunicación</a></li>
-              <li><a href="#" @click.prevent.stop="selectInfo('sismos')">Sismos Venezuela</a></li>
-              <li><a href="#" @click.prevent.stop="selectInfo('donacion')">Donaciones</a></li>
-              <li><a href="#" @click.prevent.stop="selectInfo('medica')">Red médica</a></li>
-              <li><a href="#" @click.prevent.stop="selectInfo('infantil')">Apoyo Infantil</a></li>
-              <li><a href="#" @click.prevent.stop="selectInfo('plataformas')">Plataformas Aliadas</a></li>
-            </ul>
-          </li>-->
-          
           <!-- 2. NUEVO DROPDOWN: GESTIÓN DE CRISIS CIENTÍFICA (CORREGIDO) -->
           <li class="has-dropdown">
             <a href="#guias">Gestión de Crisis ▾</a>
@@ -61,17 +48,10 @@
     <div class="mobile-menu" v-show="menuOpen">
       <ul>
         <li><a href="#" @click.prevent.stop="selectInfo('')">Home</a></li>
-        <li><a href="#" @click.prevent.stop="selectInfo('comunicacion')">Comunicación</a></li>
-        <li><a href="#" @click.prevent.stop="selectInfo('sismos')">Sismos Venezuela</a></li>
-        
+
         <!-- Opciones de Gestión de Crisis añadidas directo al flujo móvil -->
         <li><a href="#" @click.prevent.stop="selectInfo('prevencion-sismos')">🌋 Guía Terremotos</a></li>
         <li><a href="#" @click.prevent.stop="selectInfo('prevencion-inundaciones')">🌊 Guía Inundaciones</a></li>
-        
-        <li><a href="#" @click.prevent.stop="selectInfo('donacion')">Donaciones</a></li>
-        <li><a href="#" @click.prevent.stop="selectInfo('medica')">Red médica</a></li>
-        <li><a href="#" @click.prevent.stop="selectInfo('infantil')">Apoyo Infantil</a></li>
-        <li><a href="#" @click.prevent.stop="selectInfo('plataformas')">Plataformas Aliadas</a></li>
         <li><a href="#" @click.prevent.stop="selectInfo('contacto')">Contacto</a></li>
         <li><a href="#" @click.prevent.stop="selectInfo('admin')">Administración</a></li>
       </ul>

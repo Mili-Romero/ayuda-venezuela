@@ -17,21 +17,6 @@
           <div v-if="activeInfoSection === 'comunicacion'" class="panel-seccion">
             <Comunicacion :gruposWhatsapp="recursos.gruposWhatsapp" />
           </div>
-          <div v-else-if="activeInfoSection === 'sismos'" class="panel-seccion">
-            <SismosDashboard />
-          </div>
-          <div v-else-if="activeInfoSection === 'donacion'" class="panel-seccion">
-            <CanalesDonacion />
-          </div>
-          <div v-else-if="activeInfoSection === 'medica'" class="panel-seccion">
-            <RedMedica />
-          </div>
-          <div v-else-if="activeInfoSection === 'infantil'" class="panel-seccion">
-            <ApoyoInfantil />
-          </div>
-          <div v-else-if="activeInfoSection === 'plataformas'" class="panel-seccion">
-            <PlataformasAliadas />
-          </div>
           <div v-else-if="activeInfoSection === 'prevencion-sismos'" class="panel-seccion">
             <Sismos />
           </div>
@@ -97,6 +82,18 @@ function handleSelectInfo(section) {
 </script>
 
 <style scoped>
+.pagina {
+  width: calc(100% - 32px);
+  max-width: 1140px;
+  margin: 20px auto;
+  box-sizing: border-box;
+}
+
+.columna-principal {
+  width: 100%;
+  min-width: 0;
+}
+
 .footer-redes {
   display: flex;
   justify-content: center;
