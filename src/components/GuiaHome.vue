@@ -1,5 +1,5 @@
 <template>
-  <div class="guia-home-contenedor grid grid-cols-1 lg:grid-cols-3 gap-6">
+  <div class="guia-home-contenedor">
     <div class="columna-izquierda lg:col-span-2">
       <section class="tarjeta">
         <h1 class="titulo-seccion borde-azul">📌 Propósito de la Plataforma</h1>
@@ -10,55 +10,92 @@
         </p>
       </section>
 
-      <section class="tarjeta censo-destacado">
-  <p class="etiqueta-censo">INFORMACIÓN CÍVICA · OCTUBRE DE 2026</p>
-  <h2>{{ censo.titulo }}</h2>
-  <p>{{ censo.descripcion }}</p>
+      <section v-if="cargando" class="tarjeta censo-destacado" aria-live="polite">
+        <p>Cargando información del censo...</p>
+      </section>
+      <section v-else-if="censo" class="tarjeta censo-destacado">
+        <div class="censo-contenido">
+          <div class="censo-visual">
+            <img
+              class="censo-imagen"
+              :src="censo.imagenUrl"
+              :alt="`Imagen informativa: ${censo.titulo}`"
+            />
+            <video
+              class="censo-video"
+              controls
+              preload="metadata"
+              :poster="censo.imagenUrl"
+              :src="censo.videoUrl"
+              aria-label="Video explicativo del registro de constructores"
+            >
+              Tu navegador no admite la reproducción de video.
+            </video>
+          </div>
 
-  <h3>{{ censo.subtituloRequisitos }}</h3>
-  <ul>
-    <li v-for="(requisito, index) in censo.requisitos" :key="index">
-      {{ requisito }}
-    </li>
-  </ul>
+          <div class="censo-texto">
+            <p class="etiqueta-censo">INFORMACIÓN CÍVICA</p>
+            <h2>{{ censo.titulo }}</h2>
+            <p class="censo-eslogan">{{ censo.eslogan }}</p>
+            <p class="censo-descripcion">{{ censo.descripcion }}</p>
 
-  <a
-    :href="censo.enlace"
-    target="_blank"
-    rel="noopener noreferrer"
-    class="boton-registro"
-  >
-    Ir al registro
-  </a>
-</section>
+            <h3>{{ censo.subtituloRequisitos }}</h3>
+            <ul>
+              <li v-for="(requisito, index) in censo.requisitos" :key="index">
+                {{ requisito }}
+              </li>
+            </ul>
+
+            <a
+              :href="censo.enlace"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="boton-registro"
+            >
+              Ir al registro
+            </a>
+          </div>
+        </div>
+      </section>
 
       <section class="tarjeta publicaciones">
         <h2 class="titulo-seccion borde-amarillo">Últimas Publicaciones</h2>
-        <p class="nota-publicaciones">Publicaciones de ejemplo; listas para conectarse a una API.</p>
+        <p v-if="cargando" class="nota-publicaciones" aria-live="polite">
+          Cargando publicaciones...
+        </p>
+        <p v-else-if="error" class="nota-publicaciones" role="alert">{{ error }}</p>
+        <p v-else-if="publicaciones.length === 0" class="nota-publicaciones">
+          No hay publicaciones disponibles.
+        </p>
         <div class="grid-publicaciones">
           <article v-for="publicacion in publicaciones" :key="publicacion.id" class="publicacion">
             <header class="publicacion-header">
-              <span class="avatar-publicacion" aria-hidden="true">{{ publicacion.avatar }}</span>
+              <span class="avatar-publicacion" aria-hidden="true">P</span>
               <div class="cuenta-publicacion">
-                <h3>{{ publicacion.cuenta }}</h3>
-                <time :datetime="publicacion.fechaIso">{{ publicacion.fecha }}</time>
+                <h3>plasist.org</h3>
+                <time :datetime="publicacion.fecha">{{ publicacion.fecha }}</time>
               </div>
-              <span class="red-publicacion">{{ publicacion.red }}</span>
+              <span class="red-publicacion">{{ publicacion.red_social }}</span>
             </header>
             <p class="texto-publicacion">{{ publicacion.texto }}</p>
-            <footer class="publicacion-footer">
-              <span aria-label="Me gusta">♥ {{ publicacion.meGusta }}</span>
-              <span>{{ publicacion.comentarios }} comentarios</span>
+            <footer v-if="publicacion.enlace_original" class="publicacion-footer">
+              <a :href="publicacion.enlace_original" target="_blank" rel="noopener noreferrer">
+                Ver publicación original
+              </a>
             </footer>
           </article>
         </div>
       </section>
     </div>
 
-    <aside class="columna-derecha lg:col-span-1">
-      <section class="tarjeta panel-prevencion">
-        <h2 class="titulo-seccion borde-azul">Antes, durante y después</h2>
-        <p class="introduccion-prevencion">Consejos esenciales organizados por tipo de desastre.</p>
+    <section class="columna-derecha" aria-labelledby="titulo-prevencion">
+      <div class="tarjeta panel-prevencion">
+        <h2 id="titulo-prevencion" class="titulo-seccion borde-azul">
+          Antes, durante y después
+        </h2>
+        <p class="introduccion-prevencion">
+          Consejos esenciales organizados por tipo de desastre.
+        </p>
 
         <div class="lista-acordeon">
           <article v-for="guia in guiasPrevencion" :key="guia.id" class="item-acordeon">
@@ -76,23 +113,49 @@
                 </span>
               </button>
             </h3>
-            <div v-if="guiaActiva === guia.id" :id="`guia-${guia.id}`" class="detalle-acordeon">
-              <section v-for="fase in guia.fases" :key="fase.nombre" :class="['fase', fase.clase]">
+            <div
+              v-if="guiaActiva === guia.id"
+              :id="`guia-${guia.id}`"
+              class="detalle-acordeon"
+            >
+              <section
+                v-for="fase in guia.fases"
+                :key="fase.nombre"
+                :class="['fase', fase.clase]"
+              >
                 <h4>{{ fase.nombre }}</h4>
                 <p>{{ fase.consejo }}</p>
               </section>
             </div>
           </article>
         </div>
-      </section>
-    </aside>
+      </div>
+    </section>
   </div>
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { onMounted, ref } from 'vue'
+import constructoresImagen from '../assets/images/constructores-banner.jpeg'
+import constructoresVideo from '../assets/videos/constructores-guia.mp4'
 
 const guiaActiva = ref('sismos')
+const censo = ref({
+  titulo: 'Censo Nacional: Registro Constructores',
+  enlace: 'https://monitoreociudadano.net',
+  eslogan: 'Tu cara es tu llave: una persona. Una identidad.',
+  descripcion: 'Regístrate en la plataforma independiente de constructores para organizarnos en futuros procesos electorales y sumar propuestas para la reconstrucción del país.',
+  subtituloRequisitos: '📍 ¿Qué necesitas llevar?',
+  requisitos: [
+    'Documento de identidad venezolano (cédula o pasaporte, vigente o vencido).',
+    'Toda tu disposición y ganas de aportar al futuro de nuestro país.'
+  ],
+  imagenUrl: constructoresImagen,
+  videoUrl: constructoresVideo
+})
+const publicaciones = ref([])
+const cargando = ref(true)
+const error = ref(null)
 
 const guiasPrevencion = [
   {
@@ -127,52 +190,54 @@ const guiasPrevencion = [
   }
 ]
 
-const censo = ref({
-  titulo: 'Censo Nacional: Registro Constructores',
-  enlace: 'https://monitoreociudadano.net',
-  descripcion: 'Este espacio está diseñado para registrarnos en nuestra plataforma de constructores, donde no solo nos organizaremos para futuros procesos electorales, sino que también podremos sumar nuestras propuestas e ideas para la reconstrucción de la Venezuela libre y democrática que todos anhelamos.',
-  subtituloRequisitos: '📍 ¿Qué necesitas llevar?',
-  requisitos: [
-    'Documento de identidad venezolano (cédula o pasaporte, vigente o vencido).',
-    'Toda tu disposición y ganas de aportar al futuro de nuestro país.'
-  ]
-})
+async function cargarDatosDelBackend() {
+  cargando.value = true
+  error.value = null
 
-const publicaciones = ref([
-  {
-    id: 1,
-    avatar: 'P',
-    cuenta: 'plasist.org',
-    red: 'Facebook',
-    fecha: 'Publicación de ejemplo',
-    fechaIso: '2026-10-01',
-    texto: 'Revisa tu plan familiar: acuerda un punto de encuentro y mantén los contactos importantes accesibles sin conexión.',
-    meGusta: 24,
-    comentarios: 3
-  },
-  {
-    id: 2,
-    avatar: 'P',
-    cuenta: 'plasist.org',
-    red: 'Instagram',
-    fecha: 'Publicación de ejemplo',
-    fechaIso: '2026-10-02',
-    texto: 'Una mochila de emergencia puede incluir agua, alimentos no perecederos, linterna, radio y un botiquín básico.',
-    meGusta: 38,
-    comentarios: 5
-  },
-  {
-    id: 3,
-    avatar: 'P',
-    cuenta: 'plasist.org',
-    red: 'Facebook',
-    fecha: 'Publicación de ejemplo',
-    fechaIso: '2026-10-03',
-    texto: 'Durante una inundación, evita cruzar calles anegadas: la corriente puede ser peligrosa aunque parezca poco profunda.',
-    meGusta: 17,
-    comentarios: 2
+  try {
+    const respuesta = await fetch('http://localhost/plasist-backend/obtener_datos.php')
+    if (!respuesta.ok) {
+      throw new Error(`El servidor respondió con el estado ${respuesta.status}.`)
+    }
+
+    const datos = await respuesta.json()
+    if (datos.success === false) {
+      throw new Error(datos.message || 'El backend no pudo cargar los datos.')
+    }
+    if (!Array.isArray(datos.publicaciones)) {
+      throw new Error('El formato de publicaciones recibido no es válido.')
+    }
+
+    if (datos.censo && typeof datos.censo === 'object') {
+      const requisitos = datos.censo.requisitos
+      censo.value = {
+        ...censo.value,
+        ...datos.censo,
+        subtituloRequisitos: censo.value.subtituloRequisitos,
+        requisitos: Array.isArray(requisitos)
+          ? requisitos
+          : typeof requisitos === 'string' && requisitos.trim()
+            ? requisitos.split(/\r?\n/).filter(Boolean)
+            : censo.value.requisitos,
+        imagenUrl: constructoresImagen,
+        videoUrl: constructoresVideo
+      }
+    }
+
+    publicaciones.value = datos.publicaciones
+  } catch (causa) {
+    error.value = causa instanceof Error
+      ? `No se pudieron cargar los datos: ${causa.message}`
+      : 'No se pudieron cargar los datos del servidor local.'
+    console.error(error.value, causa)
+  } finally {
+    cargando.value = false
   }
-])
+}
+
+onMounted(() => {
+  cargarDatosDelBackend()
+})
 
 function alternarGuia(id) {
   guiaActiva.value = guiaActiva.value === id ? '' : id
@@ -184,6 +249,9 @@ function alternarGuia(id) {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   gap: 24px;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 .columna-izquierda,
@@ -212,6 +280,85 @@ function alternarGuia(id) {
 .censo-destacado {
   border-color: #bfdbfe;
   background: linear-gradient(135deg, #eff6ff, #fff);
+}
+
+.censo-contenido {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 20px;
+}
+
+.censo-visual,
+.censo-texto {
+  min-width: 0;
+}
+
+.censo-visual {
+  display: grid;
+  align-content: start;
+  gap: 12px;
+}
+
+.censo-imagen,
+.censo-video {
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.censo-imagen {
+  height: auto;
+  object-fit: cover;
+}
+
+.censo-video {
+  max-height: 340px;
+  background: #0f172a;
+}
+
+.censo-eslogan {
+  margin: 0 0 10px;
+  color: #1d4ed8;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 1.4;
+}
+
+.censo-descripcion {
+  margin: 0 0 12px;
+  color: #334155;
+  line-height: 1.6;
+}
+
+.censo-texto h3 {
+  margin: 14px 0 8px;
+  color: #1e3a8a;
+  font-size: 15px;
+}
+
+.censo-texto ul {
+  display: grid;
+  gap: 7px;
+  margin: 0 0 18px;
+  padding-left: 20px;
+  color: #334155;
+}
+
+.boton-registro {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  background: #1d4ed8;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.boton-registro:hover {
+  background: #1e40af;
 }
 
 .etiqueta-censo {
@@ -414,20 +561,16 @@ function alternarGuia(id) {
 
 @media (min-width: 1024px) {
   .guia-home-contenedor {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: minmax(0, 2fr) minmax(280px, 1fr);
     align-items: start;
   }
 
-  .columna-izquierda {
-    grid-column: span 2 / span 2;
-  }
-
-  .columna-derecha {
-    grid-column: span 1 / span 1;
+  .censo-contenido {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .grid-publicaciones {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 </style>
