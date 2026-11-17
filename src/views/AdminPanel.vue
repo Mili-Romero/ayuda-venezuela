@@ -40,6 +40,14 @@
           <option value="Instagram">Instagram</option>
         </select>
 
+        <label for="noticia-titulo">Título de la noticia</label>
+        <input
+          id="noticia-titulo"
+          v-model.trim="noticia.titulo"
+          required
+          :disabled="enviando"
+        />
+
         <label for="noticia-texto">Texto de la publicación</label>
         <textarea
           id="noticia-texto"
@@ -89,11 +97,12 @@
           <li v-for="publicacion in publicaciones" :key="publicacion.id" class="item-publicacion">
             <div class="detalle-publicacion">
               <div class="meta-publicacion">
-                <strong>{{ publicacion.red_social }}</strong>
+                <strong>{{ publicacion.titulo || 'Sin título' }}</strong>
                 <time v-if="publicacion.fecha" :datetime="publicacion.fecha">
                   {{ formatearFecha(publicacion.fecha) }}
                 </time>
               </div>
+              <span class="red-publicacion-admin">{{ publicacion.red_social }}</span>
               <p>{{ extracto(publicacion.texto) }}</p>
             </div>
             <button
@@ -117,8 +126,8 @@
 
 <script setup>
 import { onMounted, reactive, ref } from 'vue'
+import { backendUrl } from '../config/backend.js'
 
-const API_BASE = 'https://plasist.org'
 const TOKEN_KEY = 'token_admin'
 
 const usuario = ref('')
@@ -133,6 +142,7 @@ const cargandoPublicaciones = ref(false)
 const errorPublicaciones = ref('')
 const eliminandoId = ref(null)
 const noticia = reactive({
+  titulo: '',
   red_social: 'Facebook',
   texto: '',
   imagen_url: '',
@@ -164,7 +174,7 @@ async function iniciarSesion() {
   mensaje.value = ''
 
   try {
-    const respuesta = await fetch(`${API_BASE}/login.php`, {
+    const respuesta = await fetch(backendUrl('login.php'), {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ usuario: usuario.value, contrasena: clave.value })
@@ -194,13 +204,14 @@ async function publicarNoticia() {
   mensaje.value = ''
 
   try {
-    const respuesta = await fetch(`${API_BASE}/guardar_datos.php`, {
+    const respuesta = await fetch(backendUrl('guardar_datos.php'), {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
         'X-Session-ID': tokenAdmin.value
       },
       body: JSON.stringify({
+        titulo: noticia.titulo,
         red_social: noticia.red_social,
         texto: noticia.texto,
         imagen_url: noticia.imagen_url,
@@ -213,6 +224,7 @@ async function publicarNoticia() {
       throw new Error(datos.message || 'El servidor no confirmó la publicación.')
     }
 
+    noticia.titulo = ''
     noticia.texto = ''
     noticia.imagen_url = ''
     noticia.enlace_original = ''
@@ -231,7 +243,7 @@ async function cargarPublicaciones() {
   errorPublicaciones.value = ''
 
   try {
-    const respuesta = await fetch(`${API_BASE}/obtener_datos.php`)
+    const respuesta = await fetch(backendUrl('obtener_datos.php'))
     const datos = await leerRespuesta(respuesta)
 
     if (!Array.isArray(datos.publicaciones)) {
@@ -256,7 +268,7 @@ async function eliminarNoticia(publicacion) {
   mensaje.value = ''
 
   try {
-    const respuesta = await fetch(`${API_BASE}/eliminar_dato.php`, {
+    const respuesta = await fetch(backendUrl('eliminar_dato.php'), {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
