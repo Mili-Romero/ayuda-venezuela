@@ -28,7 +28,20 @@
               {{ formatearFecha(publicacion.fecha) }}
             </time>
           </header>
-          <p class="texto-noticia">{{ publicacion.texto }}</p>
+          <h3 class="titulo-noticia">{{ publicacion.titulo || 'Publicación' }}</h3>
+          <p class="texto-noticia">
+            {{ textoVisible(publicacion) }}
+          </p>
+          <button
+            v-if="necesitaExpandir(publicacion.texto)"
+            type="button"
+            class="boton-ver-mas"
+            :aria-expanded="estaExpandida(publicacion.id)"
+            @click="alternarExpansion(publicacion.id)"
+          >
+            {{ estaExpandida(publicacion.id) ? 'Ver menos' : 'Ver más' }}
+          </button>
+          <br />
           <a
             v-if="urlSegura(publicacion.enlace_original)"
             class="enlace-noticia"
@@ -47,10 +60,10 @@
 
 <script setup>
 import { onMounted, ref } from 'vue'
-
-const API_URL = 'https://plasist.org/obtener_datos.php'
+import { backendUrl } from '../config/backend.js'
 
 const publicaciones = ref([])
+const publicacionesExpandidas = ref(new Set())
 const cargando = ref(true)
 const error = ref('')
 
@@ -59,7 +72,7 @@ async function cargarPublicaciones() {
   error.value = ''
 
   try {
-    const respuesta = await fetch(API_URL)
+    const respuesta = await fetch(backendUrl('obtener_datos.php'))
     if (!respuesta.ok) {
       throw new Error(`El servidor respondió con el estado ${respuesta.status}.`)
     }
@@ -99,6 +112,30 @@ function formatearFecha(valor) {
   return Number.isNaN(fecha.getTime())
     ? valor
     : new Intl.DateTimeFormat('es', { dateStyle: 'medium' }).format(fecha)
+}
+
+function necesitaExpandir(texto) {
+  return typeof texto === 'string' && texto.length > 180
+}
+
+function estaExpandida(id) {
+  return publicacionesExpandidas.value.has(id)
+}
+
+function alternarExpansion(id) {
+  const expandidas = new Set(publicacionesExpandidas.value)
+  if (expandidas.has(id)) {
+    expandidas.delete(id)
+  } else {
+    expandidas.add(id)
+  }
+  publicacionesExpandidas.value = expandidas
+}
+
+function textoVisible(publicacion) {
+  const texto = typeof publicacion.texto === 'string' ? publicacion.texto : ''
+  if (!necesitaExpandir(texto) || estaExpandida(publicacion.id)) return texto
+  return `${texto.slice(0, 180).trimEnd()}...`
 }
 
 onMounted(cargarPublicaciones)
@@ -146,6 +183,7 @@ onMounted(cargarPublicaciones)
 
 .tarjeta-noticia {
   overflow: hidden;
+  min-width: 0;
   border: 1px solid #e2e8f0;
   border-radius: 14px;
   background: white;
@@ -155,10 +193,11 @@ onMounted(cargarPublicaciones)
 .imagen-noticia {
   display: block;
   width: 100%;
-  max-height: 320px;
+  max-height: min(320px, 70vw);
   aspect-ratio: 16 / 9;
   object-fit: cover;
   background: #f1f5f9;
+  border-radius: 14px 14px 0 0;
 }
 
 .contenido-noticia {
@@ -187,6 +226,30 @@ onMounted(cargarPublicaciones)
   color: #334155;
   line-height: 1.6;
   white-space: pre-wrap;
+}
+
+.titulo-noticia {
+  margin: 15px 0 0;
+  color: #1e293b;
+  font-size: 18px;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.boton-ver-mas {
+  margin: -8px 0 18px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #1d4ed8;
+  cursor: pointer;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 750;
+}
+
+.boton-ver-mas:hover {
+  text-decoration: underline;
 }
 
 .enlace-noticia {

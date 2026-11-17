@@ -39,10 +39,18 @@ npm run build
 
 ### Backend local con XAMPP
 
-El frontend se conecta al backend local en `http://localhost/plasist-backend/`:
+El frontend elige automáticamente la base del backend con `import.meta.env.DEV`: usa
+`http://localhost/plasist-backend/` durante el desarrollo y `https://plasist.org` en producción.
 
 - `login.php` recibe `POST` JSON con `usuario` y `contrasena`, y devuelve `success: true` junto con `token` si las credenciales son válidas.
-- `obtener_datos.php` devuelve `success: true` y un arreglo `publicaciones`. Cada publicación incluye `id`, `red_social`, `fecha`, `texto`, `imagen_url` y `enlace_original`. También puede devolver los datos del censo.
-- `guardar_datos.php` recibe `POST` JSON con `red_social`, `texto`, `imagen_url` y `enlace_original`; debe validar el token recibido en la cabecera `X-Session-ID`.
+- `obtener_datos.php` devuelve `success: true` y un arreglo `publicaciones`. Cada publicación incluye `id`, `titulo`, `red_social`, `fecha`, `texto`, `imagen_url` y `enlace_original`. También puede devolver los datos del censo.
+- `guardar_datos.php` recibe `POST` JSON con `titulo`, `red_social`, `texto`, `imagen_url` y `enlace_original`; debe validar el token recibido en la cabecera `X-Session-ID`.
+
+Agrega la columna de título a la tabla antes de reemplazar los endpoints:
+
+```sql
+ALTER TABLE publicaciones
+ADD COLUMN titulo VARCHAR(255) NOT NULL DEFAULT '' AFTER red_social;
+```
 
 Como el frontend envía JSON y una cabecera personalizada, Apache/PHP debe responder a las solicitudes `OPTIONS` de preflight y permitir `Content-Type` y `X-Session-ID` en CORS. Restringe el origen al dominio del frontend fuera del entorno local y usa HTTPS.

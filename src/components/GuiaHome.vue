@@ -65,6 +65,7 @@
 import { onMounted, ref } from 'vue'
 import constructoresImagen from '../assets/images/constructores-banner.jpeg'
 import constructoresVideo from '../assets/videos/constructores-guia.mp4'
+import { backendUrl } from '../config/backend.js'
 
 const censo = ref({
   titulo: 'Censo Nacional: Registro Constructores',
@@ -87,7 +88,7 @@ async function cargarDatosDelBackend() {
   error.value = null
 
   try {
-    const respuesta = await fetch('https://plasist.org/obtener_datos.php')
+    const respuesta = await fetch(backendUrl('obtener_datos.php'))
     if (!respuesta.ok) {
       throw new Error(`El servidor respondió con el estado ${respuesta.status}.`)
     }
