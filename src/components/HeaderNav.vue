@@ -21,19 +21,37 @@
 
             <nav class="nav-desktop" aria-label="Main navigation">
         <ul>
-          <li><a href="#" @click.prevent.stop="selectInfo('')">Home</a></li>
+          <li>
+            <button
+              type="button"
+              class="nav-item"
+              :class="{ active: activeSection === '' }"
+              :aria-current="activeSection === '' ? 'page' : undefined"
+              @click.stop="selectInfo('')"
+            >
+              Home
+            </button>
+          </li>
           
           <!-- 2. NUEVO DROPDOWN: GESTIÓN DE CRISIS CIENTÍFICA (CORREGIDO) -->
           <li class="has-dropdown">
-            <a href="#guias">Gestión de Crisis ▾</a>
+            <button
+              type="button"
+              class="nav-item"
+              :class="{ active: activeSection.startsWith('prevencion-') }"
+              :aria-current="activeSection.startsWith('prevencion-') ? 'page' : undefined"
+            >
+              Gestión de Crisis ▾
+            </button>
             <ul class="dropdown">
               <li><a href="#" @click.prevent.stop="selectInfo('prevencion-sismos')">🌋 Terremotos</a></li>
               <li><a href="#" @click.prevent.stop="selectInfo('prevencion-inundaciones')">🌊 Inundaciones</a></li>
             </ul>
           </li>
 
-          <li><a href="#" @click.prevent.stop="selectInfo('contacto')">Contacto</a></li>
-          <li><a href="#" @click.prevent.stop="selectInfo('admin')">Administración</a></li>
+          <li><a href="#" class="nav-item" :class="{ active: activeSection === 'noticias' }" :aria-current="activeSection === 'noticias' ? 'page' : undefined" @click.prevent.stop="selectInfo('noticias')">Noticias</a></li>
+          <li><a href="#" class="nav-item" :class="{ active: activeSection === 'contacto' }" :aria-current="activeSection === 'contacto' ? 'page' : undefined" @click.prevent.stop="selectInfo('contacto')">Contacto</a></li>
+          <li><a href="#" class="nav-item" :class="{ active: activeSection === 'admin' }" :aria-current="activeSection === 'admin' ? 'page' : undefined" @click.prevent.stop="selectInfo('admin')">Administración</a></li>
         </ul>
       </nav>
 
@@ -47,13 +65,24 @@
     <!-- 3. MENÚ MÓVIL (CORREGIDO PARA INCLUIR LAS DOS LÍNEAS DE GESTIÓN DE CRISIS) -->
     <div class="mobile-menu" v-show="menuOpen">
       <ul>
-        <li><a href="#" @click.prevent.stop="selectInfo('')">Home</a></li>
+        <li>
+          <button
+            type="button"
+            class="nav-item"
+            :class="{ active: activeSection === '' }"
+            :aria-current="activeSection === '' ? 'page' : undefined"
+            @click.stop="selectInfo('')"
+          >
+            Home
+          </button>
+        </li>
 
         <!-- Opciones de Gestión de Crisis añadidas directo al flujo móvil -->
-        <li><a href="#" @click.prevent.stop="selectInfo('prevencion-sismos')">🌋 Guía Terremotos</a></li>
-        <li><a href="#" @click.prevent.stop="selectInfo('prevencion-inundaciones')">🌊 Guía Inundaciones</a></li>
-        <li><a href="#" @click.prevent.stop="selectInfo('contacto')">Contacto</a></li>
-        <li><a href="#" @click.prevent.stop="selectInfo('admin')">Administración</a></li>
+        <li><a href="#" class="nav-item" :class="{ active: activeSection === 'prevencion-sismos' }" :aria-current="activeSection === 'prevencion-sismos' ? 'page' : undefined" @click.prevent.stop="selectInfo('prevencion-sismos')">🌋 Guía Terremotos</a></li>
+        <li><a href="#" class="nav-item" :class="{ active: activeSection === 'prevencion-inundaciones' }" :aria-current="activeSection === 'prevencion-inundaciones' ? 'page' : undefined" @click.prevent.stop="selectInfo('prevencion-inundaciones')">🌊 Guía Inundaciones</a></li>
+        <li><a href="#" class="nav-item" :class="{ active: activeSection === 'noticias' }" :aria-current="activeSection === 'noticias' ? 'page' : undefined" @click.prevent.stop="selectInfo('noticias')">Noticias</a></li>
+        <li><a href="#" class="nav-item" :class="{ active: activeSection === 'contacto' }" :aria-current="activeSection === 'contacto' ? 'page' : undefined" @click.prevent.stop="selectInfo('contacto')">Contacto</a></li>
+        <li><a href="#" class="nav-item" :class="{ active: activeSection === 'admin' }" :aria-current="activeSection === 'admin' ? 'page' : undefined" @click.prevent.stop="selectInfo('admin')">Administración</a></li>
       </ul>
     </div>
 
@@ -64,12 +93,14 @@
 import { ref } from 'vue'
 const emit = defineEmits(['select-info'])
 const menuOpen = ref(false)
+const activeSection = ref('')
 // si existe una imagen de logo en public/images/logo.png se usará
 const logoSrc = '/logo.png'
 
 function selectInfo(section) {
   // cerrar menú móvil y emitir al padre
   menuOpen.value = false
+  activeSection.value = section
   emit('select-info', section)
 }
 </script>
@@ -169,9 +200,51 @@ function selectInfo(section) {
 }
 
 .logo-text { font-weight: 800; letter-spacing: 0.6px; font-size: 18px; }
-.nav-desktop ul { list-style: none; margin: 0; padding: 0; display: flex; gap: 14px; }
-.nav-desktop a { color: white; text-decoration: none; font-weight: 700; padding: 8px 10px; border-radius: 8px; }
-.nav-desktop a:hover { background: rgba(255,255,255,0.08); }
+.nav-desktop ul {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-desktop li {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 8px 10px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.nav-item:hover {
+  background: rgba(255,255,255,0.08);
+}
+
+.nav-item.active {
+  background: rgba(255,255,255,0.12);
+  box-shadow: inset 0 -2px 0 rgba(255,255,255,0.9);
+}
+
+.nav-item:focus-visible {
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
 .nav-desktop .has-dropdown { position: relative; }
 .nav-desktop .dropdown {
   position: absolute;
@@ -205,8 +278,21 @@ function selectInfo(section) {
 .hamburger { display: none; background: transparent; border: 0; padding: 8px; cursor: pointer; }
 .hamburger .bar { display: block; width: 22px; height: 2px; background: white; margin: 4px 0; border-radius: 2px; }
 .mobile-menu { display: none; background: rgba(29,78,216,0.98); padding: 12px; }
-.mobile-menu ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
-.mobile-menu a { color: white; text-decoration: none; font-weight: 700; padding: 8px 10px; border-radius: 8px; display: block; }
+.mobile-menu ul {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mobile-menu .nav-item {
+  display: flex;
+  width: 100%;
+  text-align: left;
+}
 
 /* OPTIMIZACIONES RESPONSIVAS */
 @media (max-width: 900px) {

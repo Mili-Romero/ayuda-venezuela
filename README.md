@@ -39,9 +39,10 @@ npm run build
 
 ### Backend local con XAMPP
 
-1. Copia los archivos PHP de `public` al directorio del proyecto dentro de `htdocs` (por ejemplo, `C:\xampp\htdocs\ayuda-venezuela`).
-2. Inicia Apache y MySQL desde el panel de XAMPP e importa `database/schema.sql` en phpMyAdmin o con el cliente MySQL.
-3. La cuenta local inicial es `admin` / `password`. Es solo para desarrollo: cambia la contraseña antes de desplegar.
-4. El frontend puede llamar a `http://localhost/ayuda-venezuela/login.php`, `obtener_datos.php` y `guardar_datos.php`. El inicio de sesión devuelve un `token` de sesión; envíalo como cabecera `X-Session-ID` al guardar publicaciones.
+El frontend se conecta al backend local en `http://localhost/plasist-backend/`:
 
-Los endpoints habilitan CORS con `*` para facilitar las pruebas locales. No uses esa política permisiva en producción; limita el origen al dominio del frontend y usa HTTPS.
+- `login.php` recibe `POST` JSON con `usuario` y `contrasena`, y devuelve `success: true` junto con `token` si las credenciales son válidas.
+- `obtener_datos.php` devuelve `success: true` y un arreglo `publicaciones`. Cada publicación incluye `id`, `red_social`, `fecha`, `texto`, `imagen_url` y `enlace_original`. También puede devolver los datos del censo.
+- `guardar_datos.php` recibe `POST` JSON con `red_social`, `texto`, `imagen_url` y `enlace_original`; debe validar el token recibido en la cabecera `X-Session-ID`.
+
+Como el frontend envía JSON y una cabecera personalizada, Apache/PHP debe responder a las solicitudes `OPTIONS` de preflight y permitir `Content-Type` y `X-Session-ID` en CORS. Restringe el origen al dominio del frontend fuera del entorno local y usa HTTPS.
