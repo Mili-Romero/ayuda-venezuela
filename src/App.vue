@@ -10,6 +10,9 @@
         <div v-else-if="activeInfoSection === 'contacto'" class="panel-seccion">
           <Contact />
         </div>
+        <div v-else-if="activeInfoSection === 'noticias'" class="panel-seccion">
+          <NoticiasView />
+        </div>
         <div v-else-if="activeInfoSection === 'admin'" class="panel-seccion">
           <AdminPanel />
         </div>
@@ -68,6 +71,7 @@ import Inundaciones from './components/prevencion/Inundaciones.vue'
 
 import Contact from '@/views/Contact.vue'
 import AdminPanel from '@/views/AdminPanel.vue'
+import NoticiasView from '@/views/NoticiasView.vue'
 import GuiaHome from './components/GuiaHome.vue'
 
 
